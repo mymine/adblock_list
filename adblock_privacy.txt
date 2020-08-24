@@ -1,9 +1,10 @@
 [uniartisan's Privacy List]
-! Version: 2020082417
+! Version: 202008250027
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22942
+! Lenth = 22953
+###qoo-counter
 ###ramblerCounter
 ###top100counter
 ##a[href^="http://click.hotlog.ru/"]
@@ -2923,6 +2924,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /js/tracking.min.js?
 /js/tracking/*
 /js/tracking_
+/js/trackjs.js
 /js/trk_
 /js_hotlink.php?
 /js_log_error.
@@ -6260,6 +6262,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||getgoods.de^*/emstrack.js
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
 @@||giga.de/wp-content/plugins/econa-stats/log/video-views/log.php?id=
+@@||github.com/carlomorgenstern/piwik-angular/$domain=github.com
 @@||gjensidige.lv/Content/dev/scripts/analytics.js
 @@||gjensidige.lv/Content/dev/scripts/analytics.min.js
 @@||global.fncstatic.com/static/isa/app/lib/VisitorAPI.js$domain=video.foxnews.com|video.foxbusiness.com
@@ -7067,6 +7070,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||odb.outbrain.com^$domain=nypost.com
 @@||odcdn.com^*/cm.js
 @@||office365.com^*/owa.Analytics.js$script
+@@||officedepot.co.cr/_ui/shared/js/analyticsmediator.js
 @@||officeworks.com.au^*/site-tracker.js
 @@||olx.*/static/*/js/xgemius.js$domain=olx.kz|olx.ua|olx.pl
 @@||olx.pl^*/js/tracking/ninja.js$domain=olx.pl
@@ -10956,6 +10960,7 @@ znak.com##.relap
 ||cnetcontent.com/log?
 ||cnetcontentsolutions.com^$third-party
 ||cnevids.com/metrics/
+||cnews.ru/inc/js/show_stat.js
 ||cnhv.co^$third-party
 ||cnn.com/*/js/cnn-analytics.min.js
 ||cnn.com/analytics/
@@ -13376,6 +13381,7 @@ znak.com##.relap
 ||gardenweb.com^*/iv_header.js
 ||gate.hockeyapp.net/*/track
 ||gatehousemedia.com/wickedlocal/ip.js
+||gateway.answerscloud.com^$third-party
 ||gateway.boredpanda.com/event^
 ||gateway.foresee.com^
 ||gatorleads.co.uk^$third-party
@@ -13755,6 +13761,7 @@ znak.com##.relap
 ||googlesyndication.com/safeframe/$third-party
 ||googletagmanager.com/gtag/$third-party
 ||googletagmanager.com/gtm.js$domain=kabel.canaldigital.no,empty,important
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=avast.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=beymen.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=chip.com.tr
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=pcmag.com,important
@@ -16593,6 +16600,8 @@ znak.com##.relap
 ||newsshopper-gb.newsshopper.co.uk^
 ||newstatesman.com/js/NewStatesmanSDC.js
 ||newstatscounter.info^$third-party
+||newstm.in/static/ase/at/at.js
+||newstm.in/stats?
 ||newsweek.com/www/js/mar2015/counter.js
 ||newswire.ca/rt.gif?
 ||newton.pm/events/track_bulk
@@ -19367,6 +19376,7 @@ znak.com##.relap
 ||speee-ad.jp^$third-party
 ||spelar.org^$third-party
 ||spellsalsa.com^$third-party
+||sphostserver.com^$third-party
 ||spider-mich.com^$third-party
 ||spideraf.com^$third-party
 ||spiegel.de/nm_trck.gif?
@@ -19490,6 +19500,7 @@ znak.com##.relap
 ||stainlesssteel.ru/counter.php?
 ||stalbansreview-gb.stalbansreview.co.uk^
 ||staleshow.com^$third-party
+||stalesummer.com^$third-party
 ||stan.xing.com^
 ||standtrouble.com^$third-party
 ||star-cntr-5.com^$third-party
@@ -19832,6 +19843,7 @@ znak.com##.relap
 ||stats.splinder.com^
 ||stats.storify.com^
 ||stats.streamhub.io^$third-party
+||stats.stylight.it^
 ||stats.suite101.com^
 ||stats.t-online.de/include-ivw-agof-szmng-js/
 ||stats.tazeros.com^

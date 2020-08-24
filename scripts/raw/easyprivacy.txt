@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4UHMki65DODNAJoCsq6Uqg
-! Version: 202008240931
+! Checksum: C5d6Nv86Lp76qLyy41ma8Q
+! Version: 202008241621
 ! Title: EasyPrivacy
-! Last modified: 24 Aug 2020 09:31 UTC
+! Last modified: 24 Aug 2020 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9416,6 +9416,7 @@ _mongo_stats/
 ||shinystat.it^$third-party
 ||sibautomation.com^$third-party
 ||specialstat.com^$third-party
+||sphostserver.com^$third-party
 ||statistiche-free.com^$third-party
 ||statistiche.it^$third-party
 ||statistiche.ws^$third-party
@@ -16730,6 +16731,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||smsaffari.it/count_new.php?
 ||spaziogames.it/ajax/player_impression.ashx?
 ||stats.splinder.com^
+||stats.stylight.it^
 ||tantifilm.top^*/ping
 ||tiscali.it/banner-tiscali/stats.html?
 ||topolino.it^*/omniture.php?
