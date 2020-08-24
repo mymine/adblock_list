@@ -16,6 +16,8 @@
 
 - **Adblock-basic** - 快速、极致的去广告体验
 
+- **Adblock-Lite** - 针对移动设备的专用规则
+
 - **Adblock-plus** - 广告，当然一个也不要放过
 
 - **Adblock-privacy** - 你的隐私，在你的手里
