@@ -10,6 +10,7 @@
 | 列表 	|  raw 	| jsDelivr	| Gitee	|
 | --------------------------------	|:------------------:	| ----------------	|---------------------------------------------	|
 | `adblock-basic` 	| [link](https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt) 	| [link](https://cdn.jsdelivr.net/gh/uniartisan/adblock_list/adblock.txt) 	| [link](https://gitee.com/uniartisan2018/adblock_list/raw/master/adblock.txt)  	|
+| `adblock-lite` 	| [link](https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt) 	| [link](https://cdn.jsdelivr.net/gh/uniartisan/adblock_list/adblock_lite.txt) 	| [link](https://gitee.com/uniartisan2018/adblock_list/raw/master/adblock_lite.txt)  	|
 | `adblock-plus` 	| [link](https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt) 	| [link](https://cdn.jsdelivr.net/gh/uniartisan/adblock_list/adblock_plus.txt)	| [link](https://gitee.com/uniartisan2018/adblock_list/raw/master/adblock_plus.txt)	|
 | `adblock-privacy` 	| [link](https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt) 	| [link](https://cdn.jsdelivr.net/gh/uniartisan/adblock_list/adblock_privacy.txt)	| [link](https://gitee.com/uniartisan2018/adblock_list/raw/master/adblock_privacy.txt)	|
 
