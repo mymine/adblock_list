@@ -1,6 +1,7 @@
 import sys
 import os
 import datetime
+from raw_download import *
 
 libdir = os.path.join(os.path.dirname(
     os.path.dirname(os.path.realpath(__file__))), 'lib')
@@ -8,9 +9,10 @@ rawdir = os.path.join(os.path.dirname(
     os.path.dirname(os.path.realpath(__file__))), 'raw')
 outputdir = os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-downpydir = os.path.join(os.path.join(os.path.dirname(
-    os.path.dirname(os.path.realpath(__file__))), 'tools'), 'raw_download.py')
-os.system('python3 %s' % downpydir)
+
+success = False
+while(success == False):
+    success = download()
 
 rawdata = []
 rawdata_plus = []
@@ -39,7 +41,7 @@ for t in range(0, data_lenth):
     with open(os.path.join(rawdir, rawdata[t]), 'r', encoding='UTF-8') as f:
         for line in f:
             temp = line.strip('\n')
-            if temp.startswith('!') or temp.startswith('[')  or len(temp) == 0:
+            if temp.startswith('!') or temp.startswith('[') or len(temp) == 0:
                 continue
             else:
                 result.append(temp)
@@ -51,18 +53,18 @@ for t in range(0, data_lenth):
     with open(os.path.join(rawdir, rawdata_plus[t]), 'r', encoding='UTF-8') as f:
         for line in f:
             temp = line.strip('\n')
-            if temp.startswith('!') or temp.startswith('[')  or len(temp) == 0:
+            if temp.startswith('!') or temp.startswith('[') or len(temp) == 0:
                 continue
             else:
                 result_plus.append(temp)
 
 # Privacy 处理
 data_lenth = len(rawdata_privacy)
-for t in range (0, data_lenth):
+for t in range(0, data_lenth):
     with open(os.path.join(rawdir, rawdata_privacy[t]), 'r', encoding='UTF-8') as f:
         for line in f:
             temp = line.strip('\n')
-            if temp.startswith('!') or temp.startswith('[')  or len(temp) == 0:
+            if temp.startswith('!') or temp.startswith('[') or len(temp) == 0:
                 continue
             else:
                 result_privacy.append(temp)
@@ -77,10 +79,9 @@ result_privacy.sort()
 
 # 时间戳信息
 time_now = datetime.datetime.now()
-date_string = time_now.strftime('%Y%m%d%H')
+date_string = time_now.strftime('%Y%m%d%H%S')
 
 # 文本输出
-
 with open(os.path.join(outputdir, "adblock.txt"), "w", encoding='UTF-8') as f:
     f.write('[uniartisan\'s Adblock List]\n'+'! Version: ' +
             date_string+'\n'+'! Title:  uniartisan\'s Adblock List\n' +
@@ -88,7 +89,7 @@ with open(os.path.join(outputdir, "adblock.txt"), "w", encoding='UTF-8') as f:
     lenth = len(result)
     f.write(
         '! URL = https://github.com/uniartisan/adblock_list\n! Lenth = ' + str(lenth)+'\n')
-    for i in range(1, lenth):
+    for i in range(0, lenth):
         f.write(result[i]+'\n')
 
 with open(os.path.join(outputdir, "adblock_plus.txt"), "w", encoding='UTF-8') as f:
@@ -98,7 +99,7 @@ with open(os.path.join(outputdir, "adblock_plus.txt"), "w", encoding='UTF-8') as
     lenth_plus = len(result_plus)
     f.write('! URL = https://github.com/uniartisan/adblock_list\n! Lenth = ' +
             str(lenth_plus)+'\n')
-    for i in range(1, lenth_plus):
+    for i in range(0, lenth_plus):
         f.write(result_plus[i]+'\n')
 
 with open(os.path.join(outputdir, "adblock_privacy.txt"), "w", encoding='UTF-8') as f:
@@ -108,5 +109,5 @@ with open(os.path.join(outputdir, "adblock_privacy.txt"), "w", encoding='UTF-8')
     lenth_privay = len(result_privacy)
     f.write('! URL = https://github.com/uniartisan/adblock_list\n! Lenth = ' +
             str(lenth_privay)+'\n')
-    for i in range(1, lenth_privay):
+    for i in range(0, lenth_privay):
         f.write(result_privacy[i]+'\n')
