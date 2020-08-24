@@ -34,7 +34,7 @@ for t in range(0, data_lenth):
     with open(os.path.join(rawdir, rawdata[t]), 'r', encoding='UTF-8') as f:
         for line in f:
             temp = line.strip('\n')
-            if temp.startswith('!') or temp.startswith('[') or temp.startswith('#') or len(temp) == 0:
+            if temp.startswith('!') or temp.startswith('[')  or len(temp) == 0:
                 continue
             else:
                 result.append(temp)
@@ -47,7 +47,7 @@ for t in range(0, data_lenth):
     with open(os.path.join(rawdir, rawdata_plus[t]), 'r', encoding='UTF-8') as f:
         for line in f:
             temp = line.strip('\n')
-            if temp.startswith('!') or temp.startswith('[') or temp.startswith('#') or len(temp) == 0:
+            if temp.startswith('!') or temp.startswith('[')  or len(temp) == 0:
                 continue
             else:
                 result_plus.append(temp)
