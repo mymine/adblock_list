@@ -1,5 +1,5 @@
 [uniartisan's Adblock List]
-! Version: 202008250027
+! Version: 202008250207
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
