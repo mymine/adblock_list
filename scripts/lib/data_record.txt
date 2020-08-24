@@ -1,6 +1,6 @@
-https://files.uniartisan.top/anti-ad/easylist.txt
-https://files.uniartisan.top/anti-ad/cjxlist.txt
-https://files.uniartisan.top/anti-ad/cjx-annoyance.txt
-https://files.uniartisan.top/anti-ad/easylistchina.txt
-https://files.uniartisan.top/anti-ad/2.txt
-https://files.uniartisan.top/anti-ad/224.txt
+https://files.uniartisan.com/anti-ad/easylist.txt
+https://files.uniartisan.com/anti-ad/cjxlist.txt
+https://files.uniartisan.com/anti-ad/cjx-annoyance.txt
+https://files.uniartisan.com/anti-ad/easylistchina.txt
+https://files.uniartisan.com/anti-ad/2.txt
+https://files.uniartisan.com/anti-ad/224.txt
