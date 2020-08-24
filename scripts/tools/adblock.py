@@ -14,22 +14,27 @@ os.system('python3 %s' % downpydir)
 
 rawdata = []
 rawdata_plus = []
+rawdata_privacy = []
 with open(os.path.join(libdir, 'metadata.txt'), 'r', encoding='UTF-8') as f:
     for line in f:
         temp = line.strip('\n')
         if temp.startswith('!') or temp.startswith('[') or temp.startswith('#') or len(temp) == 0:
             continue
         else:
-            if not temp.startswith('?'):
-                rawdata.append(temp)
-            else:
+            if temp.startswith('?'):
                 rawdata_plus.append(temp.strip('?'))
+            elif temp.startswith('&'):
+                rawdata_privacy.append(temp.strip('&'))
+            else:
+                rawdata.append(temp)
 
 
 result = []
 result_plus = []
-data_lenth = len(rawdata)
+result_privacy = []
 
+# Baisc 处理
+data_lenth = len(rawdata)
 for t in range(0, data_lenth):
     with open(os.path.join(rawdir, rawdata[t]), 'r', encoding='UTF-8') as f:
         for line in f:
@@ -41,7 +46,6 @@ for t in range(0, data_lenth):
                 result_plus.append(temp)
 
 # Plus 处理
-
 data_lenth = len(rawdata_plus)
 for t in range(0, data_lenth):
     with open(os.path.join(rawdir, rawdata_plus[t]), 'r', encoding='UTF-8') as f:
@@ -52,11 +56,24 @@ for t in range(0, data_lenth):
             else:
                 result_plus.append(temp)
 
+# Privacy 处理
+data_lenth = len(rawdata_privacy)
+for t in range (0, data_lenth):
+    with open(os.path.join(rawdir, rawdata_privacy[t]), 'r', encoding='UTF-8') as f:
+        for line in f:
+            temp = line.strip('\n')
+            if temp.startswith('!') or temp.startswith('[')  or len(temp) == 0:
+                continue
+            else:
+                result_privacy.append(temp)
+
 # 排序去重
 result = list(set(result))
 result.sort()
 result_plus = list(set(result_plus))
 result_plus.sort()
+result_privacy = list(set(result_privacy))
+result_privacy.sort()
 
 # 时间戳信息
 time_now = datetime.datetime.now()
@@ -83,3 +100,13 @@ with open(os.path.join(outputdir, "adblock_plus.txt"), "w", encoding='UTF-8') as
             str(lenth_plus)+'\n')
     for i in range(1, lenth_plus):
         f.write(result_plus[i]+'\n')
+
+with open(os.path.join(outputdir, "adblock_privacy.txt"), "w", encoding='UTF-8') as f:
+    f.write('[uniartisan\'s Privacy List]\n'+'! Version: ' +
+            date_string+'\n'+'! Title:  uniartisan\'s Privacy List\n' +
+            '! Expires: 1 days (update frequency)\n')
+    lenth_privay = len(result_privacy)
+    f.write('! URL = https://github.com/uniartisan/adblock_list\n! Lenth = ' +
+            str(lenth_privay)+'\n')
+    for i in range(1, lenth_privay):
+        f.write(result_privacy[i]+'\n')
