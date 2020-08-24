@@ -34,6 +34,7 @@ with open(os.path.join(libdir, 'metadata.txt'), 'r', encoding='UTF-8') as f:
 result = []
 result_plus = []
 result_privacy = []
+result_lite = []
 
 # Baisc 处理
 data_lenth = len(rawdata)
@@ -76,6 +77,18 @@ result_plus = list(set(result_plus))
 result_plus.sort()
 result_privacy = list(set(result_privacy))
 result_privacy.sort()
+result_lite = list(result_lite)
+result_lite.sort()
+
+# Lite 列表处理
+# https://www.reddit.com/r/uBlockOrigin/comments/eylhw4/ignore_generic_cosmetic_filters_selected_or_not/
+# ##.filter ###filter 会被忽略
+lenth = len(result)
+for t in range(0, lenth):
+    if result[t].startswith('##.') or result[t].startswith('###'):
+        continue
+    else:
+        result_lite.append(result[t])
 
 # 时间戳信息
 time_now = datetime.datetime.now()
@@ -111,3 +124,13 @@ with open(os.path.join(outputdir, "adblock_privacy.txt"), "w", encoding='UTF-8')
             str(lenth_privay)+'\n')
     for i in range(0, lenth_privay):
         f.write(result_privacy[i]+'\n')
+
+with open(os.path.join(outputdir, "adblock_lite.txt"), "w", encoding='UTF-8') as f:
+    f.write('[uniartisan\'s Adblock List Lite]\n'+'! Version: ' +
+            date_string+'\n'+'! Title:  uniartisan\'s Adblock List Lite\n' +
+            '! Expires: 1 days (update frequency)\n')
+    lenth = len(result_lite)
+    f.write(
+        '! URL = https://github.com/uniartisan/adblock_list\n! Lenth = ' + str(lenth)+'\n')
+    for i in range(0, lenth):
+        f.write(result_lite[i]+'\n')
