@@ -21,12 +21,12 @@ def download():
         rawdata = []
         with open(os.path.join(libdir, 'metadata.txt'), 'r', encoding='UTF-8') as f:
             for line in f:
-                temp = line.strip('\n').strip('?')
-                if temp.startswith('!') or temp.startswith('[') \
-                        or temp.startswith('raw') or len(temp) == 0:
+                temp = line.strip('\n')
+                if temp.startswith('!') or temp.startswith('[R]') \
+                        or temp.startswith('[M]') or len(temp) == 0:
                     continue
                 else:
-                    rawdata.append(temp.strip('&'))
+                    rawdata.append(temp.strip('[+]').strip('[P]').strip('[M]'))
         raw_lenth = len(rawdata)
         for i in range(0, raw_lenth):
             if os.path.exists(os.path.join(rawdir, rawdata[i])):

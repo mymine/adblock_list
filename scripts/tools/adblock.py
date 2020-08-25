@@ -17,19 +17,21 @@ while(success == False):
 rawdata = []
 rawdata_plus = []
 rawdata_privacy = []
+rawdata_lite = []
 with open(os.path.join(libdir, 'metadata.txt'), 'r', encoding='UTF-8') as f:
     for line in f:
         temp = line.strip('\n')
-        if temp.startswith('!') or temp.startswith('[') or temp.startswith('#') or len(temp) == 0:
+        if temp.startswith('!') or temp.startswith('#') or len(temp) == 0:
             continue
         else:
-            if temp.startswith('?'):
-                rawdata_plus.append(temp.strip('?'))
-            elif temp.startswith('&'):
-                rawdata_privacy.append(temp.strip('&'))
+            if temp.startswith('[+]'):
+                rawdata_plus.append(temp.strip('[+]'))
+            elif temp.startswith('[P]'):
+                rawdata_privacy.append(temp.strip('[P]'))
+            elif temp.startswith('[M]'):
+                rawdata_lite.append(temp.strip('[M]'))
             else:
-                rawdata.append(temp)
-
+                rawdata.append(temp.strip('[R]'))
 
 result = []
 result_plus = []
@@ -70,19 +72,19 @@ for t in range(0, data_lenth):
             else:
                 result_privacy.append(temp)
 
-# 排序去重
-result = list(set(result))
-result.sort()
-result_plus = list(set(result_plus))
-result_plus.sort()
-result_privacy = list(set(result_privacy))
-result_privacy.sort()
-result_lite = list(result_lite)
-result_lite.sort()
-
 # Lite 列表处理
 # https://www.reddit.com/r/uBlockOrigin/comments/eylhw4/ignore_generic_cosmetic_filters_selected_or_not/
 # ##.filter ###filter 会被忽略
+
+data_lenth = len(rawdata_lite)
+for t in range(0, data_lenth):
+    with open(os.path.join(rawdir, rawdata_lite[t]), 'r', encoding='UTF-8') as f:
+        for line in f:
+            temp = line.strip('\n')
+            if temp.startswith('!') or temp.startswith('[') or len(temp) == 0:
+                continue
+            else:
+                result_lite.append(temp)
 lenth = len(result)
 for t in range(0, lenth):
     if result[t].startswith('##') or result[t].startswith('.') \
@@ -92,6 +94,18 @@ for t in range(0, lenth):
         continue
     else:
         result_lite.append(result[t])
+
+
+# 排序去重
+result = list(set(result))
+result.sort()
+result_plus = list(set(result_plus))
+result_plus.sort()
+result_privacy = list(set(result_privacy))
+result_privacy.sort()
+result_lite = list(set(result_lite))
+result_lite.sort()
+
 
 # 时间戳信息
 time_now = datetime.datetime.now()
