@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: C5d6Nv86Lp76qLyy41ma8Q
-! Version: 202008241621
+! Checksum: cthfhaU4UNgf0C6/E0uKtA
+! Version: 202008251621
 ! Title: EasyPrivacy
-! Last modified: 24 Aug 2020 16:21 UTC
+! Last modified: 25 Aug 2020 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6478,6 +6478,7 @@ _mongo_stats/
 ||g2773180690.co^$third-party
 ||g2971265025.co^$third-party
 ||g3169349360.co^$third-party
+||g3367433695.co^$third-party
 ||gaconnector.com^$third-party
 ||gameanalytics.com^$third-party
 ||gammachug.com^$third-party
@@ -8814,6 +8815,7 @@ _mongo_stats/
 ||squeakzinc.com^$third-party
 ||squirrelhands.com^$third-party
 ||staleshow.com^$third-party
+||stalesummer.com^$third-party
 ||steadfastsound.com^$third-party
 ||steepsquirrel.com^$third-party
 ||stiffstem.com^$third-party
@@ -11227,6 +11229,7 @@ _mongo_stats/
 ||photobox.com/logs
 ||phrasetech.com/api/collect
 ||piano.io/tracker/
+||pico.tools/metrics/
 ||ping-dot-acp-magento.appspot.com^
 ||ping.dozuki.com^
 ||ping.hellobar.com^
@@ -11304,6 +11307,7 @@ _mongo_stats/
 ||pushly.com/pushly-event-tracker
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
+||pv.pjtsu.com^
 ||px-cdn.net/*main.min.js
 ||px-cdn.net/api/v2/collector|
 ||px-cdn.net/b/s
@@ -12861,7 +12865,7 @@ _mongo_stats/
 ||9msn.com.au/share/com/js/fb_google_intercept.js
 ||9msn.com.au^*.tracking.udc.
 ||a.huluad.com/beacons/
-||a2-eng.spankbang.com^
+||a2x-eng.spankbang.com^
 ||a7.org/infol.php?
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
@@ -13347,6 +13351,7 @@ _mongo_stats/
 ||d.ghostery.com^
 ||da.virginmedia.com^
 ||dabs.com/AbacusTest/clientinfo_bk.gif
+||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymail.co.uk/tracking/
 ||dailymotion.com/logger/
@@ -13724,6 +13729,7 @@ _mongo_stats/
 ||goseek.com/track-
 ||gov.in/js/ga.js
 ||gq-magazine.co.uk^*/LogPageView
+||grammarly.io/log
 ||groupon.*/tracky$xmlhttprequest
 ||groupon.com/analytic/
 ||groupon.com/tracking
@@ -14200,6 +14206,7 @@ _mongo_stats/
 ||newsinc.com/players/report.xml?$image
 ||newstatesman.com/js/NewStatesmanSDC.js
 ||newswire.ca/rt.gif?
+||newzit.com/setABframe.html
 ||nexon.net/log/
 ||nexon.net/tagging/
 ||next.co.uk/log.php
@@ -14280,7 +14287,6 @@ _mongo_stats/
 ||overstock.com/uniquecount
 ||ownerdriver.com.au/ga.
 ||p.ctpost.com/article?i=
-||p2-eng.spankbang.com^
 ||page-events-ustats.udemy.com^
 ||pageinfo.motorsport.com^
 ||pages03.net/WTS/event.jpeg?
@@ -14536,9 +14542,6 @@ _mongo_stats/
 ||sap.com/global/ui/js/trackinghelper.js
 ||sasontnwc.net/track/
 ||sayac.hurriyettv.com^
-||sb-cd.com^*.anaeng.js
-||sb-cd.com^*.d-aeon.js
-||sb-cd.com^*.emnemv2.js
 ||sc.cc.com^
 ||scdn.co/build/js/tracking-
 ||scdn.co/cdn/js/gtag.$script,domain=spotify.com
@@ -14752,9 +14755,7 @@ _mongo_stats/
 ||sp.zanesvilletimesrecorder.com^
 ||spanids.dictionary.com^
 ||spanids.thesaurus.com^
-||spankbang.com/api?
-||spankbang.com/api|
-||spankbang.com/pte?
+||spankbang.com^$ping
 ||speakertext.com/analytics/
 ||speed.wikia.net^
 ||spinmedia.com/clarity.min.js
@@ -15655,6 +15656,7 @@ _mongo_stats/
 ||ttauri.musicradar.com^
 ||ttauri.nexttv.com^
 ||ttauri.space.com^
+||ttauri.t3.com^
 ||ttauri.tomsguide.com^
 ||ttauri.tomshardware.com^
 ||ttauri.whathifi.com^
@@ -17275,10 +17277,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=lovehoney.co.uk|maxiclimber.com|opendns.com|openshift.com|vimeo.com|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
-@@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|ryanair.com
+@@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|playphrase.me|ryanair.com
 @@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
-@@||gstatic.com^*/firebase-analytics.js$script,domain=audiomack.com
+@@||gstatic.com^*/firebase-analytics.js$script,domain=audiomack.com|games.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party

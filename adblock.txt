@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202008250207
+! Version: 202008260129
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20171
+! Lenth = 20185
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -2882,7 +2882,7 @@ $websocket,domain=5nj.com|cechi8.com
 =ajaxGetAds&type=
 =loginExtAD.
 =mumumoniqi-piaochuang-
-?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|23yy.com|256.cc|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|59wz.com|5djiaren.com|5h.com|5nd.com|5seestar.com|5tps.com|66law.cn|7k7k.com|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|dugoogle.com|eastday.com|enterdesk.com|exam58.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|guancha.cn|gucheng.com|guidaye.com|gulongbbs.com|gushiwen.cn|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|jeasyui.net|jf258.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jy135.com|kdslife.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|nanhuwang.com|pansoso.com|pctowap.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|vswang.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yuwenmi.com|yxad.com|yyrtv.com|zanyiba.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net|zuoyesou.com|zybus.com
+?*=*=*=$subdocument,domain=hc23.com|00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|23yy.com|256.cc|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|59wz.com|5djiaren.com|5h.com|5nd.com|5seestar.com|5tps.com|66law.cn|7k7k.com|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|dugoogle.com|eastday.com|enterdesk.com|exam58.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|guancha.cn|gucheng.com|guidaye.com|gulongbbs.com|gushiwen.cn|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|jeasyui.net|jf258.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jy135.com|kdslife.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|nanhuwang.com|pansoso.com|pctowap.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|vswang.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yuwenmi.com|yxad.com|yyrtv.com|zanyiba.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net|zuoyesou.com|zybus.com
 ?ad_ids=
 ?ad_type=
 ?adunit_id=
@@ -3561,6 +3561,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||newver.api.dedecms.com/index.php$subdocument
 @@||niotv.com^$generichide
 @@||niucache.com/service/www/ad/
+@@||nixingle.com/zhenbuka/statics/js/guanggao.js
 @@||noahedu.com/ad/$~third-party
 @@||noahedu.com/advertising/
 @@||nobugin.com^$generichide
@@ -3676,7 +3677,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
-@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|dilidili.one|eduyun.cn|jdboshi.com|jialingmm.net|lcm88.com|mop.com|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.me
+@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|dilidili.one|eduyun.cn|jdboshi.com|jialingmm.net|lcm88.com|mop.com|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.me
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||sohu.com/play/videonew.do?*/share_play.
 @@||sohu.com/upload/static/share/share_play.html
@@ -4513,9 +4514,9 @@ cartoonmad.com##table[width="890"] > tbody > tr > td > table[height="110"]
 cartoonmad.com##table[width="950"] > tbody > tr > td > table[width="210"] > tbody > tr > td > table[width="210"]
 cartoonmad.com##td[width="890"] > table > tbody > tr > td[valign="top"][height="118"]
 cb.com.cn##.box > a[href^="http"]:not([href*=".cb."])
-cbber.com###diy2
 cbber.com##div[style$=":0px;top:200px;z-index:9999;"]
 cbber.com,xiaot.com###diy_chart
+cbber.com,you85.net###diy2
 cbg.cn##div[class^="erweima"]
 cbmay.com##.widget
 cbmland.com##div[id^="ads_"]
@@ -5891,6 +5892,7 @@ hc360.com##div[id^="Adv"]
 hcbbs.com###framedtSuR9
 hcbbs.com###framemI4t76
 hcbbs.com###framerG6o99_left
+hcbbs.com###portal_block_2652
 hcbbs.com##.a_cn_pb
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 hcomic.in###pv_all > a[onclick^="trackOutboundLink"]
@@ -9042,7 +9044,6 @@ ylnet.com.cn###winpop1
 yn-dove.cn##div[style="margin-top: 10px; padding: 10px; "]
 ynet.com###ynetG_B1
 yorkbbs.ca##.textNewsBorder
-you85.net###diy2
 youdao.com##.dialog-guide-download
 youdao.com##.dict-dl
 youdao.com#@#.open-share
@@ -9372,6 +9373,7 @@ zznews.cn##.ad:not([style])
 ||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com
 ||*xav.*/guang/*.gif
 ||*xav.*/guang/*.jpg
+||00-gov.cn^
 ||000001.azureedge.net/script/common.js
 ||000001.azureedge.net/script/p.js
 ||000b.info/js/
@@ -9948,6 +9950,7 @@ zznews.cn##.ad:not([style])
 ||23pili.com/template/pc/js/layerui.
 ||23sc.cn/andy/
 ||23txt.com^$third-party
+||23uuw3.com^
 ||241hs.com/js/jquery.js
 ||2481e.com^$popup
 ||24cmm.com:8888/js
@@ -10847,6 +10850,8 @@ zznews.cn##.ad:not([style])
 ||9ku.com/aaa/
 ||9nwg9sib9e.com^
 ||9pb0h.cn^
+||9tata.com/js/Rand.js
+||9tata.com/js/pbanner.js
 ||9tata.com/js/topxia.js
 ||9tata.com/js/www.js
 ||9tour.cn/x2/images/czmf.jpg
@@ -10866,6 +10871,7 @@ zznews.cn##.ad:not([style])
 ||a.4aqq.com^
 ||a.52wubi.com^
 ||a.52zxw.com^
+||a.91nets.cn^
 ||a.91zhongkao.com^
 ||a.armystar.com^
 ||a.bake818.cn^
@@ -11300,6 +11306,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/kf/Hd62261f1a7964c50824ac5982b1aa1bfk.gif
 ||alicdn.com/kf/Heace67bf8b204b94ae99be0cd2f9885fo.png
 ||alicdn.com/kf/U0732534bf37c454e84b8378ceaa5d7c2V.
+||alicdn.com/kf/U49aea8c7eb23472da22f6375984dfe3fa.
 ||alicdn.com/kf/U693ffd2a78ac452895488e4e5426554cA.jpg
 ||alicdn.com/kf/U937e9421ce844d44a5977758f21b72eey.png
 ||alicdn.com/kf/UTB8tVxYvbPJXKJkSafS5jaqUXXac.gif
@@ -13558,6 +13565,7 @@ zznews.cn##.ad:not([style])
 ||fpb1.chinacar.
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
+||fqsgj.com^
 ||fqtra.com^
 ||fqzds.com^
 ||fragment.firefoxchina.cn/html/
@@ -13690,6 +13698,7 @@ zznews.cn##.ad:not([style])
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gaohuduo.cn^
 ||gaoimg.xyz/images/
+||gaoqing.la/wp-content/uploads/*/GOOVIS.gif
 ||gaoqing.la/wp-content/uploads/*/gg
 ||gaoqing.la/wp-content/uploads/*/kaiboer.gif
 ||gaoqing.la/wp-content/uploads/*980x
@@ -14991,6 +15000,7 @@ zznews.cn##.ad:not([style])
 ||jiasule.com/static/js/http_error.js
 ||jiawen88.com^$third-party
 ||jiayi2019.top^
+||jiayiss.com^
 ||jiayu.net/comiis_ad/
 ||jiazihao.cn^
 ||jibn12.jintang114.org^
@@ -15855,6 +15865,7 @@ zznews.cn##.ad:not([style])
 ||m1905.cn/data/suspension_
 ||m1905.cn/images/vod/vod*-90.jpg
 ||m1905.com/asp_js/k.js
+||m1955.com/template/qq/images/playad/
 ||m2.lelemh.com^
 ||m3hf.com/js/float
 ||ma.baiducdn2.com^*/main.js?t=
@@ -16386,7 +16397,7 @@ zznews.cn##.ad:not([style])
 ||nownews.com/assets/js/setAds.js
 ||np176.com^
 ||npvxkna.cn^
-||nqbcf.cn^
+||nqbcf.cn/html/top
 ||nqfwx.cn^
 ||nr1234.com^
 ||nrsfh.com/neirong/
@@ -17621,6 +17632,7 @@ zznews.cn##.ad:not([style])
 ||skyttt.com^
 ||slit.cn/slimages/
 ||slivercommander.cn^
+||slshiye.cn^
 ||slvtx.com^
 ||slygzsc.cn^
 ||sm077.com^
@@ -19553,6 +19565,7 @@ zznews.cn##.ad:not([style])
 ||ykanx.com^
 ||ykimg.com/material/*/ad/
 ||ykjmy.com^
+||ykpbgqc.top^
 ||yktang8.com^*.gif
 ||yktj.yzz.cn^
 ||ykxwn.com^
@@ -19594,6 +19607,7 @@ zznews.cn##.ad:not([style])
 ||yootui19999.com^
 ||yorkbbs.ca/yorkads/
 ||you85.net/ck2/
+||youaima.com/rest/
 ||youaima.com/zz/
 ||youdao.com/ctlog?
 ||youdao.com/market/banner/banner
