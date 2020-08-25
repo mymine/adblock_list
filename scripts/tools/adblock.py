@@ -85,7 +85,10 @@ result_lite.sort()
 # ##.filter ###filter 会被忽略
 lenth = len(result)
 for t in range(0, lenth):
-    if result[t].startswith('##.') or result[t].startswith('###'):
+    if result[t].startswith('##') or result[t].startswith('.') \
+            or result[t].startswith('(') or result[t].startswith('-') \
+            or result[t].startswith('.com') or result[t].startswith('/') \
+            or result[t].startswith('&') or result[t].startswith('$'):
         continue
     else:
         result_lite.append(result[t])
