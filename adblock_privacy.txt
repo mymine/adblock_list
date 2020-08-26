@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202008260129
+! Version: 202008270128
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22954
+! Lenth = 22959
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -6109,6 +6109,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||disqus.com/api/3.0/posts/$document
 @@||djtflbt20bdde.cloudfront.net^$domain=feedly.com
 @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
+@@||docs.amplify.aws^*/platform/js/autotrack.json$~third-party
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
 @@||doortodoor.co.kr/jsp/cmn/Tracking.jsp^
 @@||doubleclick.net/activityi;src=$domain=cicispizza.com
@@ -6383,6 +6384,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/analytics.js$domain=rt.ru
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch
 @@||google-analytics.com/analytics.js$domain=saturn.de
+@@||google-analytics.com/analytics.js$domain=seattletimes.com
 @@||google-analytics.com/analytics.js$domain=shop.kyivstar.ua
 @@||google-analytics.com/analytics.js$domain=siberianhealth.com
 @@||google-analytics.com/analytics.js$domain=skaties.lv
@@ -6432,6 +6434,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/gtm/js?id=$domain=joblo.com
 @@||google-analytics.com/gtm/js?id=$domain=m.papajohns.ru
 @@||google-analytics.com/gtm/js?id=$domain=reuters.com
+@@||google-analytics.com/gtm/js?id=$domain=seattletimes.com
 @@||google-analytics.com/gtm/js?id=$domain=theverge.com
 @@||google-analytics.com/gtm/js?id=GTM^$domain=morhipo.com
 @@||google-analytics.com/gtm/js^$domain=brownbagcoffee.co.kr
@@ -6595,6 +6598,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=saturn.de
 @@||googletagmanager.com/gtm.js$domain=sciencesetavenir.fr
 @@||googletagmanager.com/gtm.js$domain=scotsman.com
+@@||googletagmanager.com/gtm.js$domain=seattletimes.com
 @@||googletagmanager.com/gtm.js$domain=shieldsgazette.com
 @@||googletagmanager.com/gtm.js$domain=shop.kyivstar.ua
 @@||googletagmanager.com/gtm.js$domain=shop.mango.com
@@ -16673,6 +16677,7 @@ znak.com##.relap
 ||nmetrics.samsung.com^
 ||nmtracking.netflix.com^
 ||noa0.compteczam.fr^
+||noflake-aggregator-http.narvar.com^
 ||nofraud.com/js/device.js
 ||nofraud.com^*/customer_code.js
 ||noibu.com^$third-party
@@ -20323,7 +20328,7 @@ znak.com##.relap
 ||tagtray.com^$third-party
 ||tagx.nytimes.com^
 ||tailtarget.com^$third-party
-||takealot.com/rest/^*/collect
+||takealot.com^*/collect
 ||talkingdata.com^*/sdk_release.js
 ||talkline.de^*/count.talkline.js
 ||talktalk.co.uk^*/log.html

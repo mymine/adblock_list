@@ -1,8 +1,8 @@
-! Checksum: Nqi+tI2aicR/dRW/QzO1rw
+! Checksum: qFlXVtprh8va2BmSDa7YNQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.16.56
-! TimeUpdated: 2020-08-25T15:31:31+03:00
+! Version: 2.0.16.58
+! TimeUpdated: 2020-08-26T15:31:32+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -191,6 +191,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||pbstck.com^$third-party
 ||gateway.answerscloud.com^$third-party
 ||poorlydig.com^$third-party
 ||snowdayonline.xyz^$third-party
@@ -7910,6 +7911,11 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/62271
+! seattletimes.com - fixing long loading
+@@||googletagmanager.com/gtm.js$domain=seattletimes.com
+@@||google-analytics.com/analytics.js$domain=seattletimes.com
+@@||google-analytics.com/gtm/js?id=$domain=seattletimes.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62178
 ||googletagmanager.com/gtag/js$script,other,redirect=googletagmanager-gtm,domain=playphrase.me
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61851
