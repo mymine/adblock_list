@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202008270128
+! Version: 202008271224
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22959
+! Lenth = 22964
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -94,9 +94,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -ga-tracking/
 -gatracker.
 -geoIP.js
--google-analytics-
+-google-analytics-$domain=~whmcsadmintheme.com|~wordpress.org
 -google-analytics.
--google-analytics/
+-google-analytics/$domain=~whmcsadmintheme.com|~wordpress.org
 -google-tag-manager/$script,domain=~wordpress.org
 -heatmaps-analytics/
 -imppix/
@@ -9495,6 +9495,7 @@ znak.com##.relap
 ||as.yomonda.de^
 ||asadcdn.com/bt^
 ||asadcdn.com^$third-party
+||asayer.io/tracker.js
 ||ascend.ai^$third-party
 ||aserve.directorym.com^
 ||asianblast.com/statx/
@@ -9661,6 +9662,7 @@ znak.com##.relap
 ||avstat.it^$third-party
 ||avstop.com^*/poll.gif?
 ||avtoradio.ru/design/images/site-design/top100.gif
+||awakebird.com^$third-party
 ||awaps.yandex.net^
 ||awaps.yandex.ru^
 ||awasete.com^$third-party
@@ -10117,6 +10119,7 @@ znak.com##.relap
 ||bloguez.com/manager/compteurs/
 ||blogverzeichnis.eu^$third-party
 ||blok.link^
+||bloom.triplebyte.com^$xmlhttprequest
 ||bloomberg.com/*/init.js
 ||bloomberg.com/8FCGYgk4/
 ||bloomberg.com/apps/data?referrer
@@ -12142,6 +12145,7 @@ znak.com##.relap
 ||do-not-tracker.org^$third-party
 ||do09.net^$third-party
 ||doa1.immobilier-neuf.com^
+||doceree.com^$third-party
 ||docin.com/app/playerLoadLog/
 ||docksalmon.com^$third-party
 ||doclix.com^$third-party
@@ -18473,7 +18477,7 @@ znak.com##.relap
 ||rubicon.wellsfargo.com^
 ||rucounter.ru^$third-party
 ||rulerabbit.com^$third-party
-||rum-static.pingdom.net/*-*.js$empty,important,domain=leboncoin.fr
+||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 ||rum.conde.io^
 ||rum.kobo.com^
 ||rum.marquardmedia.hu^
@@ -19964,6 +19968,7 @@ znak.com##.relap
 ||steelhousemedia.com^$third-party
 ||steepsquirrel.com^$third-party
 ||stellaservice.com^$third-party
+||stepplane.com^$third-party
 ||sterlingwoods.com^$third-party
 ||stetic.com^$third-party
 ||stg-data-collector.playbuzz.com^

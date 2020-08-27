@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: G9H7pHVu6t4dRAgdT5J38w
-! Version: 202008261621
+! Checksum: MzXY1rzuYejfsWWvhOuHig
+! Version: 202008270320
 ! Title: EasyList
-! Last modified: 26 Aug 2020 16:21 UTC
+! Last modified: 27 Aug 2020 03:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31308,6 +31308,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||accomplex.club^
 ||accreditor.club^
 ||acdcdn.com^
+||acestrange.club^
 ||achcdn.com^
 ||achinahdh.club^
 ||aclickads.com^
@@ -32332,6 +32333,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gencehepatie.club^
 ||genergyothe.top^
 ||geodestricy.site^
+||gerskatimi.club^
 ||gesymphone.site^
 ||getherehap.fun^
 ||gflnzl1vqntw.com^
@@ -32820,6 +32822,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mimpiphy.net^
 ||mineraldoubte.club^
 ||miniatureabhor.com^
+||ministsentr.club^
 ||minologyhesia.site^
 ||minsistereron.site^
 ||mirafaren.pw^
@@ -33596,6 +33599,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||shostobs.net^
 ||showeveresz.club^
 ||shqbsdjatunl.com^
+||shrinke.me^
 ||shweflix.com^
 ||shyama-jay.com^
 ||sightcoloniansy.site^
@@ -33658,6 +33662,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||spendeivivar.site^
 ||spentalwithinga.info^
 ||sperans-beactor.com^
+||sperconset.club^
 ||spittsprevi.club^
 ||spo7h3ktdvy5.com^
 ||spontaneousguarded.com^
@@ -34135,6 +34140,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yhhbtavgpuo.com^
 ||yinsterkneeline.info^
 ||yirishedspe.info^
+||ylvessovi.pro^
 ||yonashbin.com^
 ||yonatefin.site^
 ||youearrid.com^
