@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202008281712
+! Version: 202008290647
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20201
+! Lenth = 20215
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -5386,6 +5386,7 @@ fang.com,soufun.com##.add1200
 fanqiangzhe.com###mobile-bottom-ads
 fanqiangzhe.com###news-include + .text-center
 fanqiangzhe.com###popupModal
+fanyi.baidu.com###app-read
 fanyi.baidu.com##.appbanner
 fanyi.baidu.com##.banner_img_container
 fanyi.baidu.com##.extra-banners
@@ -7548,6 +7549,7 @@ qianlima.com###float_mask
 qiannao.com###downTb + div
 qiannao.com###main > div[style="padding-left:20px;margin-top:10px;"]:first-child
 qianzhan.com##div[id^="baidu_ad_"]
+qiaobutang.com##.fixed-footer-wrap
 qiaobutang.com##.overlay
 qidian.com###QDCode_float
 qidian.com###app_download_blank_show
@@ -8035,7 +8037,9 @@ sodao.com##.photo-see > div[style="text-align: center; margin-bottom: 10px;"]
 soft.macx.cn#@##googlead1
 soft.macx.cn,tunesp.com#@##googlead
 soft4fun.net###xad_mu
+soft5566.com###sharebtn
 soft7788.com##span[style="float:left;width:100%;height:30px;"]
+soft8899.com##.hzurl
 softblog.tw#@#.dshare
 sogou.com###adWindow
 sogou.com###appNewsBtn
@@ -9750,6 +9754,7 @@ zznews.cn##.ad:not([style])
 ||168img.com/a/
 ||168img.com/aa/
 ||168xiazai.com^
+||168zwm.com^
 ||169bj.cn^
 ||16co.com/js/adb
 ||16co.com/js/c
@@ -10539,6 +10544,7 @@ zznews.cn##.ad:not([style])
 ||700ok.net^
 ||7011.stia.cn^
 ||70822.com/agfile/
+||70bhsd.cn^
 ||70e.com^$third-party
 ||70e.me^
 ||70lm.com^
@@ -11405,6 +11411,7 @@ zznews.cn##.ad:not([style])
 ||antpedia.com/images/advimages/
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
+||anweigongsi.com^
 ||anywlan.com/link/*.gif
 ||anyysz.com^
 ||anzhuocpm.com^
@@ -11917,6 +11924,7 @@ zznews.cn##.ad:not([style])
 ||biquge22.com^$third-party
 ||biqutxt.com/skin/scripts/97.js
 ||birdmedia.com^$third-party
+||bishufang.cn^
 ||bitanzi.cn/xiwang/fumeiti.js
 ||bitauto.com/ResourceFiles/play/play.swf
 ||bitauto.com/bglog.gif?
@@ -12480,6 +12488,7 @@ zznews.cn##.ad:not([style])
 ||cloudfront-666.kxcdn.com/v4.js
 ||cloudfront.net/?$domain=olevod.com
 ||cloudfront.net/images/K10/adv/
+||cls.cn/v2/web/ad?
 ||cm.baidu.com^
 ||cmaxisolation.com^
 ||cmdy5.com/js/300.js
@@ -15062,6 +15071,7 @@ zznews.cn##.ad:not([style])
 ||jishuyl.com/_skins/*/ad_
 ||jisoupan.com/static/
 ||jisucn.com^$third-party
+||jisuoping.com^
 ||jisutiyu.com/app/js/*footer.js
 ||jisuxz.com/180226/b180226.js
 ||jisuxz.com/180226/downshare
@@ -15752,6 +15762,7 @@ zznews.cn##.ad:not([style])
 ||longbahao.com/asd.js
 ||longbahao.com/js/ad-
 ||longdidi.top/tpl/mstyle/js/g.js
+||longfenfa.com^
 ||longkoupeanut.cn^
 ||longtan.in^
 ||longzhu.com/i/api/playpage/recommendPop?
@@ -17691,7 +17702,9 @@ zznews.cn##.ad:not([style])
 ||soft.mumayi.net/images/download.gif
 ||soft.mumayi.net/js/
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
+||soft5566.com/images/xldown
 ||soft6.com/index.php?m=poster&
+||soft8899.com/images/xldown
 ||softhy.net/hp/
 ||sogou-inc.com/AdvPreview.
 ||sogou.*/js7/forAppDown.js
@@ -17712,6 +17725,7 @@ zznews.cn##.ad:not([style])
 ||sogoucdn.com/nstatic/js/bottom_shopping.
 ||sogoucdn.com/nstatic/js/showtime.js
 ||sogoucdn.com/nstatic/js/tmallskin_
+||sogoucdn.com/translate/ssr/static/img/banner-
 ||sogoucdn.com/wapsearch/static/js/videoAppro.
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||sohu.com/adgtr/

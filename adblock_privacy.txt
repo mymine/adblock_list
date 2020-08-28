@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202008281712
+! Version: 202008290647
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22971
+! Lenth = 22972
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -20897,6 +20897,7 @@ znak.com##.relap
 ||track.laredoute.fr^$image
 ||track.leadhit.io^$third-party
 ||track.leady.cz^
+||track.lexico.com^
 ||track.mailerlite.com^
 ||track.mobshark.net^
 ||track.mopo.de^
