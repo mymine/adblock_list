@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202008271224
+! Version: 202008281012
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22964
+! Lenth = 22971
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -94,9 +94,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -ga-tracking/
 -gatracker.
 -geoIP.js
--google-analytics-$domain=~whmcsadmintheme.com|~wordpress.org
+-google-analytics-$domain=~wordpress.org
 -google-analytics.
--google-analytics/$domain=~whmcsadmintheme.com|~wordpress.org
+-google-analytics/$domain=~wordpress.org
 -google-tag-manager/$script,domain=~wordpress.org
 -heatmaps-analytics/
 -imppix/
@@ -2785,6 +2785,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /impression.php?
 /impression.pl?
 /impression.track?
+/impression/stream/*
 /impression/widget?
 /impression?*.loadAds&
 /impression?bid
@@ -4271,6 +4272,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /standalone-analytics-
 /stat-adobe-
 /stat-analytics/*
+/stat-dfp.
 /stat.asmx
 /stat.aspx?
 /stat.cgi?
@@ -7207,6 +7209,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|ladbible.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=independent.co.uk
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
@@ -7715,6 +7718,7 @@ _act/tracking.
 _adblock_stat.
 _adcenterconversion.
 _admiral.
+_adobe_analytics.
 _ajax/btrack.php?
 _analytics-tracking?
 _analytics.js?
@@ -11527,7 +11531,7 @@ znak.com##.relap
 ||cse3.chausport.com^
 ||csi-tracking.com^$third-party
 ||csi.gstatic.com^
-||csi.gstatic.com^$domain=promiflash.de,empty,important
+||csi.gstatic.com^$domain=promiflash.de,redirect=nooptext,important
 ||csmonitor.com/extension/csm_base/design/csm_design/javascript/omniture/s_code.js
 ||csmonitor.com/extension/csm_base/design/standard/javascript/adobe/s_code.js
 ||csp-collector.appspot.com^
@@ -11939,6 +11943,7 @@ znak.com##.relap
 ||delidatax.net^$third-party
 ||delightdriving.com^$third-party
 ||deliv.lexpress.fr^$third-party
+||deliver.oztam.com.au^
 ||deliver.ptgncdn.com^
 ||delivra.com/tracking/$third-party
 ||dell.com/TAG/tag.aspx?$third-party
@@ -12795,6 +12800,7 @@ znak.com##.relap
 ||exdynsrv.com^$third-party
 ||exe.bid^$third-party
 ||execute-api.*.amazonaws.com/current/events?
+||execution-ci360.rai.it^
 ||exelate.com/pixel?
 ||exelator.com/pixel.gif
 ||exelator.com^$domain=disqus.com
@@ -13623,7 +13629,7 @@ znak.com##.relap
 ||global.canon^*/analytics.js
 ||global.cmcs.service.amazonsilk.com/metrics
 ||global.ssl.fastly.net^$script,domain=wayfair.de
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courierpress.com|desertsun.com|eddiebauer.com|glassesusa.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courierpress.com|desertsun.com|eddiebauer.com|glassesusa.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||global.sueddeutsche.de/globalassets/standalone/szstats/configuration.json
 ||globalapi.ad.xiaomi.com^
 ||globalsiteanalytics.com^$third-party
@@ -13726,7 +13732,7 @@ znak.com##.relap
 ||google-analytics.com/siteopt.js?
 ||google-analytics.com^
 ||google-analytics.com^$domain=avgle.com
-||google-analytics.com^$domain=promiflash.de,empty,important
+||google-analytics.com^$domain=promiflash.de,redirect=nooptext,important
 ||google-analytics.com^*/__utm.gif
 ||google-pagerank.net^$third-party
 ||google-pr7.de^$third-party
@@ -13771,7 +13777,6 @@ znak.com##.relap
 ||googlesyndication.com/safeframe/$third-party
 ||googletagmanager.com/gtag/$third-party
 ||googletagmanager.com/gtag/js$script,other,redirect=googletagmanager-gtm,domain=playphrase.me
-||googletagmanager.com/gtm.js$domain=kabel.canaldigital.no,empty,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=avast.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=beymen.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=chip.com.tr
@@ -13779,6 +13784,7 @@ znak.com##.relap
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=theverge.com,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=yargici.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important,domain=displate.com
+||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=kabel.canaldigital.no,important
 ||googletagmanager.com/gtm.js?$domain=autobild.de|transfermarkt.de
 ||googletagmanager.com/gtm.js?$domain=tvspielfilm.de
 ||googletagmanager.com/gtm.js?$third-party
@@ -14857,7 +14863,7 @@ znak.com##.relap
 ||jquery-cdn.download^$third-party
 ||jroqvbvw.info^$third-party
 ||js-agent.newrelic.com^
-||js-agent.newrelic.com^$domain=chaturbate.com,empty,important
+||js-agent.newrelic.com^$domain=chaturbate.com,redirect=nooptext,important
 ||js-webt-lol.9cache.com/piwik
 ||js.hsadspixel.net^$third-party
 ||js.kuwo.cn/stat/
@@ -19600,6 +19606,7 @@ znak.com##.relap
 ||stat.torrentbar.com^
 ||stat.tvigle.ru^
 ||stat.uitools.space^$third-party
+||stat.ustore.bz^
 ||stat.uuu9.com^
 ||stat.web-regie.com^
 ||stat.webevolutis.com^
@@ -20325,7 +20332,7 @@ znak.com##.relap
 ||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk
 ||tags.tiqcdn.com/utag/*/utag.v.js
-||tags.tiqcdn.com/utag/telenor/telenor.no/prod/utag.*js$domain=kabel.canaldigital.no,empty,important
+||tags.tiqcdn.com/utag/telenor/telenor.no/prod/utag.*js$script,redirect=noopjs,domain=kabel.canaldigital.no,important
 ||tagsd.com/newServing/tracking_id.php^
 ||tagsrvcs.com^$third-party
 ||tagtool.de^$third-party
