@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202008281012
+! Version: 202008281712
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20194
+! Lenth = 20201
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -1622,6 +1622,7 @@ $websocket,domain=5nj.com|cechi8.com
 /main.js?v=*&sp=*&ty=
 /main/s?
 /main_video.js$domain=dilidili.wang
+/matongwu/img/gg_
 /meinv/js/*_banner.js
 /merchant.php$domain=bjmama.com
 /mfad/*
@@ -3276,6 +3277,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||countrygarden.com.cn/ad/
 @@||cpro.baidustatic.com/cpro/ui/$domain=www.pctowap.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
+@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=down.ali213.net
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||create.jd.com/ad/
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
@@ -7009,6 +7011,7 @@ map.baidu.com##.search-item[data-stat-code="poisearch.damoce.item"]
 masok.cn###bottomLayer
 masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
 materialtools.com#@#.ad-center
+matongwu.com.cn##DIV[style="height:90px;clear:both;"]
 maxthon.cn###festival-center-wrapper
 maxthon.cn###festival-fix-bottom
 maxthon.cn###festival-rain-wrapper
@@ -7545,6 +7548,7 @@ qianlima.com###float_mask
 qiannao.com###downTb + div
 qiannao.com###main > div[style="padding-left:20px;margin-top:10px;"]:first-child
 qianzhan.com##div[id^="baidu_ad_"]
+qiaobutang.com##.overlay
 qidian.com###QDCode_float
 qidian.com###app_download_blank_show
 qidian.com###banner-two
@@ -7998,6 +8002,7 @@ so.com###e_idea_pp
 so.com###e_idea_wenda_detail_guess_new
 so.com###e_idea_wenda_leftBox
 so.com###js-mod-fixed-float
+so.com###mohe-360pic_ext--normal
 so.com###mohe-etao_shangye
 so.com###mohe-gouwu > .g-shadow
 so.com###mohe-m-smzdm_haojia
@@ -11297,6 +11302,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/imgextra/i1/3491683832/TB2A4QaisjI8KJjSsppXXXbyVXa_
 ||alicdn.com/kf/*.gif$domain=tzfile.com
 ||alicdn.com/kf/H4fa310799bf04b33803900c0f629094bQ.jpg
+||alicdn.com/kf/H64440f8e4d654f20b5c84e6be2b632b8x.gif
 ||alicdn.com/kf/H8105709d8ee745139cfd5affe30a9d719.jpg
 ||alicdn.com/kf/H9df22b1c3f0041b2874ddfd38836993em.gif
 ||alicdn.com/kf/HTB1pS6Zel1D3KVjSZFy5jbuFpXaO.gif
@@ -15481,6 +15487,7 @@ zznews.cn##.ad:not([style])
 ||kyad88.com^
 ||kyouad.com^
 ||kyxnz.cn^
+||kyyqhpi.cn^
 ||l.qq.com/lview?
 ||l.ykimg.com^
 ||l0l.top^

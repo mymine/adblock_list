@@ -1,5 +1,5 @@
 [uniartisan's Privacy List]
-! Version: 202008281012
+! Version: 202008281712
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
