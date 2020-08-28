@@ -10,6 +10,12 @@ rawdir = os.path.join(os.path.dirname(
 outputdir = os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
+for i in range(0, 3):
+    if isConnected():
+        break
+    elif i == 2:
+        sys.exit('Network Error')
+
 success = False
 while(success == False):
     success = download()

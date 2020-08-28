@@ -2,6 +2,7 @@ import sys
 import os
 import wget
 import time
+import requests
 
 libdir = os.path.join(os.path.dirname(
     os.path.dirname(os.path.realpath(__file__))), 'lib')
@@ -39,3 +40,11 @@ def download():
 
     except Exception as e:
         return 0
+
+
+def isConnected():
+    try:
+        html = requests.get("https://www.baidu.com", timeout=5)
+    except:
+        return False
+    return True
