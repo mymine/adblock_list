@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202008290647
+! Version: 202008300129
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22972
+! Lenth = 22976
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -6211,6 +6211,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||firstdirect.com^*/logging-code.js
 @@||firststatesuper.com.au^*/js/analytics.js$script
 @@||flagshipmerchantservices.com/clickpathmedia.js
+@@||flipboard.com/setcookie?$~third-party
 @@||flippingbook.com^*/static/analytics.js$script,~third-party
 @@||flsenate.gov/Scripts/GoogleAnalytics.js$~third-party
 @@||fmz.com/pkg/fingerprint2.min.js$~third-party,xmlhttprequest
@@ -7563,7 +7564,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ubibanca.com^*/TrackingService.js
 @@||ucoz.net/cgi/uutils.fcg?$script,third-party
 @@||udottraffic.utah.gov/javascripts/Piwik.js
-@@||ue.flipboard.com^$script,~third-party
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
 @@||ugdturner.com/xd.sjs$domain=tbs.com
 @@||uid.mavencoalition.io^$xmlhttprequest,domain=thestreet.com
@@ -9196,6 +9196,7 @@ znak.com##.relap
 ||analytics.valiuz.com^
 ||analytics.vanillaforums.com^
 ||analytics.vendemore.com^
+||analytics.video.meredithcorp.io^
 ||analytics.vodgc.net^$third-party
 ||analytics.volvocars.com^
 ||analytics.vooxe.com^
@@ -10653,7 +10654,6 @@ znak.com##.relap
 ||cheqzone.com^$third-party
 ||cherrythread.com^$third-party
 ||chesterstandard.co.uk/resources/static/standard/texts/js/VisitorAPI.js
-||chicagotribune.com/pb/resources/images/tinygif.gif
 ||chickensaladandads.com^$third-party
 ||chickensstation.com^$third-party
 ||chicoryapp.com/widget_v2/
@@ -10814,6 +10814,7 @@ znak.com##.relap
 ||clicktale.net^$third-party
 ||clicktale.pantherssl.com^
 ||clickthru.lefbc.com^$third-party
+||clicktime.symantec.com^
 ||clicktrack1.com^$third-party
 ||clicktracker.iscan.nl^
 ||clicktracks.com^$third-party
@@ -12792,6 +12793,7 @@ znak.com##.relap
 ||exapxl.de^$third-party
 ||exchangeandmart.co.uk/js/ga.js
 ||excite.com/tr.js
+||excite.ie/?click_in=
 ||excited.me^$third-party
 ||exclusivebrass.com^$third-party
 ||exclusiveclicks.com^$third-party
@@ -16720,6 +16722,7 @@ znak.com##.relap
 ||nova.dice.net^
 ||nova.pub/track.php?
 ||novatech.co.uk^*/tracking?
+||novelcool.com/files/js/yh_tj.js
 ||novell.com^*/metrics.js
 ||novinite.com/tz.php
 ||nowinteract.com^$third-party
@@ -22358,6 +22361,7 @@ znak.com##.relap
 ||webturn.ru^$third-party
 ||webtutoriaux.com/services/compteur-visiteurs/index.php?$third-party
 ||webtv.bundestag.de/iptv/js/youbora^
+||webutation.net/js/load_badge.js
 ||webvisor.com^$third-party
 ||webvisor.ru^$third-party
 ||webvoo.com/wt/Track.aspx
