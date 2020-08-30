@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202008300129
+! Version: 202008310128
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22976
+! Lenth = 22983
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1063,6 +1063,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analytics-assets/*
 /analytics-beacon-
 /analytics-cdn.
+/analytics-collector
 /analytics-core-bundle-
 /analytics-corp.js
 /analytics-dotcom/*
@@ -10266,6 +10267,7 @@ znak.com##.relap
 ||browser-statistik.de^$third-party
 ||browser-update.org^$third-party
 ||browser-updater.yandex.net^
+||browser.sentry-cdn.com^
 ||browsermine.com^$third-party
 ||browserpusher.com^$third-party
 ||browserscope.org/user/beacon/
@@ -13896,6 +13898,7 @@ znak.com##.relap
 ||guanoo.net^$third-party
 ||guardedgovernor.com^$third-party
 ||guardian-series-gb.guardian-series.co.uk^
+||guardianapps.co.uk/geolocation
 ||guardwork.info^$third-party
 ||gubagoo.com/modules/tracking/
 ||gubagoo.io/track/
@@ -16149,6 +16152,7 @@ znak.com##.relap
 ||mms.splinternews.com^
 ||mms.syracuse.com^
 ||mms.theroot.com^
+||mms.wwe.com^
 ||mmstat.com^$image,ping
 ||mmstat.com^$third-party
 ||mmtro.com^$third-party
@@ -17688,6 +17692,8 @@ znak.com##.relap
 ||prisjakt.nu/js.php?p=trafikfonden
 ||prism.app-us1.com^$script,third-party
 ||prism.pandora.tv^
+||privacy-center.org^$third-party
+||privacy-mgmt.com^$third-party
 ||privacy-policy.truste.com^$third-party
 ||privacy.www.nu.nl/pixel^
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
@@ -20446,6 +20452,7 @@ znak.com##.relap
 ||teepublic.com/binfgkxpxaizujgk.js
 ||telegraaf.tcdn.nl/javascript/analyticsfunctions
 ||telegraph.api.hbo.com^
+||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||telegraph.co.uk^*/tmglmultitrackselector.js
 ||telemetric.dk^$third-party
 ||telemetry.allrecipes.com^
