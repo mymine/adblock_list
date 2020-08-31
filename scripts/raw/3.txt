@@ -1,8 +1,8 @@
-! Checksum: i06urJMsB7Pyw5EeRa6quQ
+! Checksum: 5myYHUF8Kaa2LNSq757NPA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.16.66
-! TimeUpdated: 2020-08-28T20:31:26+03:00
+! Version: 2.0.16.68
+! TimeUpdated: 2020-08-31T16:31:34+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5305,6 +5305,9 @@ charlestownwyllie.oaklawnnonantum.com^
 !-------------- General (unsorted) url blocking --------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! webtrekk
+/wt?p=
+!
 ! Popular on Japanese sites
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58587#issuecomment-656098019
 ! Sample URL: ||js.passaro-de-fogo.biz/t/113/750/a1113750.js
@@ -7914,6 +7917,7 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/62521
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62277
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62436
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62271

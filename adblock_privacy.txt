@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202008310128
+! Version: 202009010126
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22983
+! Lenth = 22990
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -788,7 +788,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/.*www\.bhphotovideo\.com\/[a-z0-9]{19,}\.js/$script,xmlhttprequest
 /^https?:\/\/.*www\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\.js/$script,xmlhttprequest
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js
-/^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
+/^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|vipr.ebaydesc.com
 /^https?:\/\/js\.[-.0-9a-z]+\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{7}\.js$/$script,third-party
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
@@ -4211,6 +4211,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /smartserve-
 /smarttag-prod.
 /smarttag-prod.js
+/smarttag.*js
 /smarttag.js
 /smarttag.js$domain=faz.net|heute.de|zdf.de|zdfinfo.de|zdfkultur.de|zdfneo.de|zdfsport.de
 /smarttag/smarttag-
@@ -5934,6 +5935,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.petametrics.com/*.js$domain=ranker.com
 @@||cdn.petametrics.com^$domain=techgenix.com
 @@||cdn.petametrics.com^$domain=telegraph.co.uk
+@@||cdn.privacy-mgmt.com^$subdocument,xmlhttprequest,domain=spiegel.de|welt.de
 @@||cdn.relap.io^$image,domain=briefly.ru|kulturologia.ru
 @@||cdn.relap.io^$image,domain=zr.ru
 @@||cdn.scarabresearch.com/js/*/scarab-v*.js$domain=avansas.com
@@ -7210,8 +7212,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||push2check.com/stats.php
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
-@@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=independent.co.uk
+@@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
@@ -7327,6 +7329,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||scorecardresearch.com/r2?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
 @@||scorecardresearch.com/r?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|macworld.com|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
 @@||scorecardresearch.com^$third-party,domain=nissan.ru
+@@||screen9.com/players/*/amber-google-analytics.esm.js$script,domain=api.screen9.com
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
 @@||scripts.demandmedia.com/wm.js$domain=ehow.com
 @@||se.visilabs.net/Target.js$domain=boyner.com.tr
@@ -7388,6 +7391,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||som.aeroplan.com/b/ss/$image
 @@||songza.com/static/*/songza/systems/$script
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
+@@||sp-prod.net/wrapperMessagingWithoutDetection.js$script,domain=welt.de
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||speakout7eleven.ca^*/Magento_GoogleTagManager/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script
@@ -13354,6 +13358,7 @@ znak.com##.relap
 ||g2insights-cdn.azureedge.net^
 ||g3169349360.co^$third-party
 ||g3367433695.co^$third-party
+||g3565518030.co^$third-party
 ||g4p.redtram.com^
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
@@ -17600,6 +17605,7 @@ znak.com##.relap
 ||popt.in^$third-party
 ||poptropica.com/brain/track.php?
 ||populr.me^$third-party
+||popup.laybuy.com^$subdocument,third-party
 ||popupmaker.com^$third-party
 ||porndoo.com/lib/ajax/track.php
 ||porneq.com/lib/ajax/track.php
@@ -17693,7 +17699,7 @@ znak.com##.relap
 ||prism.app-us1.com^$script,third-party
 ||prism.pandora.tv^
 ||privacy-center.org^$third-party
-||privacy-mgmt.com^$third-party
+||privacy-mgmt.com^$script,third-party
 ||privacy-policy.truste.com^$third-party
 ||privacy.www.nu.nl/pixel^
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
@@ -18264,6 +18270,7 @@ znak.com##.relap
 ||reporting.theonion.com^
 ||reports.pagesuite-professional.co.uk^
 ||reprocautious.com^$third-party
+||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||request.issuu.com^
 ||res-x.com^$third-party
 ||res.rbl.ms^
