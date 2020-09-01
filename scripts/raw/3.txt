@@ -1,8 +1,8 @@
-! Checksum: 5myYHUF8Kaa2LNSq757NPA
+! Checksum: 5Zy2LvVLICFOK8B90kzrIw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.16.68
-! TimeUpdated: 2020-08-31T16:31:34+03:00
+! Version: 2.0.16.71
+! TimeUpdated: 2020-09-01T02:31:29+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -194,6 +194,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||untidyrice.com^$third-party
 ||pbstck.com^$third-party
 ||gateway.answerscloud.com^$third-party
+||k50.ru^$third-party
 ||poorlydig.com^$third-party
 ||snowdayonline.xyz^$third-party
 ||log.hitsteps.com^$third-party
@@ -3777,6 +3778,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||analytics.zeekit.co^
 ||track.lexico.com^
 ||stat.ustore.bz^
 ||c0.adalyser.com^
@@ -5808,7 +5810,6 @@ beauty.ua##.footer-counters
 ctvnews.ca##img[alt="comscorebeacon"]
 ||s.pixfs.net/visitor.pixplug.in/
 ||siteoid.com/matomo/matomo.js
-jQA0lQV6Uh93m3ldI29eI2guUFOdHFg5mPuslh5sk20eH$domain=9to5google.com|9to5mac.com|9to5toys.com|electrek.co
 ||s.aimg.sk/livemonitor/js/aztracker.js
 ||vidazoo.com/aggregate?
 ||vidazoo.com/event/
@@ -7919,6 +7920,10 @@ link.gmapp*.net$image
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62521
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62277
+! https://github.com/AdguardTeam/AdguardFilters/issues/62085
+@@||googletagmanager.com/gtm.js$domain=pult.ru
+@@||google-analytics.com/analytics.js$domain=pult.ru
+@@||google-analytics.com/plugins/ua/ec.js$domain=pult.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62436
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62271
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59888

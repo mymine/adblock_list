@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202009010126
+! Version: 202009020129
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18362
+! Lenth = 18368
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3126,7 +3126,7 @@ dianping.com##.layer-container[data-view-bid="b_njcmobox"]
 dianping.com##.votelist + .aside-box
 dianping.com##.weixin1
 diantai.ifeng.com#@#.ad-b
-diaoge.cn#@#.social-top
+diaoge.cn,iqshv.com,wc1234.cn,ygodl.com#@#.social-top
 dict.baidu.com##.tran-download-ad
 dict.cn###tjcd
 dict.cn##.search-right-ad5
@@ -4563,7 +4563,6 @@ iqiyi.com##li[data-flag="shop"]
 iqiyi.com##li[id^="100000"]
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 iqshv.com#?#.post-list-item:-abp-has(.thumb-link[href^="http"]:not([href*=".iqshv."]))
-iqshv.com,wc1234.cn,ygodl.com#@#.social-top
 iqshw.com##.iqshwad-comm
 ishangman.com#@#.bottom_ad
 ishowx.com##.ad1160
@@ -10031,6 +10030,7 @@ zznews.cn##.ad:not([style])
 ||bibi91.com^
 ||biddingx.com^$third-party
 ||bidvertiser.com^$third-party
+||bigcooc.xyz^
 ||bigcood.xyz^
 ||bigear.cn/cache/htmlcache/
 ||bihutg.com^
@@ -10062,6 +10062,7 @@ zznews.cn##.ad:not([style])
 ||biquge.tw/xtws/true.js
 ||biquge22.com^$third-party
 ||biqugeso.com^*html$script
+||biqugexx.com/static/js/wap.js
 ||biqutxt.com/skin/scripts/97.js
 ||birdmedia.com^$third-party
 ||bishufang.cn^
@@ -10676,6 +10677,7 @@ zznews.cn##.ad:not([style])
 ||cnhbxx.com^
 ||cniuv.com^
 ||cnjxol.com/images/20191031.png
+||cnjxol.com/jxrbPaper/pc/static/js/scroll.js
 ||cnkang.com/showcodejsonp?
 ||cnkok.com^
 ||cnlg.cn/attached/script/
@@ -13498,6 +13500,7 @@ zznews.cn##.ad:not([style])
 ||kekenet.com^*/zhike
 ||kele4.com^
 ||keplev.cn^
+||keran.hl.cn^
 ||ketaoke.com^
 ||kewaishu.org/m-
 ||kexigia.com^
@@ -13898,6 +13901,7 @@ zznews.cn##.ad:not([style])
 ||loli.net/2020/07/13/b1gRsV4OutfYhvp.gif
 ||loli.net/2020/07/25/pRqtQvjgE74SzaW.gif
 ||loli.net/2020/08/05/6orxItEVzlTjKam.png
+||loli.net/2020/08/31/j6NV3wFeIxCtnBX.gif
 ||loli.net^$domain=1090ys1.com|520film.net|52pili.com|acglover.me|beiwodi.com|btdp.online|f6hx.site|hdsky.me|magnet2048.com|nulltm.com|xydai.cn|youtaoqi.com
 ||lolmp4.com/template/lolmp4/images/jquery.
 ||lolmp4.com^$third-party
@@ -16630,6 +16634,7 @@ zznews.cn##.ad:not([style])
 ||ultraimg.com^$domain=18board.com|18p2p.com
 ||um29.com^$third-party
 ||umbbs.cn^
+||umetgle.cn^
 ||umjsik.com^
 ||umm6.cn^
 ||umrrcta.cn^
@@ -18110,6 +18115,7 @@ zznews.cn##.ad:not([style])
 ||zhiys.com/img_new/mobilemo2.jpg
 ||zhizones.com^
 ||zhjfad.com^
+||zhmatou.com^
 ||zhongchengzp.com^
 ||zhongdoulicai.com^
 ||zhongfujiaoyu.cn^

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CeeQWH9NCaG9Egsh0B19fw
-! Version: 202008311620
+! Checksum: 8ss+0Qj9i7rU9VX+qtw2kA
+! Version: 202009011621
 ! Title: EasyList
-! Last modified: 31 Aug 2020 16:20 UTC
+! Last modified: 01 Sep 2020 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -648,7 +648,6 @@
 .com/iplgadshow
 .com/js.ng/
 .com/js/ad.$~script
-.com/js/ads/
 .com/js/adsense
 .com/miads/
 .com/ntfc.php?$script
@@ -3290,7 +3289,7 @@
 /adtechHeader.
 /adtechscript.
 /adTemplates/*
-/adtest.
+/adtest.$domain=~adtest.adsystem.pl
 /adtest/*
 /adtext.
 /adtext2.
@@ -4560,7 +4559,6 @@
 /displayads3.
 /displayadsiframe.
 /displaybanner/*
-/dist/ads.
 /div-ads.
 /divad/*
 /dlfeatads.
@@ -5086,7 +5084,6 @@
 /GujAd/*
 /gutterAd.
 /gutterspacead.
-/hads-
 /halfadvert/*
 /Handlers/Ads.
 /hcm_ads/*
@@ -5424,8 +5421,6 @@
 /js.ng/size=
 /js/ads-$~script
 /js/ads_
-/js/adv.
-/js/adv/*
 /js/adverts-
 /js/adz.
 /js/dfp-
@@ -14277,6 +14272,7 @@ _popunder+$popup
 ###dnn_sponsoredLinks
 ###docmainad
 ###dogear_promo
+###dotnAd-988x90-custom
 ###dotnAd_300x250_c20
 ###double-card-ad
 ###double-inline-ads
@@ -19052,6 +19048,7 @@ _popunder+$popup
 ##.ad-top2
 ##.ad-topbanner
 ##.ad-topleader
+##.ad-topper
 ##.ad-topright
 ##.ad-total
 ##.ad-total1
@@ -24449,6 +24446,7 @@ _popunder+$popup
 ##.footer-ad-labeling
 ##.footer-ad-section
 ##.footer-ad-squares
+##.footer-ad-unit
 ##.footer-ad1
 ##.footer-ads
 ##.footer-ads-wrapper
@@ -29844,6 +29842,7 @@ _popunder+$popup
 ##a[href^="https://aweptjmp.com/"]
 ##a[href^="https://axdsz.pro/"]
 ##a[href^="https://badoinkvr.com/"]
+##a[href^="https://bestcond1tions.com/"]
 ##a[href^="https://betway.com/"][href*="&a="]
 ##a[href^="https://blackorange.go2cloud.org/"]
 ##a[href^="https://bnsjb1ab1e.com/"]
@@ -29880,6 +29879,7 @@ _popunder+$popup
 ##a[href^="https://giftsale.co.uk/?utm_"]
 ##a[href^="https://go.ad2up.com/"]
 ##a[href^="https://go.cmrdr.com/"]
+##a[href^="https://go.gldrdr.com/"]
 ##a[href^="https://go.hpyrdr.com/"]
 ##a[href^="https://go.onclasrv.com/"]
 ##a[href^="https://go.stripchat.com/"][href*="&campaignId="]
@@ -29901,6 +29901,7 @@ _popunder+$popup
 ##a[href^="https://land.brazzersnetwork.com/landing/"]
 ##a[href^="https://land.rk.com/landing/"]
 ##a[href^="https://landing.brazzersnetwork.com/"]
+##a[href^="https://landing.brazzersplus.com/"]
 ##a[href^="https://landing1.brazzersnetwork.com"]
 ##a[href^="https://m.do.co/c/"] > img
 ##a[href^="https://mcdlks.com/"]
@@ -30101,6 +30102,7 @@ _popunder+$popup
 ##div[id^="lazyad-"]
 ##div[id^="proadszone-"]
 ##div[id^="q1-adset-"]
+##div[id^="rc-widget-"]
 ##div[id^="sticky_ad_"]
 ##div[id^="tms-ad-dfp-"]
 ##div[id^="traffective-ad-"]
@@ -31317,6 +31319,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||9ksj.xyz^
 ||9t5.me^
 ||a0e5b16728.com^
+||a0f3ad8585.com^
 ||a3yqjsrczwwp.com^
 ||a40hd1mh5deq.com^
 ||a4mt150303tl.com^
@@ -31477,6 +31480,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||aptashant.club^
 ||aranlucas.pro^
 ||arbingfifted.club^
+||ardingage.club^
 ||areantaid.site^
 ||areapebeg.club^
 ||areasons.club^
@@ -31631,6 +31635,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bhcf764sf8pg.com^
 ||bher64eljhjx.com^
 ||bidiology.com^
+||bilkscotpyx.com^
 ||billionpops.com^
 ||binetsrealing.club^
 ||binsatbee.club^
@@ -31958,6 +31963,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||delainlygoverhe.info^
 ||demand.bidgear.com^
 ||demannewcure.site^
+||denaviatived.space^
 ||denmaccatory.club^
 ||denmarried.club^
 ||denotatorum.site^
@@ -32145,6 +32151,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||englingedrxa.club^
 ||engppdoqrtivjd.com^
 ||engrievinebef.fun^
+||enkayijamal.club^
 ||enormitteen.pro^
 ||enoughouti.club^
 ||enoxidewo.fun^
@@ -32399,6 +32406,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gievalonjing.club^
 ||gigbyefly.com^
 ||girlend.com^
+||giscoeswork.space^
 ||gitoku.com^
 ||givestment.club^
 ||givirsou.net^
@@ -32425,6 +32433,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gobovoul.net^
 ||gongeeta.net^
 ||goredi.com^
+||gorettent.xyz^
 ||gormancarry.pro^
 ||goshooph.com^
 ||goslavispro.info^
@@ -32977,6 +32986,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ncylegiatede.info^
 ||ndardsferv.club^
 ||ndardsgreatm.fun^
+||ndenlende.club^
 ||ndersotherei.site^
 ||ndlegwynetc.fun^
 ||ndonsenatio.club^
@@ -33122,6 +33132,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||olmsoneenh.info^
 ||oloniansyello.site^
 ||omchanseyr.com^
+||omfortsex.club^
 ||ommodatesjoin.info^
 ||omoaxaus.net^
 ||onalentressionw.info^
@@ -33141,6 +33152,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||onstunkyr.com^
 ||onwaysebuj.site^
 ||onysociate.club^
+||ookedapp.club^
 ||ooxoatse.com^
 ||opgolan.com^
 ||ophoahik.net^
@@ -33327,6 +33339,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||prepairoo.club^
 ||preparedjuxtapose.com^
 ||presearchity.site^
+||presentsh.club^
 ||presticikju.club^
 ||prevealhealth.info^
 ||previsibilisais.website^
@@ -34146,6 +34159,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||whenedkom.club^
 ||whethere.club^
 ||whetherecyclo.fun^
+||whicherinc.club^
 ||whitective.club^
 ||whittlecdn.xyz^
 ||whoshood.com^
@@ -34261,6 +34275,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zexastize.pro^
 ||zi8ivy4b0c7l.com^
 ||zinfluentlyw.club^
+||zlinkm.com^
 ||zoaheeth.com^
 ||zonieviejos.pro^
 ||zooahm2fx2v1.com^
@@ -35827,7 +35842,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||commissionmonster.com^$third-party
 ||commodationship.info^$third-party
 ||comscore.com^$third-party
-||concert.io^$third-party
 ||conderedtoget.info^$third-party
 ||conduit-banners.com^$third-party
 ||conduit-services.com^$third-party
@@ -50220,6 +50234,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d18mealirgdbbz.cloudfront.net^
 ||d1bxkgbbc428vi.cloudfront.net^
 ||d1diqetif5itzx.cloudfront.net^
+||d1e28xq8vu3baf.cloudfront.net^
 ||d1ilwohzbe4ao6.cloudfront.net^
 ||d1jnvfp2m6fzvq.cloudfront.net^
 ||d1ks8roequxbwa.cloudfront.net^
@@ -60783,6 +60798,7 @@ rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgpro
 horoscope.com##tr[valign="top"][height="250"]
 tumblr.com#?#._1DxdS:-abp-has( > div > header[role="banner"])
 twitter.com#?#div[data-testid="UserCell"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|プロモーション/)
+twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|sponsorluğunda|Mainostettu|推廣|推广/)
 twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|推薦|推荐|プロモーション/))
 twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|sponsorluğunda|Mainostettu|推廣|推广/)
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted Tweet|Gesponserter Tweet|推廣推文|推广推文/)

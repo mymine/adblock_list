@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009010126
+! Version: 202009020129
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22990
+! Lenth = 22985
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1851,6 +1851,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /common/tracking/webtrekk
 /compact_miner?
 /competeTracking_test.html?
+/compile/AppMeasurement.
 /comscore-min.js
 /comscore.
 /comscore/pageview_
@@ -4356,6 +4357,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /stats-amp.
 /stats-dc1.
 /stats-js.cgi?
+/stats-listener.js
 /stats-tracking.js
 /stats.*/hits/*
 /stats.*/tracker.
@@ -6384,6 +6386,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/analytics.js$domain=polygon.com
 @@||google-analytics.com/analytics.js$domain=prego.ua
 @@||google-analytics.com/analytics.js$domain=puhutv.com
+@@||google-analytics.com/analytics.js$domain=pult.ru
 @@||google-analytics.com/analytics.js$domain=raspberrypi.org
 @@||google-analytics.com/analytics.js$domain=reuters.com
 @@||google-analytics.com/analytics.js$domain=rewasd.com
@@ -6465,6 +6468,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/plugins/ua/ec.js$domain=mediamarkt.com.tr
 @@||google-analytics.com/plugins/ua/ec.js$domain=mediamarkt.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=mediamarkt.nl
+@@||google-analytics.com/plugins/ua/ec.js$domain=pult.ru
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=shop.kyivstar.ua
@@ -6489,10 +6493,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
 @@||google-analytics.com/urchin.js$domain=web-cache.chocomaru.com
 @@||google-analytics.com^$domain=daemon-tools.cc
-@@||google.*/analytics/css/$~third-party
-@@||google.*/analytics/js/$~third-party
 @@||google.*/edu/cs/$genericblock
 @@||google.*/mapmaker/gen_204?$subdocument,xmlhttprequest
+@@||google.com/analytics/$domain=analytics.google.com
 @@||google.com/js/gweb/analytics/$domain=google.com
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
@@ -6593,6 +6596,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=programme-tv.net
 @@||googletagmanager.com/gtm.js$domain=prostoprosport.ru
 @@||googletagmanager.com/gtm.js$domain=puhutv.com
+@@||googletagmanager.com/gtm.js$domain=pult.ru
 @@||googletagmanager.com/gtm.js$domain=qt.io
 @@||googletagmanager.com/gtm.js$domain=radiorur.de
 @@||googletagmanager.com/gtm.js$domain=realestate.co.nz
@@ -7914,7 +7918,6 @@ infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 infusionsoft.com/app/emailOpened$image
 intercom-mail-100.com/o$image
 ixbt.com##.block__recommend
-jQA0lQV6Uh93m3ldI29eI2guUFOdHFg5mPuslh5sk20eH$domain=9to5google.com|9to5mac.com|9to5toys.com|electrek.co
 jaiefra.com###Stats10_content
 journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Счетчик)"]
 kanobu.ru##a[href^="https://www.liveinternet.ru/click"]
@@ -9218,6 +9221,7 @@ znak.com##.relap
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
 ||analytics.yomedia.vn^
+||analytics.zeekit.co^
 ||analytics.zg-api.com^
 ||analytics.zhihu.com^
 ||analytics.ziftsolutions.com^
@@ -12880,26 +12884,17 @@ znak.com##.relap
 ||fabricww.com^$third-party
 ||facebook.com*/impression.php
 ||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
-||facebook.com/*/plugins/send_to_messenger.php?app_id=$third-party
 ||facebook.com/ai.php?
 ||facebook.com/ajax/*/log.php
 ||facebook.com/ajax/*logging.
-||facebook.com/ajax/bz$ping,xmlhttprequest
-||facebook.com/audience_network/$image
+||facebook.com/ajax/bz
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
-||facebook.com/common/scribe_endpoint.php
 ||facebook.com/common/scribe_endpoint.php$domain=transfermarkt.de
 ||facebook.com/ct.php
-||facebook.com/email_open_log_pic.php
-||facebook.com/fr/u.php?
 ||facebook.com/impression.php
-||facebook.com/js/conversions/tracking.js
-||facebook.com/method/links.getStats?$third-party
-||facebook.com/offsite_event.php$third-party
-||facebook.com/rtb_impression/?
+||facebook.com/method/links.getstats?
 ||facebook.com/rtb_impression/?tr=
-||facebook.com/rtb_video/?
 ||facebook.com/search/web/instrumentation.php?
 ||facebook.com/sem_pixel^
 ||facebook.com/tr$third-party
@@ -12912,8 +12907,6 @@ znak.com##.relap
 ||facebook.com/xti.php?
 ||facebook.com^*/impression_logging/
 ||facebook.com^*/logging/
-||facebook.com^*/placementbid.json$third-party
-||facebook.com^*/tracking.js$third-party
 ||facil-iti.com^$third-party
 ||factortg.com^$third-party
 ||fadedsnow.com^$third-party
@@ -14939,6 +14932,7 @@ znak.com##.relap
 ||k.rueducommerce.fr^
 ||k.streamrail.com^
 ||k3node.com^$third-party
+||k50.ru^$third-party
 ||k7-labelgroup.com/g.html?uid=$image
 ||kaizenplatform.net^$third-party
 ||kalstats.kaltura.com^
@@ -17338,6 +17332,7 @@ znak.com##.relap
 ||pi-stats.com^$third-party
 ||pi.a42.ru
 ||pi.feedsportal.com^
+||pi.ispot.tv^
 ||pi.pardot.com/analytics
 ||pi.technik3d.com^
 ||pia.jp/akam/$script
