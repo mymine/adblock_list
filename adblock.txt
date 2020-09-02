@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202009020129
+! Version: 202009030130
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20233
+! Lenth = 20239
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -3351,6 +3351,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ez3c.tw/js/adblockDetector.js
 @@||ez3c.tw^$generichide
 @@||fang.com/stats/clickm2011.js
+@@||fangcloud.com^$generichide
 @@||fharr.com^$generichide
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
 @@||fltaradio.com/js/ads.js
@@ -3776,6 +3777,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||weibo.com/share/share.php$generichide
 @@||weithenn.org^$generichide
 @@||wenxuecity.com/include/editor/*/media/ad/
+@@||wenxuecity.com^$generichide
 @@||wgun.net^$elemhide
 @@||wholehk.com^$generichide
 @@||wl.jd.com/joya.js
@@ -5112,6 +5114,7 @@ douyu.com##.video-info-download
 douyu.com##a[href*=".miaozhen.com"]
 douyu.com##a[href*=".youzan.com"]
 douyu.com##div[id^="sign_p_"]
+douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 down.ali213.net,patch.ali213.net##.picBg
 downbank.cn##.speed-downlist
 downbank.cn,greenxf.com###speed-download
@@ -9408,6 +9411,7 @@ zznews.cn##.ad:not([style])
 ||025yimei.com/templets/default/js/swt.js
 ||027cgb.com^*.gif
 ||02wq.com/script/
+||02wq.com/script1/
 ||02wq.com/scrtips/
 ||0302woeuxcbrnxcvsdfghu.xyz^
 ||0309fuweopermncvbnazdf.xyz^
@@ -12953,6 +12957,7 @@ zznews.cn##.ad:not([style])
 ||di9qu.com.cn^
 ||dian500.com^$third-party
 ||dian5000.com^$third-party
+||diangezan.me^
 ||dianjinghu.com/static/frontend/images/lol/penpen
 ||dianping.com/hippo.gif?
 ||dianping.com/mkt/ajax/getNewItems
@@ -18599,6 +18604,7 @@ zznews.cn##.ad:not([style])
 ||vchim.com^
 ||vcuor.com^
 ||vdazz.net^
+||vdcfes.cn^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/img/zfbhb.png
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/

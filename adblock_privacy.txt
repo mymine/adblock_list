@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009020129
+! Version: 202009030130
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22985
+! Lenth = 22993
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -267,7 +267,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .de/pt.gif?type=
 .de/z.gif?
 .demandbase.*.js
-.demdex.net/id^$empty,important
+.demdex.net/id^$redirect=nooptext,important
 .do_tracking&
 .drive-analytics.
 .eloqua.js
@@ -788,7 +788,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/.*www\.bhphotovideo\.com\/[a-z0-9]{19,}\.js/$script,xmlhttprequest
 /^https?:\/\/.*www\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\.js/$script,xmlhttprequest
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js
-/^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|vipr.ebaydesc.com
+/^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
 /^https?:\/\/js\.[-.0-9a-z]+\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{7}\.js$/$script,third-party
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
@@ -2428,6 +2428,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /gaFunction?
 /gaStatistics.js
 /gaTags.js
+/gaTracker.
 /ga_anonym.js
 /ga_cookie_
 /ga_dpc_youtube.
@@ -3831,6 +3832,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pv?fe=*&elg=
 /pv?place=
 /pv?token=
+/pv?u=$image
 /pv_count.
 /pv_web.gif
 /pvcount.
@@ -5855,6 +5857,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||britishtelecom.112.2o7.net^$domain=bt.com
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
 @@||broadcastt.xyz/apps/$websocket
+@@||browser.sentry-cdn.com^$domain=washingtonpost.com
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
 @@||btstatic.com/tag.js$domain=oralb.de
@@ -6647,7 +6650,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=book.impress.co.jp|sankei.com
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
-@@||googletagmanager.com/gtm.js$script,domain=olx.ua
 @@||googletagmanager.com/gtm.js$script,domain=sciencesetavenir.fr
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
@@ -7681,6 +7683,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ws.skoda-auto.com/sap/*_piwik/Piwik.js
 @@||ws.webcaster.pro^$websocket
 @@||wwe.com/sites/all/modules/wwe/wwe_analytics/s_wwe_code.js
+@@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
 @@||x5.xclicks.net/js/x3165.js$domain=small-breasted-teens.com
 @@||xcweather.co.uk/*/geo.php?
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
@@ -8461,7 +8464,7 @@ znak.com##.relap
 ||adc-srv.net/retargeting.php
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
-||adc.nine.com.au/?token=$empty,important,domain=9now.com.au
+||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au^
 ||adc.xxxlshop.de^$third-party
 ||adc.xxxlutz.de^$third-party
@@ -8629,6 +8632,7 @@ znak.com##.relap
 ||aeros08.tk^$third-party
 ||aevents.izooto.com^
 ||af-z.jp^$third-party
+||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
 ||afairweb.com^$third-party
 ||afd.baidu.com^
 ||aff*.kolektiva.net^
@@ -8775,6 +8779,7 @@ znak.com##.relap
 ||alexacdn.com^$third-party
 ||alexametrics.com^$third-party
 ||alexandria.marfeelcdn.com^
+||alfemminile.com/logpix.php
 ||algopine.com^$third-party
 ||aliasdmc.fr/js/general_sts.js
 ||alibaba.com/js/beacon_
@@ -9282,6 +9287,7 @@ znak.com##.relap
 ||antiblock.info^$third-party
 ||antivirus-alarm.ru/proverka$third-party
 ||antvoice.com^$third-party
+||anura.io^$third-party
 ||anvato.com/anvatoloader.swf?analytics=
 ||anxiousapples.com^$third-party
 ||any.gs/track/
@@ -9446,8 +9452,8 @@ znak.com##.relap
 ||appspot.com/stats?
 ||appspot.com/tracking/
 ||appsupport.qq.com/cgi-bin/appstage/mstats_batch_report
-||apptentive.com^$empty
-||apptimize.com^$empty
+||apptentive.com^$redirect=nooptext
+||apptimize.com^$redirect=nooptext
 ||aprtn.com^$third-party
 ||aprtx.com^$third-party
 ||apsis1.com^$third-party
@@ -9496,7 +9502,7 @@ znak.com##.relap
 ||arte.tv/includes/xiti/
 ||arte.tv^*=countstats,
 ||artefact.is^$third-party
-||artfut.com^$empty,important
+||artfut.com^$redirect=nooptext,important
 ||artfut.com^$third-party
 ||articles2.marketrealist.com/aptrk^
 ||arturtrack.com^$third-party
@@ -10395,7 +10401,7 @@ znak.com##.relap
 ||c.ypcdn.com^*?ptid
 ||c0.adalyser.com^
 ||c0.froala.com/i?
-||c00.adobe.com^$empty
+||c00.adobe.com^$redirect=nooptext
 ||c0011.boursorama.com^
 ||c1exchange.com^$third-party
 ||c1hit.tut.by^
@@ -11058,7 +11064,7 @@ znak.com##.relap
 ||coll1onf.com^$third-party
 ||collarity.com/ucs/tracker.js
 ||collarity.com^$third-party
-||collect-elb-*.amazonaws.com^$empty
+||collect-elb-*.amazonaws.com^$redirect=nooptext
 ||collect-test.arabam.com^
 ||collect.*.miui.com^
 ||collect.adback.co^
@@ -11840,7 +11846,7 @@ znak.com##.relap
 ||data.minute.ly^
 ||data.mistat.*.xiaomi.com^
 ||data.mistat.xiaomi.com^
-||data.mob.com^$empty
+||data.mob.com^$redirect=nooptext
 ||data.ninemsn.com.au/*GetAdCalls
 ||data.queryly.com^
 ||data.reactandshare.com/track.gif
@@ -11865,7 +11871,7 @@ znak.com##.relap
 ||datafront.co^$third-party
 ||datam.com^$third-party
 ||datamaster.com.cn^$third-party
-||datametrical.com^$empty
+||datametrical.com^$redirect=nooptext
 ||datamind.ru^$third-party
 ||dataperforma.com^$third-party
 ||datarating.com^$third-party
@@ -11998,9 +12004,9 @@ znak.com##.relap
 ||devatics.com^$third-party
 ||devatics.io^$third-party
 ||developpez.com/public/js/track.js
-||device-analytics.rollout.io^$empty
+||device-analytics.rollout.io^$redirect=nooptext
 ||device-metrics-*.amazon.com^
-||device-metrics-us*.amazon.com^$empty
+||device-metrics-us*.amazon.com^$redirect=nooptext
 ||device9.com^$third-party
 ||devphp.org.ua^$third-party
 ||devtribu.fr/t.php?
@@ -12212,7 +12218,7 @@ znak.com##.relap
 ||dp1fzft1fdb84.cloudfront.net^
 ||dpbolvw.net^$third-party
 ||dpm.bluray-disc.de^
-||dpm.demdex.net/id$empty,important,domain=bt.com|nhl.com|business.hsbc.uk
+||dpm.demdex.net/id$redirect=nooptext,important,domain=bt.com|nhl.com|business.hsbc.uk
 ||dpool.sina.com.cn/iplookup/iplookup.php
 ||dps-reach.com^$third-party
 ||dq95d35.com^$third-party
@@ -13559,6 +13565,7 @@ znak.com##.relap
 ||getsitecontrol.com/api/*/stat?
 ||getsmartcontent.com^$third-party
 ||getsmartlook.com^$third-party
+||getstat.net^$third-party
 ||getstatistics.se^$third-party
 ||getsupernova.com^$third-party
 ||gez.io^$third-party
@@ -14207,7 +14214,7 @@ znak.com##.relap
 ||hs-scripts.com^$third-party
 ||hs.fi/stats
 ||hsadspixel.net^$third-party
-||hsbcglobalcmb.sc.omtrdc.net/id?$empty,important,domain=business.hsbc.uk
+||hsbcglobalcmb.sc.omtrdc.net/id?$redirect=nooptext,important,domain=business.hsbc.uk
 ||hscta.net^$third-party
 ||hsdn.org^$third-party
 ||hsforms.com^*/counters.gif
@@ -15360,6 +15367,7 @@ znak.com##.relap
 ||livewebstats.dk^$third-party
 ||livinglanguage.com/content/_ui/js/View.Analytics.Controller.min.js
 ||livinglanguage.com/js/View.Analytics.
+||livingtraditionally.com/wp-content/cache/busting/1/gtm-*.js
 ||lizardslaugh.com^$third-party
 ||lk.vectoranalytics.ru^$third-party
 ||lloogg.com^$third-party
@@ -15368,7 +15376,6 @@ znak.com##.relap
 ||lmcdn.ru^*/statistics.js
 ||lmiutil.com^$third-party
 ||lmodr.biz^$third-party
-||lmyiwaakn.com^$third-party
 ||ln-cc.com/*/internal/jscript/dwanalytics-*.js
 ||ln.ameba.jp^
 ||lndata.com^$third-party
@@ -15421,7 +15428,7 @@ znak.com##.relap
 ||log.idnes.cz^
 ||log.invodo.com^
 ||log.invodo.com^$third-party
-||log.iyunmai.com^$empty
+||log.iyunmai.com^$redirect=nooptext
 ||log.kibboko.com^
 ||log.krs-ix.ru^
 ||log.kukuplay.com^$third-party
@@ -15988,7 +15995,7 @@ znak.com##.relap
 ||metrics.foxnews.com^
 ||metrics.infranken.de^
 ||metrics.macys.net^
-||metrics.mzstatic.com^$empty
+||metrics.mzstatic.com^$redirect=nooptext
 ||metrics.n-tv.de^
 ||metrics.pacsun.com^$third-party
 ||metrics.readme.io^
@@ -16501,7 +16508,7 @@ znak.com##.relap
 ||ncsoft.com/tracker.js
 ||nctrk.abmail.com.br^
 ||ncx2.voyage-prive.it^
-||nd.demdex.net/event?d_mid=$empty,important,domain=9now.com.au
+||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||nddmcconmqsy.ru^$third-party
 ||ndf81.com^$third-party
 ||ndg.io^$third-party
@@ -16899,7 +16906,7 @@ znak.com##.relap
 ||omt.shinobi.jp/pv^
 ||omt.shinobi.jp/tsumugi?location=
 ||omt.shinobi.jp^
-||omtrdc.net/id^$empty,important
+||omtrdc.net/id^$redirect=nooptext,important
 ||omtrdc.net^
 ||omtrdc.net^$third-party
 ||omtvxcle.com^$third-party
@@ -17516,7 +17523,7 @@ znak.com##.relap
 ||plausible.io^$third-party
 ||play.com/analytics/
 ||play.com/sitetrak/
-||play.google.com/log?$empty
+||play.google.com/log?$redirect=nooptext
 ||play.google.com/newsstand/api/*/people/me/analytics^
 ||play.googleapis.com/log|
 ||play.googleapis.com/play/log^
@@ -17693,7 +17700,6 @@ znak.com##.relap
 ||prisjakt.nu/js.php?p=trafikfonden
 ||prism.app-us1.com^$script,third-party
 ||prism.pandora.tv^
-||privacy-center.org^$third-party
 ||privacy-mgmt.com^$script,third-party
 ||privacy-policy.truste.com^$third-party
 ||privacy.www.nu.nl/pixel^
@@ -17872,6 +17878,7 @@ znak.com##.relap
 ||px.spiceworks.com^
 ||px.staticfiles.at^
 ||px.staticfiles.at^$third-party
+||px.ucweb.com^
 ||px.wayfair.com^
 ||px.wp.pl^
 ||pxaction.com^$third-party
@@ -19807,7 +19814,7 @@ znak.com##.relap
 ||stats.ipmgroup.be^
 ||stats.itsol.it^
 ||stats.itweb.co.za^
-||stats.jpush.cn^$empty
+||stats.jpush.cn^$redirect=nooptext
 ||stats.kaltura.com^
 ||stats.lotlinx.com^
 ||stats.lt^$third-party
@@ -19831,10 +19838,10 @@ znak.com##.relap
 ||stats.oui.sncf^
 ||stats.ozwebsites.biz^
 ||stats.pandora.com^
-||stats.pandora.com^$empty
+||stats.pandora.com^$redirect=nooptext
 ||stats.paste2.org^
 ||stats.paypal.com^
-||stats.paypal.com^$empty
+||stats.paypal.com^$redirect=nooptext
 ||stats.pcsg-server.de/js/
 ||stats.persgroep.be^
 ||stats.persgroep.nl^
@@ -20211,7 +20218,7 @@ znak.com##.relap
 ||t.c4tw.net^
 ||t.castle.io^
 ||t.cfjump.com^
-||t.channeladvisor.com^$empty
+||t.channeladvisor.com^$redirect=nooptext
 ||t.cinemablend.com^
 ||t.clic2buy.com^
 ||t.co/i/adsct*tw_sale_amount=
@@ -21962,6 +21969,7 @@ znak.com##.relap
 ||vidzi.tv/*bootstrap.
 ||vietnamnet.vn^*/tracking.js
 ||viewar.org^$third-party
+||views.cancan.ro^
 ||viglink.com/api/ping$third-party
 ||vihtori-analytics.fi^$third-party
 ||villarenters.com/inttrack.aspx
