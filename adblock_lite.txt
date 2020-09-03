@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202009030130
+! Version: 202009040127
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18374
+! Lenth = 18381
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1180,6 +1180,7 @@
 @@||520cc.cc/ad*.js
 @@||520cc.cc^$generichide
 @@||5278.cc/static/image/common/ad_close.gif
+@@||5278.cool^$generichide
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
 @@||58b.tv/static/js/ad.js
@@ -2718,6 +2719,7 @@ china.cn##.extension_ul > .special
 china.cn##.feeds
 china.cn##.lianmeng_search
 china.cn##.ltp_box
+china.cn##.search_RightShow
 china.com##.baidu
 china.com##.mm
 china.com##.mxm
@@ -4357,6 +4359,7 @@ ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
 ifeng.com##section[class^="fixSlide-"]
 ifeng.com#?#.box_list:-abp-has(.tuig)
+ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
 ifeng.com,nen.com.cn,sina.com,sina.com.tw,weibo.com##.topAd
 ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950
@@ -7419,6 +7422,7 @@ zol.com.cn##.down-jisu
 zol.com.cn##.down-linka
 zol.com.cn##.down-sugao
 zol.com.cn##.high
+zol.com.cn##.highSpeed
 zol.com.cn##.item-sale
 zol.com.cn##.sidebar > .n1-pad-entrance-wrap
 zol.com.cn##.xiazai-top-box
@@ -7722,6 +7726,7 @@ zznews.cn##.ad:not([style])
 ||104.203.72.254^
 ||104.233.203.164^
 ||104.237.67.78^
+||104610.com^
 ||106.14.244.76/3213.png
 ||106.187.95.251^
 ||107.172.176.197^
@@ -11187,6 +11192,7 @@ zznews.cn##.ad:not([style])
 ||dmpsj.cn^
 ||dmqapp.com^
 ||dmr.cnhoney.com^
+||dmswhw.cn^
 ||dmtrck.com^$third-party
 ||dmym.aixyy.com^
 ||dmzj.com/js/ad/
@@ -12888,6 +12894,7 @@ zznews.cn##.ad:not([style])
 ||impservice*.youdao.com^
 ||increased.cn^
 ||index8.cn^$third-party
+||indiebuff.cn^
 ||info.vip.iqiyi.com/promotion/
 ||infobabo.*/da.aspx
 ||infvb.com^

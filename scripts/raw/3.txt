@@ -1,8 +1,8 @@
-! Checksum: ITQDrp1MdAYCVa1oJlgT9A
+! Checksum: 2m71FTELzItbgvs/2d8hPA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.16.75
-! TimeUpdated: 2020-09-02T15:31:35+03:00
+! Version: 2.0.16.78
+! TimeUpdated: 2020-09-03T15:31:31+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3780,6 +3780,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||analytics.callbell.eu^
 ||analytics.zeekit.co^
 ||track.lexico.com^
 ||stat.ustore.bz^
@@ -7372,8 +7373,8 @@ dreamprogs.net##td[width="88"][height="31"]
 ||ztat.net/*/adrum.js^
 ||ztat.net/*/webtrekk.min.js^
 ||play.google.com/log?$redirect=nooptext
-!+ NOT_PLATFORM(ext_android_cb)
-||naver.net/wcslog.js$domain=~m.tv.naver.com
+!+ NOT_PLATFORM(ios, ext_android_cb)
+||naver.net/wcslog.js
 ! https://github.com/AdguardTeam/AdguardForAndroid/issues/249
 ||do-not-tracker.org^$third-party
 ||eviltracker.net^$third-party
@@ -7924,6 +7925,14 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/62900
+@@||google-analytics.com/analytics.js$domain=jump.com.tr
+@@||googletagmanager.com/gtm.js$domain=jump.com.tr
+@@||google-analytics.com/gtm/js$domain=jump.com.tr
+!
+! Fixing broken web sites
+ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set-constant', 'window.wcs_add', 'noopFunc')
+ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set-constant', 'window.wcs_do', 'noopFunc')
 !
 ! https://onlineshop.smt.docomo.ne.jp/itunes-gift/index.html
 ! broken iTunes card button
@@ -8040,8 +8049,6 @@ link.gmapp*.net$image
 @@||gandalf.segmentify.com/*/add/events/v1.json$domain=koctas.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57580
 @@||googletagmanager.com/gtm.js$domain=bleedingcool.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/57592
-@@||wcs.naver.net/wcslog.js$domain=ciokorea.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57397
 @@||events-collector.spot.im/api/$xmlhttprequest,other,domain=rt.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57332
@@ -8131,8 +8138,6 @@ link.gmapp*.net$image
 @@||googletagmanager.com/gtm.js$domain=sante.journaldesfemmes.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54246
 @@||geoplugin.net/javascript.gp$domain=aljazeera.net
-! https://github.com/AdguardTeam/AdguardFilters/issues/54299
-@@||wcs.naver.net/wcslog.js$domain=adpiamall.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54301
 @@||googletagmanager.com/gtag/js$domain=ryanair.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53943
@@ -8198,8 +8203,6 @@ link.gmapp*.net$image
 @@||odb.outbrain.com^$domain=nypost.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51456
 @@||whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=$domain=kitchenaid.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/51474
-@@||wcs.naver.net/wcslog.js$domain=live.joins.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51389
 @@||states.newegg.com/b/ss/neweggprod/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51104
@@ -8498,8 +8501,6 @@ link.gmapp*.net$image
 @@||relap.io/api/*/similar_pages_jsonp.js$domain=ivi.ru
 ! anime-planet.com - fix player
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37430
-! https://github.com/AdguardTeam/AdguardFilters/issues/37432
-@@||naver.net/wcslog.js$domain=land.naver.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35744
 @@||track.svz.de/cre-*/tracking/tracking.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37356 - fix video
@@ -8558,8 +8559,6 @@ link.gmapp*.net$image
 @@||scdn.cxense.com/cx.js$domain=sbs.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34387
 @@||scdn.cxense.com/cx.js$domain=digi24.ro
-! https://github.com/AdguardTeam/AdguardFilters/issues/34315
-@@||naver.net/wcslog.js$domain=itemmania.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34137
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=heraldsun.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34135
@@ -8591,8 +8590,6 @@ link.gmapp*.net$image
 @@||googletagmanager.com/gtm.js^$domain=capterra.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32086
 @@||google-analytics.com/analytics.js$domain=beinsports.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/31822
-@@||naver.net/wcslog.js$domain=jbe.go.kr
 ! https://forum.adguard.com/index.php?threads/31364/
 @@||googletagmanager.com/gtm.js$domain=moniteurautomobile.be
 @@||google-analytics.com/analytics.js$domain=moniteurautomobile.be

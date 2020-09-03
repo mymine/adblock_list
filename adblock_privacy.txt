@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009030130
+! Version: 202009040127
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22993
+! Lenth = 22998
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -6348,6 +6348,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/analytics.js$domain=independer.nl
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
 @@||google-analytics.com/analytics.js$domain=joblo.com
+@@||google-analytics.com/analytics.js$domain=jump.com.tr
 @@||google-analytics.com/analytics.js$domain=karwan.tv
 @@||google-analytics.com/analytics.js$domain=keepassium.com
 @@||google-analytics.com/analytics.js$domain=kolkata24x7.com
@@ -6434,6 +6435,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|change.org|cinemassacre.com|comingsoon.net|everydayhealth.com|dailyfreegames.com|dailysteals.com|donanimhaber.com|echo.msk.ru|ehow.com|eonline.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kaspersky.pl|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|media.zie.nl|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|videochart.net|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
 @@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|cinemassacre.com|comingsoon.net|dailyfreegames.com|donanimhaber.com|ehow.com|eonline.com|everydayhealth.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
 @@||google-analytics.com/ga.js$domain=justsystems.com
+@@||google-analytics.com/gtm/js$domain=jump.com.tr
 @@||google-analytics.com/gtm/js$domain=maz-online.de|ostsee-zeitung.de|lvz.de
 @@||google-analytics.com/gtm/js$script,domain=curbed.com|eater.com|funnyordie.com|gumtree.com|mmafighting.com|mmamania.com|nflgamepass.com|polygon.com|racked.com|reuters.com|riftherald.com|sbnation.com|theringer.com|theta.tv|toysrus.ca|vox.com
 @@||google-analytics.com/gtm/js?id=$domain=15min.lt
@@ -6574,6 +6576,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=iphoneitalia.com
 @@||googletagmanager.com/gtm.js$domain=itv.com
 @@||googletagmanager.com/gtm.js$domain=jbc.be
+@@||googletagmanager.com/gtm.js$domain=jump.com.tr
 @@||googletagmanager.com/gtm.js$domain=koctas.com.tr
 @@||googletagmanager.com/gtm.js$domain=kompas.com
 @@||googletagmanager.com/gtm.js$domain=liga.net
@@ -7043,9 +7046,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||n8s.jp^$script,domain=nikkei.com
 @@||narf-archive.com^*/clickstream.js
 @@||nationwide.co.uk/_/js/webAnalytics.js
-@@||naver.net/wcslog.js$domain=itemmania.com
-@@||naver.net/wcslog.js$domain=jbe.go.kr
-@@||naver.net/wcslog.js$domain=land.naver.com
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
 @@||ncbi.nlm.nih.gov/stat?
@@ -7646,9 +7646,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||wargag.ru/public/js/counter.js?
 @@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
-@@||wcs.naver.net/wcslog.js$domain=adpiamall.com
-@@||wcs.naver.net/wcslog.js$domain=ciokorea.com
-@@||wcs.naver.net/wcslog.js$domain=live.joins.com
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 @@||websimages.com/JS/Tracker.js
@@ -7875,6 +7872,8 @@ businessinsider.co.uk,businessinsider.com##.rail-recommended
 businessinsider.com##.bottom-recommended
 cgi-bin/counter
 charlestownwyllie.oaklawnnonantum.com^
+ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set-constant', 'window.wcs_add', 'noopFunc')
+ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set-constant', 'window.wcs_do', 'noopFunc')
 citypizza.ru#%#window.yaCounter9890803 = { reachGoal: function() {} };
 click.icptrack.com/icp/$image
 close.io/email_opened$image
@@ -9022,6 +9021,7 @@ znak.com##.relap
 ||analytics.brandcrumb.com^
 ||analytics.brave.com^
 ||analytics.businessinsider.com^
+||analytics.callbell.eu^
 ||analytics.carambatv.ru^
 ||analytics.carambo.la^
 ||analytics.ceneo.pl^
@@ -9724,6 +9724,7 @@ znak.com##.relap
 ||b-ssl.grvcdn.com^
 ||b.aol.com^$third-party
 ||b.bedop.com^
+||b.gemini.yahoo.com^
 ||b.grvcdn.com^$third-party
 ||b.huffingtonpost.com^
 ||b.imwx.com^
@@ -11576,6 +11577,7 @@ znak.com##.relap
 ||ctscdn.com/content/tracking-
 ||cttracking02.com^$third-party
 ||cubchannel.com^$third-party
+||cuberoot.co^$third-party
 ||cultofmac.com/presslabs.js
 ||culturedcrayon.com^$third-party
 ||cumulus-cloud.com/trackers/
@@ -11840,6 +11842,7 @@ znak.com##.relap
 ||data.glamour.ru^
 ||data.gosquared.com^$third-party
 ||data.imakenews.com^$third-party
+||data.mail.yahoo.com^
 ||data.marketgid.com^$third-party
 ||data.mic.com^
 ||data.microsoft.com/OneCollector/
@@ -12038,6 +12041,7 @@ znak.com##.relap
 ||diffusion-tracker.com^$third-party
 ||dig.ultimedia.com^
 ||digdeepdigital.com.au^$third-party
+||digg.com/library/tracker.js
 ||digidip.net^$domain=gofeminin.de
 ||digidip.net^$third-party
 ||digikey.*/-/media/Designer/Web%20Analytics/MultiTrack/JS/multitrack.js
@@ -14588,6 +14592,7 @@ znak.com##.relap
 ||inst.platform.bing.com/api/log
 ||instadia.net^$third-party
 ||instadp.com/track
+||instagram.com/ajax/bz
 ||instagram.com/logging/
 ||instagram.com/logging_client_events
 ||installiq.com/Pixels/
@@ -16486,7 +16491,6 @@ znak.com##.relap
 ||navegg.com^$third-party
 ||naver.com/PostView.nhn?$image
 ||naver.net/wcslog.js
-||naver.net/wcslog.js$domain=~m.tv.naver.com
 ||navigator.io^$third-party
 ||navilytics.com^$third-party
 ||navlink.com/__utmala.js
@@ -22728,6 +22732,7 @@ znak.com##.relap
 ||yahoo.com/serv?s
 ||yahoo.com/sig=$image
 ||yahoo.com/track/
+||yahoo.com/vasterror/imp/
 ||yahoo.com/yhs/b?
 ||yahoo.com/yi?bv=
 ||yahoo.com^*/pageview/
