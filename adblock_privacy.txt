@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009040127
+! Version: 202009050111
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22998
+! Lenth = 23004
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -654,6 +654,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /PhoenixGoogleAnalytics.
 /PingPixel.
 /Pixel.pl?
+/Pixel/Script/Behavior?
 /PixelImg.asp
 /PixelNedstat.
 /PixelTracking.
@@ -4526,6 +4527,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /td-pageviews.
 /tda.*/in.gif
 /teal-chartbeat-
+/teal-comscore-
+/teal-gcianalytics-
 /tealeaf.cgi
 /tealeaf.config.js
 /tealeaf.min.js
@@ -7225,6 +7228,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
+@@||r-ad.ne.jp/json?$xmlhttprequest,domain=recruit.co.jp
 @@||radio.com/player/javascript/tracking.js$domain=player.radio.com
 @@||raiffeisen.at^*/Logger.js
 @@||randomhouse.com/book/css/certona.css
@@ -8699,6 +8703,7 @@ znak.com##.relap
 ||agoda.net/js/abtest/analytics.js
 ||agreeabletouch.com^$third-party
 ||agroserver.ru/ct/
+||agrvt.com^$third-party
 ||aheadday.com^$third-party
 ||ai.idg.se/us01^
 ||ai.idg.se^
@@ -14112,6 +14117,7 @@ znak.com##.relap
 ||hitsniffer.com^$third-party
 ||hitsprocessor.com^$third-party
 ||hitstatus.com^$third-party
+||hitsteps.com^$third-party
 ||hittail.com^$third-party
 ||hittracker.com^$third-party
 ||hittracker.org/count.php
