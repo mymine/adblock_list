@@ -26,7 +26,7 @@ jobs:
         run: pip install requests wget 
 
       - name: Update
-        run: python ./scripts/adblock.py
+        run: python ./scripts/tools/adblock.py
 
       - name: Commit
         env:
