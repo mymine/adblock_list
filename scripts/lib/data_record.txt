@@ -1,8 +1,8 @@
-https://files.uniartisan.com/anti-ad/easylist.txt
-https://files.uniartisan.com/anti-ad/cjxlist.txt
-https://files.uniartisan.com/anti-ad/cjx-annoyance.txt
-https://files.uniartisan.com/anti-ad/easylistchina.txt
-https://files.uniartisan.com/anti-ad/2.txt
-https://files.uniartisan.com/anti-ad/224.txt
-https://files.uniartisan.com/anti-ad/easyprivacy.txt
-https://files.uniartisan.com/anti-ad/3.txt
+https://easylist-downloads.adblockplus.org/easylist.txt
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+https://easylist-downloads.adblockplus.org/easylistchina.txt
+https://filters.adtidy.org/extension/chromium/filters/2.txt
+https://filters.adtidy.org/extension/chromium/filters/224.txt
+https://easylist-downloads.adblockplus.org/easyprivacy.txt
+https://filters.adtidy.org/extension/chromium/filters/3.txt
