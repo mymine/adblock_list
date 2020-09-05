@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009050111
+! Version: 202009050627
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23004
+! Lenth = 23005
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -7009,6 +7009,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||mlb.com/scripts/stats/app/bbq_hashmgmt.js$script
 @@||mlb.com/shared/scripts/bam.tracking.js
 @@||mlbstatic.com/mlb.com/adobe-analytics/AppMeasurement-mlb.js$domain=mlb.com
+@@||mlbstatic.com/mlb.com/adobe-analytics/VisitorAPI.js$script,domain=mlb.com
 @@||mobile.flypgs.com/tealeaf.js
 @@||monetate.net/img/$script,domain=newegg.com
 @@||monetate.net/js/$domain=newegg.com|nike.com
@@ -11847,7 +11848,6 @@ znak.com##.relap
 ||data.glamour.ru^
 ||data.gosquared.com^$third-party
 ||data.imakenews.com^$third-party
-||data.mail.yahoo.com^
 ||data.marketgid.com^$third-party
 ||data.mic.com^
 ||data.microsoft.com/OneCollector/
@@ -22883,6 +22883,7 @@ znak.com##.relap
 ||yuku.com/stats?
 ||yunit.org^$third-party
 ||yupptv.com/yupptvreports/stats.php^
+||yusercontent.com/mail?url=$image,domain=mail.yahoo.com
 ||yvesrocher.com.tr/images/__utm.gif^
 ||yvesrocher.com.tr/images/avenseo/tr_TR/avenseo-uniq.min.js
 ||yvesrocher.com.tr/images/js/coremetrics.js

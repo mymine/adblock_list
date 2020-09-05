@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202009050111
+! Version: 202009050627
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18382
+! Lenth = 18390
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -4363,6 +4363,7 @@ ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contain
 ifeng.com,nen.com.cn,sina.com,sina.com.tw,weibo.com##.topAd
 ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950
+ifkdy.com##.hb
 ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
 ifooday.cn##.myzs
 ifvod.tv##vg-pause-ads
@@ -10225,6 +10226,7 @@ zznews.cn##.ad:not([style])
 ||business.92wy.com^
 ||buy.sina.com.tw/js/sina_popup.php
 ||buydee.org^
+||buyihao.com^
 ||buzzads.com^$third-party
 ||buzzhand.com/images/$subdocument
 ||bv8888.com^
@@ -12590,6 +12592,7 @@ zznews.cn##.ad:not([style])
 ||huimee.net^
 ||huimg.cn/e/hd.e.wap.
 ||huixingcheng.cn^
+||huiyutz.cn^
 ||huizu100.com/data/attachment/portal/
 ||hujiang.com/Web/tx.ashx
 ||hujiang.com/ciku/getDetailSoftText/
@@ -12772,6 +12775,7 @@ zznews.cn##.ad:not([style])
 ||ifeve.com/wp-content/uploads/*/WechatIMG
 ||ifeve.com/wp-content/uploads/*/cachekit
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
+||ifkdy.com/ifkdy/weixin/isFollowMe
 ||ifocus.cn^$third-party
 ||ifooday.cn/index.php?m=poster&
 ||ifufen.com^
@@ -13883,6 +13887,7 @@ zznews.cn##.ad:not([style])
 ||llffaev.cn^
 ||llguandongyan.com^
 ||llj22.com/1.gif
+||llqd5.cn^
 ||llqss.top^
 ||llrnlzl.cn^
 ||lm.35.com^$third-party
@@ -13915,6 +13920,7 @@ zznews.cn##.ad:not([style])
 ||loli.net/2020/07/25/pRqtQvjgE74SzaW.gif
 ||loli.net/2020/08/05/6orxItEVzlTjKam.png
 ||loli.net/2020/08/31/j6NV3wFeIxCtnBX.gif
+||loli.net/2020/09/04/Wx3MdOVvsTPwIlE.gif
 ||loli.net^$domain=1090ys1.com|520film.net|52pili.com|acglover.me|beiwodi.com|btdp.online|f6hx.site|hdsky.me|magnet2048.com|nulltm.com|xydai.cn|youtaoqi.com
 ||lolmp4.com/template/lolmp4/images/jquery.
 ||lolmp4.com^$third-party
@@ -14161,6 +14167,7 @@ zznews.cn##.ad:not([style])
 ||meitu.com/js/floatxiuxiu.js
 ||meituan.com/ptapi/recommends?
 ||meituan.com/xiuxianyule/api/getRecommendList?
+||meituan.xn--io0a7i^
 ||meitui.org^*.js
 ||meituing.com/baidu
 ||meitulu.com/css/*showgg.js
@@ -18297,6 +18304,7 @@ zznews.cn##.ad:not([style])
 ||zuoyebang.cc/zyb_4953cbb8a9a2332469592196c056a906.jpg
 ||zupulu.com/scripts/app/app.js
 ||zutodu.cn^
+||zwenhan.com^
 ||zwkssb.com^
 ||zwsteel.cn^
 ||zwwooooo.com/images/hengtian.

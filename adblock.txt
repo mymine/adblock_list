@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202009050111
+! Version: 202009050627
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20247
+! Lenth = 20254
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -767,7 +767,6 @@
 ##a[href^="http://yunbofangbt."]
 ##a[href^="https://hi.potvpn.com/?from="]
 ##a[href^="https://luolidao.vip/"]
-##a[href^="https://uds24.com/"]
 ##a[onclick*="/dasp.php?a="]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
 ##a[style="display:inline-block;font-weight:bold;color:#f00;border:1px solid #f00;border-radius:15px;padding:2px 5px 2px 5px;margin:5px 5px 5px 0px;"]
@@ -6228,6 +6227,7 @@ ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contain
 ifeng.com,nen.com.cn,sina.com,sina.com.tw,weibo.com##.topAd
 ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950
+ifkdy.com##.hb
 ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
 ifooday.cn##.myzs
 ifvod.tv##vg-pause-ads
@@ -12090,6 +12090,7 @@ zznews.cn##.ad:not([style])
 ||business.92wy.com^
 ||buy.sina.com.tw/js/sina_popup.php
 ||buydee.org^
+||buyihao.com^
 ||buzzads.com^$third-party
 ||buzzhand.com/images/$subdocument
 ||bv8888.com^
@@ -14455,6 +14456,7 @@ zznews.cn##.ad:not([style])
 ||huimee.net^
 ||huimg.cn/e/hd.e.wap.
 ||huixingcheng.cn^
+||huiyutz.cn^
 ||huizu100.com/data/attachment/portal/
 ||hujiang.com/Web/tx.ashx
 ||hujiang.com/ciku/getDetailSoftText/
@@ -14637,6 +14639,7 @@ zznews.cn##.ad:not([style])
 ||ifeve.com/wp-content/uploads/*/WechatIMG
 ||ifeve.com/wp-content/uploads/*/cachekit
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
+||ifkdy.com/ifkdy/weixin/isFollowMe
 ||ifocus.cn^$third-party
 ||ifooday.cn/index.php?m=poster&
 ||ifufen.com^
@@ -15748,6 +15751,7 @@ zznews.cn##.ad:not([style])
 ||llffaev.cn^
 ||llguandongyan.com^
 ||llj22.com/1.gif
+||llqd5.cn^
 ||llqss.top^
 ||llrnlzl.cn^
 ||lm.35.com^$third-party
@@ -15780,6 +15784,7 @@ zznews.cn##.ad:not([style])
 ||loli.net/2020/07/25/pRqtQvjgE74SzaW.gif
 ||loli.net/2020/08/05/6orxItEVzlTjKam.png
 ||loli.net/2020/08/31/j6NV3wFeIxCtnBX.gif
+||loli.net/2020/09/04/Wx3MdOVvsTPwIlE.gif
 ||loli.net^$domain=1090ys1.com|520film.net|52pili.com|acglover.me|beiwodi.com|btdp.online|f6hx.site|hdsky.me|magnet2048.com|nulltm.com|xydai.cn|youtaoqi.com
 ||lolmp4.com/template/lolmp4/images/jquery.
 ||lolmp4.com^$third-party
@@ -16026,6 +16031,7 @@ zznews.cn##.ad:not([style])
 ||meitu.com/js/floatxiuxiu.js
 ||meituan.com/ptapi/recommends?
 ||meituan.com/xiuxianyule/api/getRecommendList?
+||meituan.xn--io0a7i^
 ||meitui.org^*.js
 ||meituing.com/baidu
 ||meitulu.com/css/*showgg.js
@@ -20162,6 +20168,7 @@ zznews.cn##.ad:not([style])
 ||zuoyebang.cc/zyb_4953cbb8a9a2332469592196c056a906.jpg
 ||zupulu.com/scripts/app/app.js
 ||zutodu.cn^
+||zwenhan.com^
 ||zwkssb.com^
 ||zwsteel.cn^
 ||zwwooooo.com/images/hengtian.
