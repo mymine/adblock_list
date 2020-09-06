@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009050632
+! Version: 202009060120
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23005
+! Lenth = 23021
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1347,6 +1347,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /autotag.
 /autotrack-with-autotrack-analytics.
 /autotrack.carbon.js
+/autotrack.custom.js
 /autotrack.custom.min.js
 /autotrack.js
 /autotrack.min.js
@@ -1364,6 +1365,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /aws-analytics.js
 /awstats.js
 /awstats_misc_tracker
+/azion-pulse.js
 /aztrack.
 /aztracker.
 /b/s/beacon
@@ -1539,6 +1541,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /bundles/cm.js|
 /bundles/metrics.
 /bundles/tracciamento?
+/busting/*/gtm-
 /buzz_stats.
 /bypassmajs|
 /bypasspiphp?
@@ -3479,6 +3482,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /omniture/script.
 /omniture/sphere
 /omniture/tracking.
+/omniture/uuid.
 /omniture/visitorapi.
 /omniture?
 /omnitureAMP.
@@ -4690,6 +4694,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /track?ts=*&domain=
 /track?wm_
 /trackAdHit.
+/trackAirship.js
 /trackClickAsync.
 /trackClickEvent.js
 /trackContentViews.
@@ -10518,6 +10523,7 @@ znak.com##.relap
 ||cbs.com/assets/js/*AdvCookie.js
 ||cbs.wondershare.com^
 ||cbsi.com.cn/js/dw.js
+||cbsi.com/lib/api/client-info
 ||cbsimg.net/js/cbsi/dw.js
 ||cbsistatic.com^*/siteTracking.js
 ||cbslocal.com^*/cbs1x1.gif?
@@ -11041,6 +11047,7 @@ znak.com##.relap
 ||codecguide.com/stats.js
 ||codes.royalad.pl^$third-party
 ||codeweblog.com/js/count.js
+||coefficy.com^$third-party
 ||cogmatch.net^$third-party
 ||cognativex.com^$third-party
 ||cognitivematch.com^$third-party
@@ -13647,7 +13654,7 @@ znak.com##.relap
 ||global.canon^*/analytics.js
 ||global.cmcs.service.amazonsilk.com/metrics
 ||global.ssl.fastly.net^$script,domain=wayfair.de
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courierpress.com|desertsun.com|eddiebauer.com|glassesusa.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courierpress.com|desertsun.com|eddiebauer.com|glassesusa.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||global.sueddeutsche.de/globalassets/standalone/szstats/configuration.json
 ||globalapi.ad.xiaomi.com^
 ||globalsiteanalytics.com^$third-party
@@ -15930,6 +15937,7 @@ znak.com##.relap
 ||melonstube.com/js/analytics
 ||memecounter.com^$third-party
 ||memo.co^$third-party
+||memorizeneck.com^$third-party
 ||memurhaber.com/ajax/hit-increment
 ||mengis-linden.org^$third-party
 ||mepirtedic.com^$third-party
@@ -17595,6 +17603,7 @@ znak.com##.relap
 ||po.ponant.com^
 ||pocitadlo.cz^$third-party
 ||pocitadlo.sk^$third-party
+||podfdch.com^$third-party
 ||pointillist.com^$third-party
 ||pointomatic.com^$third-party
 ||pokernews.com/track-views.php?
@@ -17849,6 +17858,7 @@ znak.com##.relap
 ||pushible.com^$third-party
 ||pushify.com^$third-party
 ||pushly.com/pushly-event-tracker
+||pushsquare.com/blank.gif
 ||pushwoosh.com^$third-party
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
@@ -18234,6 +18244,7 @@ znak.com##.relap
 ||reisen.tchibo.de/webtrekk
 ||reitingas.lt^$third-party
 ||reitingi.lv^$third-party
+||rejectfairies.com^$third-party
 ||rejestr.org^$third-party
 ||rek.www.wp.pl^
 ||reklama.lv/services/collect.php
@@ -18512,6 +18523,8 @@ znak.com##.relap
 ||rucounter.ru^$third-party
 ||rulerabbit.com^$third-party
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
+||rum.azion.com^
+||rum.azioncdn.net^
 ||rum.conde.io^
 ||rum.kobo.com^
 ||rum.marquardmedia.hu^
@@ -19340,6 +19353,7 @@ znak.com##.relap
 ||sp.naplesnews.com^
 ||sp.naver.com^
 ||sp.newarkadvocate.com^
+||sp.news-journalonline.com^
 ||sp.news-press.com^
 ||sp.newsleader.com^
 ||sp.northjersey.com^
@@ -20099,6 +20113,7 @@ znak.com##.relap
 ||sugarcurtain.com^$third-party
 ||sugarops.com/w?action=impression$third-party
 ||sugarvine.com/inc/tracking.asp
+||suggestions.dadata.ru^$third-party
 ||sugodeku.com^$third-party
 ||sugs.m.sm.cn^
 ||suite101.com/tracking/
@@ -21759,6 +21774,7 @@ znak.com##.relap
 ||uriuridfg.com^$third-party
 ||urlbrief.com^$third-party
 ||urlself.com^$third-party
+||urs.metacritic.com^
 ||urstats.de^$third-party
 ||urtracker.q-sis.de^
 ||usa.cc^$third-party

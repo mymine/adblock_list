@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VvyaLPuD8ofPeXqvxC1Qbg
-! Version: 202009050650
+! Checksum: dwC9re6mc8G0aktyZPUv1g
+! Version: 202009060101
 ! Title: EasyList
-! Last modified: 05 Sep 2020 06:50 UTC
+! Last modified: 06 Sep 2020 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16882,6 +16882,7 @@ _popunder+$popup
 ###stickyrightad
 ###stopAdv
 ###stopAdvt
+###stories-ad
 ###story-90-728-area
 ###story-ad
 ###story-ad-1-wrapper
@@ -21446,6 +21447,7 @@ _popunder+$popup
 ##.adsense3
 ##.adsense300
 ##.adsense300_top
+##.adsense300x250
 ##.adsense728
 ##.adsense728x90
 ##.adsenseAds
@@ -24827,6 +24829,7 @@ _popunder+$popup
 ##.googleAds_article_page_above_comments
 ##.googleAdsense
 ##.googleAdsense468x60
+##.googleAdv
 ##.googleAdv1
 ##.googleBannerWrapper
 ##.googleContentAds
@@ -30028,6 +30031,7 @@ _popunder+$popup
 ##a[onmousedown^="this.href='/wp-content/embed-ad-content/"]
 ##ad-desktop-sidebar
 ##amp-ad-custom
+##app-advertisement
 ##aside[id^="adrotate_widgets-"]
 ##aside[id^="advads_ad_widget-"]
 ##aside[id^="div-gpt-ad"]
@@ -30437,6 +30441,7 @@ _popunder+$popup
 ##.td-zergnet
 ##.widget-ami-zergnet
 ##.widget_ok_zergnet_widget
+##.zerg-widgets
 ##.zergmod
 ##.zergnet
 ##.zergnet-holder
@@ -31777,6 +31782,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cbpsdvozwsbf.com^
 ||cconseent.info^
 ||cdcz.xyz^
+||cdn.jamcdn.pro^
 ||cdn4ads.com^
 ||cdnads.com^
 ||cdnmr.net^
@@ -31804,6 +31810,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||characteristicsumptuousmister.com^
 ||charactice.club^
 ||charalli.pro^
+||chardsreme.space^
 ||check-now.online^
 ||cheewait.net^
 ||chemicall.club^
@@ -32045,6 +32052,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dinneredaq.club^
 ||dioneperson.pro^
 ||diplomaticlastingpert.com^
+||dirritorexa.club^
 ||disappenedy.site^
 ||discountryvc.club^
 ||discoverapp.xyz^
@@ -32576,6 +32584,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||heredeithere.club^
 ||hereexpelli.space^
 ||heregenessco.club^
+||hernedsavily.space^
 ||heroismyouroutnumber.com^
 ||herscryptia.info^
 ||hesterinoc.info^
@@ -33037,6 +33046,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mpay69.com^
 ||mpletedsen.fun^
 ||mplexanno.club^
+||mplexhete.club^
 ||mpliedancia.info^
 ||mpltrack.com^
 ||mprisedluxemb.info^
@@ -33185,6 +33195,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ntryhospitesoili.fun^
 ||ntsacklecre.club^
 ||ntsartingaccura.info^
+||ntshoustee.club^
 ||ntsimprovide.info^
 ||ntsparallycalc.info^
 ||ntvsw.com^
@@ -33413,6 +33424,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pleatanxiety.com^
 ||plehimselves.info^
 ||pletiondem.club^
+||plyinsidere.club^
 ||plyvitablesagree.info^
 ||pnhdnlrzwu.com^
 ||pocrowpush.com^
@@ -33654,6 +33666,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||rightiescolled.club^
 ||rightstaredstun.com^
 ||rinedcountilconsiden.info^
+||ringassum.club^
 ||rintellsfundrew.info^
 ||riodovernprovi.club^
 ||ripslifestassoci.info^
@@ -52506,7 +52519,6 @@ javascript:$popup,domain=pirateproxy.live|proxyfrom.asia|superproxy.biz|thehidde
 @@||netdna-cdn.com/wp-content/$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||netdna-cdn.com/wp-includes/js/$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||outstreamplayer.com^$domain=grammarist.com
-@@||p.jwpcdn.com/player/v/$script,stylesheet,third-party
 @@||platform.instagram.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||platform.twitter.com^$image,domain=allthingsvegas.com|newser.com|whatfinger.com
 @@||playbuzz.com/widget/$script,third-party
@@ -55618,6 +55630,7 @@ behealthydaily.com###partners_content
 gumtree.com###partnership-vip-compact
 gumtree.com###partnerships
 patheos.com###patheos-ad-region
+mashable.com###pathing-banner
 carscoops.com###payload
 binaries4all.com###payserver
 binaries4all.com###payserver2
@@ -57009,6 +57022,7 @@ cultofmac.com##.appDetailPanel-ad
 channelchooser.com##.append-bottom.last
 capitalfm.com,classicfm.com##.apple_music
 360.cymru##.ardal-hysbyseb
+whatculture.com##.area-x__large
 liveonlineradio.net##.art-Header2
 skysports.com##.art-betlink
 carsession.com##.artBanner300
@@ -57023,7 +57037,7 @@ infoworld.com##.article-intercept
 androidcentral.com,cordcutters.com,crackberry.com,imore.com,windowscentral.com##.article-leaderboard
 scoop.co.nz##.article-left-box
 pressgazette.co.uk,spearswms.com##.article-mpu
-nintendolife.com,pushsquare.com##.article-recommendations
+nintendolife.com,purexbox.com,pushsquare.com##.article-recommendations
 windowscentral.com##.article-shop-bar
 forbes.com##.article-speedbump
 salemreporter.com##.article-sponsors
@@ -58013,6 +58027,7 @@ tiresandparts.net##.footer_top_banner
 scotsman.com##.footer_top_holder
 datamation.com##.footerbanner
 eurocupbasketball.com,euroleague.net##.footersponsors-container
+purexbox.com##.for-desktop
 videojug.com##.forceMPUSize
 alphacoders.com##.form_info
 northcoastnow.com##.formy
@@ -60045,6 +60060,7 @@ steroid.com##[href*="https://www.anabolics.com"]
 audiobookbay.net##[href="/dl-14-days-trial"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
 2pass.co.uk##[href="http://www.gameiki.co.uk"]
+sqlfiddle.com##[href="https://entityframework-extensions.net/"]
 unknowncheats.me##[href="https://forum.iwantcheats.net/threads/167596-Work-with-IWantCheats-and-Make-Thousands-a-Week"]
 mhktricks.org##[href="https://www.deepbrid.com/"]
 getdroidtips.com##[href="https://youtu.be/nx8UleXvxNU"]
@@ -60075,6 +60091,7 @@ monova.org##[onclick] > a[class]
 filecrypt.cc,filecrypt.co##[onclick^="location.href"]
 filecrypt.cc,filecrypt.co##[onclick^="top.location"]
 nzbindex.com##[src="/img/i/frugal.gif"]
+wccftech.com##[style*="display:"][class]
 uploaded.to##[style="margin-left: 15px;"]
 wahm.com##[style="min-height:250px;"]
 imagetwist.com##[target="_blank"] > img
@@ -60240,6 +60257,7 @@ greatandhra.com##div[class^="add"]
 technical.city##div[class^="banner_"]
 kijiji.ca##div[class^="sponsored-"]
 amazon.com##div[data-ad-id]
+engadget.com##div[data-component="GeminiAdItem"]
 pushsquare.com##div[data-dfp-id]
 monova.org##div[data-id]
 engadget.com##div[data-nav-drawer-slide-panel] > aside[role="banner"]
