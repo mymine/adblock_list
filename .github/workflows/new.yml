@@ -1,9 +1,9 @@
-name: Renew posts
+name: Automatic Commit Posts
 
 on:
   push:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '10 1 * * *'
   watch:
     types: [started]
 
