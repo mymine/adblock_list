@@ -1,9 +1,12 @@
 name: Automatic Commit Posts
 
 on:
-  push:
+  # push推送时触发
+  # push:
+  # 定时任务触发
   schedule:
-    - cron: '10 1 * * *'
+    # 每天北京时间1点跑
+    - cron:  '0 1 * * *'
   watch:
     types: [started]
 
