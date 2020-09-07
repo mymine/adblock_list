@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202009060120
+! Version: 202009070158
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20254
+! Lenth = 20256
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -9814,7 +9814,6 @@ zznews.cn##.ad:not([style])
 ||17un.co^
 ||17ys.top^
 ||17yy.com/style/ifra_ad/
-||17zhaole.com^$third-party
 ||180.76.171.28^
 ||180.96.27.85^*.htm
 ||18183.com/common/js/side.js
@@ -12215,6 +12214,7 @@ zznews.cn##.ad:not([style])
 ||cccpan.me/googg.js
 ||ccdm*/Scripts/ccMedia.js
 ||cchfjz.com^
+||ccji.cc^
 ||ccjxybj.cn^
 ||cckke.com/fanhao/v/ad
 ||ccmdgg.com^
@@ -14281,6 +14281,9 @@ zznews.cn##.ad:not([style])
 ||hhppyt.com^
 ||hhrhl.vip^
 ||hhslbz.cn^
+||hi.people.com.cn/NMediaFile/*.gif
+||hi.people.com.cn/NMediaFile/*.swf
+||hi.people.com.cn/NMediaFile/2013/0929/LOCAL201309291733411880780280942.jpg
 ||hi.xiunm.cn^
 ||hi.xiunm.com^
 ||hi760.com^
@@ -16692,7 +16695,6 @@ zznews.cn##.ad:not([style])
 ||pedailyu.com^
 ||pekingpk10.com^
 ||penggua.com.cn^
-||penglai.com.cn/UploadFile/image/*.gif
 ||pentaxaws.cn^
 ||penxiangge.com^
 ||people.com.cn/adv/

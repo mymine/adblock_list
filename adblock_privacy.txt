@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009060120
+! Version: 202009070158
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23021
+! Lenth = 23029
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -4301,6 +4301,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /stat/eventManager/*
 /stat/fe?
 /stat/inserthit.
+/stat/online-log
 /stat/track.php?mode=js
 /stat/track_
 /stat/tracker.
@@ -13085,6 +13086,7 @@ znak.com##.relap
 ||flavordecision.com^$third-party
 ||flcounter.com^$third-party
 ||flex.msn.com/mstag/
+||flexlinkspro.com^$third-party
 ||flickr.com/beacon/
 ||flickr.com/beacon_
 ||flightsy.bid
@@ -13298,6 +13300,7 @@ znak.com##.relap
 ||fsd2.digital^$third-party
 ||fshka.com^$third-party
 ||fsm.lapresse.ca^
+||fstats.xyz^$third-party
 ||fstrk.net/api/tracker/
 ||fstrk.net^$third-party
 ||fsz1.francoisesaget.com^
@@ -13476,7 +13479,9 @@ znak.com##.relap
 ||genieessp.jp^$third-party
 ||genieesspv.jp^$third-party
 ||genpas.icu/js/ga.js
+||geo-eu.snigelweb.com^
 ||geo-targetly.com^$third-party
+||geo-us.snigelweb.com^
 ||geo.123data.ru/json
 ||geo.6play.fr^
 ||geo.battle.net^
@@ -13654,7 +13659,7 @@ znak.com##.relap
 ||global.canon^*/analytics.js
 ||global.cmcs.service.amazonsilk.com/metrics
 ||global.ssl.fastly.net^$script,domain=wayfair.de
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courierpress.com|desertsun.com|eddiebauer.com|glassesusa.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||global.sueddeutsche.de/globalassets/standalone/szstats/configuration.json
 ||globalapi.ad.xiaomi.com^
 ||globalsiteanalytics.com^$third-party
@@ -15860,6 +15865,7 @@ znak.com##.relap
 ||meapk.com^
 ||measure.ameblo.jp^
 ||measure.ly^$third-party
+||measure.refinery89.com^
 ||measuread.com^
 ||measuread.com^$third-party
 ||measured.com^$third-party
@@ -20371,6 +20377,7 @@ znak.com##.relap
 ||tags.news.com.au^$~script
 ||tags.newscgp.com^
 ||tags.op-palvelut.fi^
+||tags.refinery89.com^
 ||tags.tagcade.com/*/tagcade.js^
 ||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk
@@ -22614,6 +22621,7 @@ znak.com##.relap
 ||wtm.monitoringservice.co^$third-party
 ||wtmtrack.com^$third-party
 ||wtp101.com^$third-party
+||wts.one^$third-party
 ||wtsdc.uhc.com^$image
 ||wtstats.com^$third-party
 ||wty46.com^$third-party
