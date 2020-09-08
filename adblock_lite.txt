@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202009070158
+! Version: 202009080141
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18392
+! Lenth = 18399
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -82,8 +82,8 @@
 108.62.192.122,23.81.209.214,plus28.com##div[style="width:960px;margin: auto;"]
 1090ys1.com##a[href*="yb6277."]
 1090ys1.com,bbt.tv,btbt.tv,l32c.cn,nixingle.com#@#.google-ad
-1090ys1.com,comicat.org,kisssub.org,wnacg.com,wnacg.org##a[href*="tyrantdb.com"]
 1090ys1.com,hkmytv.com###fnbt
+1090ys1.com,wnacg.com,wnacg.org##a[href*="tyrantdb.com"]
 10jqka.com.cn###topba1
 10jqka.com.cn##.top-ad-box
 10jqka.com.cn##.top-bar-fl > .top-hot
@@ -2969,6 +2969,7 @@ cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
 comic.qq.com###fixed_right > div
 comicat.org,kisssub.org##.gg_canvas
+comicat.org,kisssub.org##a[href*="db."]
 contents.internet.apps.samsung.com##.page-bar
 cool-de.com###fwin_popadv
 cool-de.com###fwin_popadv_cover
@@ -6505,6 +6506,7 @@ tom.com###popupDivgame
 tongzhuo100.com###gold_banner
 toocle.com##.detail_top_ad
 tools.2345.com##._hb-box + .mod
+tophub.today##.sponsors
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 toutiao.com##.J_add
@@ -6723,6 +6725,7 @@ w3cschool.cn##.abox-item
 w3cschool.cn##.content-abox
 w3cschool.cn##.widget-main
 w3school.com.cn###sp_tiy
+wa59.com##.marginrl
 wacowla.com###home-top-narrow
 wallstreetcn.com##.download-coantainer
 wallstreetcn.com##.node-main-ad
@@ -8529,6 +8532,7 @@ zznews.cn##.ad:not([style])
 ||58cdn.com.cn/ds/zhuangxiu/jzad-
 ||58cdn.com.cn/resource/xxzl/xxfw/
 ||58file.com/down/xyk.
+||58xiangka.com^
 ||59.36.101.209:888/link/*_280x192.
 ||591hx.com/images/0000.jpg
 ||591hx.com/js/floatbox.js
@@ -10040,9 +10044,11 @@ zznews.cn##.ad:not([style])
 ||bibi91.com^
 ||biddingx.com^$third-party
 ||bidvertiser.com^$third-party
+||bigcoob.xyz^
 ||bigcooc.xyz^
 ||bigcood.xyz^
 ||bigear.cn/cache/htmlcache/
+||bihaipack.com^
 ||bihutg.com^
 ||biketo.com/d/file/p/
 ||bilibili.com/html/ads-index.js
@@ -15834,6 +15840,7 @@ zznews.cn##.ad:not([style])
 ||slygzsc.cn^
 ||sm077.com^
 ||smallmovieapp.com^
+||smallvideoapp.com^
 ||smartfarming.cn^
 ||smckii.cn^
 ||smdhek58726.cn^

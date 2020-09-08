@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009070158
+! Version: 202009080141
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23029
+! Lenth = 23035
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5999,6 +5999,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||chiptec.net/skin/*/GoogleAnalyticsPlus/$script
 @@||cio.com/js/demandbase.js?
+@@||circuitv.com/assets/js/analytics.js$~third-party
 @@||cisco.com/web/fw/lib/ntpagetag.js
 @@||classistatic.de^*/hitcounter.js$domain=mobile.de
 @@||cleananalytics.com/browser.js?$script,domain=cheapflights.com
@@ -6022,6 +6023,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cloudfront.net/libs/amplitude-*-min.gz.js$domain=elconfidencial.com
 @@||cloudfront.net/opentag*.js$domain=telegraph.co.uk
 @@||cloudfront.net/opentag-*.js$domain=telegraph.co.uk
+@@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
 @@||cloudfront.net^*/VisitorAPI.js$domain=financialpost.com
 @@||cloudfront.net^*/comscore.$script,domain=my5.tv
 @@||cloudfront.net^*/jquery.google-analytics.js$domain=homepath.com
@@ -6229,6 +6231,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||firststatesuper.com.au^*/js/analytics.js$script
 @@||flagshipmerchantservices.com/clickpathmedia.js
 @@||flipboard.com/setcookie?$~third-party
+@@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||flippingbook.com^*/static/analytics.js$script,~third-party
 @@||flsenate.gov/Scripts/GoogleAnalytics.js$~third-party
 @@||fmz.com/pkg/fingerprint2.min.js$~third-party,xmlhttprequest
@@ -7235,7 +7238,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
-@@||r-ad.ne.jp/json?$xmlhttprequest,domain=recruit.co.jp
 @@||radio.com/player/javascript/tracking.js$domain=player.radio.com
 @@||raiffeisen.at^*/Logger.js
 @@||randomhouse.com/book/css/certona.css
@@ -7628,6 +7630,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||virtualearth.net^*/LoggingService.svc/Log?$script,domain=bing.com
 @@||visa.com^*/vendor/unica.js
 @@||visiblemeasures.com/crossdomain.xml$domain=espn.go.com|live.indiatimes.com
+@@||visualwebsiteoptimizer.com/deploy/js_visitor_settings.php$script,domain=gre.magoosh.com
+@@||visualwebsiteoptimizer.com^*/vis_opt-$script,domain=gre.magoosh.com
 @@||viu.com/ott/*/js/tracking/tracking.js$domain=viu.com
 @@||vizio.com/resources/js/vizio-module-tracking-google-analytics.js
 @@||vod.midas-i.com^$media,domain=pandora.tv
@@ -7916,6 +7920,8 @@ europcar.com###wt_overlay
 exct.net/open.aspx$image
 facebook.com,facebookcorewwi.onion#%#new MutationObserver(function(){var t=["?fbclid","%3Ffbclid","&fbclid","%26fbclid","&__tn__","%__26tn__","%3Futm","?utm","&fbc=","%26fbc%3D","?share=","%3Fshare%3D","%3F__twitter_impression%3D","?__twitter_impression=","?wtmc=","%3Fwtmc%3D","?originalReferrer=","%3ForiginalReferrer%3D","?wtrid=","%3Fwtrid%3D","?trbo=","%3Ftrbo%3D","?GEPC=","%3FGEPC%3D","?whatsapp=","%3Fwhatsapp%3D","?fbc=","%3Ffbc%3D","?dmcid=","%3Fdmcid%3D"];document.querySelectorAll('a[target="_blank"]').forEach(function(e){for(i=0;i<t.length;i++){var r;e.href.includes(t[i])&&(r=(r=(r=e.href.split("#!")[1])||e.href.split("%23%21")[1])||"",e.href.includes("#!")&&(r="#!"+r),e.href.includes("%23%21")&&(r="%23%21"+r),r=(r=(r=e.href.split("&feature=share&")[1])||e.href.split("%26feature%3Dshare%26")[1])||"",e.href.includes("&feature=share&")&&(r="?"+r),e.href.includes("%26feature%3Dshare%26")&&(r="%3F"+r),r=(r=(r=e.href.split("&h=")[1])||e.href.split("%26h%3D")[1])||"",e.href.includes("&h=")&&(r="&h="+r),e.href.includes("%26h%3D")&&(r="%26h%3D"+r),e.setAttribute("href",e.href.split(t[i])[0]+r))}})}).observe(document,{childList:!0,subtree:!0});
 facebook.com,facebookcorewwwi.onion#%#new MutationObserver(function(){var t=["&eid=","%26eid%3D","?eid=","%3Feid%3D","?__tn__=","%3F%5F%5Ftn%5F%5F%3D","&__tn__=","%26%5F%5Ftn%5F%5F%3D","?source=","%3Fsource%3D","?__xts__","%3F%5F%5Fxts%5F%5F","&__xts__","%26%5F%5Fxts%5F%5F","&amp;__xts__%5B","?ref=","%3Fref%3D","?fref=","%3Ffref%3D","?epa=","%3Fepa%3D","&ifg=","%26ifg%3D","?comment_tracking=","%3Fcomment_tracking%3D","?av=","%3Fav%3D","&av=","%26av%3D","?acontext=","%3Facontext%3D","&session_id=","%26session_id%3D","&amp;session_id=","?hc_location=","%3Fhc_location%3D","&fref=","%26fref%3D","?__cft","%3f__cft"];document.querySelectorAll('a:not([target="_blank"]):not([href*="2fac/"])').forEach(function(e){for(i=0;i<t.length;i++)e.href.includes(t[i])&&e.setAttribute("href",e.href.split(t[i])[0])})}).observe(document,{childList:!0,subtree:!0});
+ferra.ru##div[data-widget="plista_widget_belowArticle_desktop_nocss"]+div[class^="_"] > svg
+ferra.ru##div[data-widget="plista_widget_webApp_mobile_nocss"]+div[class^="_"] > svg
 football-ukraine.com###reachMedia
 football-ukraine.com###shadowMedia
 fr.de##.bottom-footer > .dossier
@@ -7940,8 +7946,6 @@ kinotan.ru##.counts
 kizi.com#%#window.google_trackConversion = function() {};
 latino-serialo.tv#?##sidebar-left > div.block[-ext-has="> div.box > h2:contains(Счетчик)"]
 launchbit.com/taz-pixel$image
-letidor.ru,ferra.ru##div[data-widget="plista_widget_belowArticle_desktop_nocss"]+div[class^="_"] > svg
-letidor.ru,ferra.ru##div[data-widget="plista_widget_webApp_mobile_nocss"]+div[class^="_"] > svg
 levashove.ru##.footer-four > section#custom_html-5
 life.ru##.read-next
 link.gmapp*.net$image
@@ -17157,6 +17161,7 @@ znak.com##.relap
 ||pageranking.li^$third-party
 ||pages-stats.rbl.ms^
 ||pages.e.newsdigitalmedia.com.au/Script/pageTracking.js
+||pages.ebay.com/identity/device/$subdocument
 ||pages.s6.exacttarget.com/Script/pageTracking.js
 ||pages03.net/WTS/event.jpeg?
 ||pages05.net^$third-party
@@ -18015,7 +18020,7 @@ znak.com##.relap
 ||qz.com/log
 ||qzlog.com^$third-party
 ||qzxmtyy.com^$third-party
-||r-ad.ne.jp^$third-party
+||r-ad.ne.jp^$script,third-party
 ||r.bbci.co.uk^
 ||r.browser.miui.com^
 ||r.chip.de/images/pic.gif?
@@ -19515,6 +19520,7 @@ znak.com##.relap
 ||squidanalytics.com^$third-party
 ||squidoo.com/track/
 ||squirrelhands.com^$third-party
+||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||srcip.com^$third-party
 ||srmdata.com^$third-party
 ||srpx.net^$third-party
@@ -19656,6 +19662,7 @@ znak.com##.relap
 ||stat.uitools.space^$third-party
 ||stat.ustore.bz^
 ||stat.uuu9.com^
+||stat.valica.it^
 ||stat.web-regie.com^
 ||stat.webevolutis.com^
 ||stat.ws.126.net^
@@ -22907,7 +22914,6 @@ znak.com##.relap
 ||yuku.com/stats?
 ||yunit.org^$third-party
 ||yupptv.com/yupptvreports/stats.php^
-||yusercontent.com/mail?url=$image,domain=mail.yahoo.com
 ||yvesrocher.com.tr/images/__utm.gif^
 ||yvesrocher.com.tr/images/avenseo/tr_TR/avenseo-uniq.min.js
 ||yvesrocher.com.tr/images/js/coremetrics.js

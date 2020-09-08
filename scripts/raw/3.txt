@@ -1,8 +1,8 @@
-! Checksum: FmH82Civx/Uoi8AbYd8eOQ
+! Checksum: 2LNyE/vciS2jWyV0St016A
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.16.81
-! TimeUpdated: 2020-09-05T17:31:26+03:00
+! Version: 2.0.16.82
+! TimeUpdated: 2020-09-07T12:31:28+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5975,8 +5975,8 @@ levashove.ru##.footer-four > section#custom_html-5
 ||blogheim.at/ranking
 ||watch32hd.org/tracking
 ||watch32hd.org/adblock
-letidor.ru,ferra.ru##div[data-widget="plista_widget_belowArticle_desktop_nocss"]+div[class^="_"] > svg
-letidor.ru,ferra.ru##div[data-widget="plista_widget_webApp_mobile_nocss"]+div[class^="_"] > svg
+ferra.ru##div[data-widget="plista_widget_belowArticle_desktop_nocss"]+div[class^="_"] > svg
+ferra.ru##div[data-widget="plista_widget_webApp_mobile_nocss"]+div[class^="_"] > svg
 ||kuntv.pw/wau.php
 ||static-cl.xhcdn.com/js/track.min.js
 ||tagm.tchibo.de/ai.aspx
