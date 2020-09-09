@@ -1,8 +1,8 @@
-! Checksum: 2LNyE/vciS2jWyV0St016A
+! Checksum: QpUtAsY715ksteYUY12Zyw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.16.82
-! TimeUpdated: 2020-09-07T12:31:28+03:00
+! Version: 2.0.16.87
+! TimeUpdated: 2020-09-08T23:31:25+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -192,6 +192,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/slardar/sdk.js
 !
 ||suggestions.dadata.ru^$third-party
+||zprk.io^$third-party
 ||getstat.net^$third-party
 ||untidyrice.com^$third-party
 ||leadfeeder.com^$third-party
@@ -3784,8 +3785,10 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||tracker.jawcloud.co^
 ||analytics.callbell.eu^
 ||analytics.zeekit.co^
+||analitik.edevlet.gov.tr^
 ||track.lexico.com^
 ||stat.ustore.bz^
 ||c0.adalyser.com^
@@ -5523,8 +5526,7 @@ _analytics.js?
 /openxtargeting.js
 /partner/transparent_pixel-$image
 /piwik-$domain=~piwik.org|~piwik.pro
-/piwik.js
-/piwik.php
+/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro
 /piwik/js/*$domain=~piwik.org
 /piwik1.
 /piwik2.js
@@ -5653,6 +5655,9 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||s3.amazonaws.com/maropost/
+||assets.vidora.com/*/validate?api_key=
+||ty90nwjc8wjt-a.akamaihd.net^$domain=nypost.com
 ||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
 ||livingtraditionally.com/wp-content/cache/busting/1/gtm-*.js
@@ -7929,6 +7934,9 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/63343
+@@||cloud.roistat.com/dist/module.js$domain=pandashop.md
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62900
 @@||google-analytics.com/analytics.js$domain=jump.com.tr
 @@||googletagmanager.com/gtm.js$domain=jump.com.tr
