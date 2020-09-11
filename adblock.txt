@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202009100153
+! Version: 202009110104
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20289
+! Lenth = 20293
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -1102,6 +1102,7 @@ $websocket,domain=5nj.com|cechi8.com
 /2016v2/js/adm2.js
 /21kknb.php
 /2me3/true.js
+/2xhtml|$script,third-party
 /3*.html?|$script,third-party,xmlhttprequest
 /300_250_
 /300x250-
@@ -3629,6 +3630,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||qingcheng.com^*/ad
 @@||qingdaoport.net/adv/random.jsp
 @@||qiyipic.com/common/fix/pub_images/
+@@||qq.com/ads/js/$domain=privacy.qq.com
 @@||qq.com/bossweb/jifen/
 @@||qq.com/cgi-bin/*?sid=ads
 @@||qq.com/html/mms/nativeads/game_rank.html
@@ -9470,7 +9472,6 @@ zznews.cn##.ad:not([style])
 ||05qwmtwxa3ev.com^
 ||0601chruopjsm.xyz^
 ||0606kk.com/js/index/index.js
-||060s.com/my_ad/
 ||0615nxbsho.xyz^
 ||0629ohfsx.xyz^
 ||0668gz.com/data/attachment/portal/
@@ -10981,6 +10982,7 @@ zznews.cn##.ad:not([style])
 ||a3.jandan.net^
 ||a3p4.com^$third-party
 ||a3p4.net^
+||a3pz36.cn^
 ||a3v4.top/Picture/aiai.gif
 ||a5xiazai.com/z/
 ||a6.hujiang.com^$domain=~class.hujiang.com
@@ -12003,6 +12005,7 @@ zznews.cn##.ad:not([style])
 ||bkyhq.cn^
 ||bkzisok.cn^
 ||bla01.com^
+||bljpk3.cn^
 ||bllzgqbyp^
 ||blog.sina.com.cn/lm/mini/
 ||blog.xuite.net/_public/js/ysmad.js
@@ -15802,7 +15805,7 @@ zznews.cn##.ad:not([style])
 ||logoquan.com/upload/prd/
 ||loldyttw.com/blr.js
 ||loldyttw.com/skin/lol/js/ds.js
-||loldyttw1.com/jds.js
+||loldyttw1.com/jds
 ||loli.io^$domain=kisssub.org
 ||loli.net/2018/09/01/5b8ab2b61cec4.jpg
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
@@ -19504,6 +19507,7 @@ zznews.cn##.ad:not([style])
 ||yantuchina.com/Upload/Ad/
 ||yanu.qiniudn.com/*x60.
 ||yanu.qiniudn.com/270300.jpg
+||yaodianzhineng.cn^
 ||yaohq.com^
 ||yaojingweiba.com/inc/
 ||yaolan.com/wenku_debris/time_debris/images/mary
