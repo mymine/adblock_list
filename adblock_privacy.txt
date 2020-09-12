@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009110104
+! Version: 202009120132
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23624
+! Lenth = 23629
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5623,6 +5623,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||112.2o7.net/b/ss/$image,domain=espn.com.br|mtv.co.uk|nissan-global.com
 @@||122.2o7.net/b/ss/$image,domain=billetnet.dk|billettservice.no|citibank.co.in|goal.com|lippupalvelu.fi|nbcsports.com|pcworld.com|riverisland.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se
 @@||122.2o7.net/b/ss/$image,domain=billetnet.dk|billettservice.no|goal.com|lippupalvelu.fi|pcworld.com|riverisland.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se
+@@||127.0.0.1^$websocket,domain=sicredi.com.br
 @@||195.82.146.52/logo/logo.gif
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
 @@||2gis.ru/assets/apitracker-*.$domain=2gis.ru
@@ -6593,6 +6594,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=jump.com.tr
 @@||googletagmanager.com/gtm.js$domain=koctas.com.tr
 @@||googletagmanager.com/gtm.js$domain=kompas.com
+@@||googletagmanager.com/gtm.js$domain=lgn.edu.gov.il
 @@||googletagmanager.com/gtm.js$domain=liga.net
 @@||googletagmanager.com/gtm.js$domain=m.n11.com
 @@||googletagmanager.com/gtm.js$domain=m.papajohns.ru
@@ -9677,6 +9679,7 @@ znak.com##.relap
 ||avstat.it^$third-party
 ||avstop.com^*/poll.gif?
 ||avtoradio.ru/design/images/site-design/top100.gif
+||avvenire.it/content/js/track.es5.min.js?
 ||awakebird.com^$third-party
 ||awaps.yandex.net^
 ||awaps.yandex.ru^
@@ -10890,7 +10893,7 @@ znak.com##.relap
 ||clicktale.net^$third-party
 ||clicktale.pantherssl.com^
 ||clickthru.lefbc.com^$third-party
-||clicktime.symantec.com^
+||clicktime.symantec.com^$script,third-party
 ||clicktrack1.com^$third-party
 ||clicktracker.iscan.nl^
 ||clicktracks.com^$third-party
@@ -12895,6 +12898,7 @@ znak.com##.relap
 ||events.antenna.is^
 ||events.apester.com^
 ||events.apester.com^$third-party
+||events.api.godaddy.com^$image
 ||events.appsflyer.com^
 ||events.artirix.com^$third-party
 ||events.avantisvideo.com^
@@ -13458,6 +13462,7 @@ znak.com##.relap
 ||frosmo.com^$third-party
 ||frstatic.net^*/tracking.js
 ||fruitflan.com^$third-party
+||fs-client-logger.herokuapp.com^
 ||fs.com/js/analysis.js
 ||fsd2.digital^$third-party
 ||fshka.com^$third-party
@@ -13548,6 +13553,7 @@ znak.com##.relap
 ||g3169349360.co^$third-party
 ||g3367433695.co^$third-party
 ||g3565518030.co^$third-party
+||g3763602365.co^$third-party
 ||g4p.redtram.com^
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
@@ -13651,9 +13657,7 @@ znak.com##.relap
 ||genieessp.jp^$third-party
 ||genieesspv.jp^$third-party
 ||genpas.icu/js/ga.js
-||geo-eu.snigelweb.com^
 ||geo-targetly.com^$third-party
-||geo-us.snigelweb.com^
 ||geo.123data.ru/json
 ||geo.6play.fr^
 ||geo.battle.net^
@@ -14086,6 +14090,7 @@ znak.com##.relap
 ||groupon.com/tracking
 ||groupon.it/tracky|
 ||growingio.com^$third-party
+||growthrx.in^$third-party
 ||gruenderszene.de^*/transparent.png?
 ||grumrt.com^$third-party
 ||gscounters.*.gigya.com^$third-party

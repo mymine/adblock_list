@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202009110104
+! Version: 202009120132
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20293
+! Lenth = 20304
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -145,8 +145,10 @@
 ###ldgindexbuttom
 ###leftAD
 ###leftCouple
+###leftCouple1
 ###leftCouplet
 ###leftFloat + #rightFloat
+###leftFloat1 + #rightFloat1
 ###leftFloat[style="z-index: 999; position: fixed; left: 0px; bottom: 0px;"]
 ###left_ad
 ###left_adv
@@ -187,6 +189,7 @@
 ###overture_ads_top_td
 ###photo--content-title-bottomx--foot
 ###photo-header-title-content-text-dallor
+###photo-header-title-content-text-dallor11
 ###piao_div_0[style*="width:140px;"]
 ###piao_div_1[style*="width:140px;"]
 ###piao_div_2[style*="width:140px;"]
@@ -210,6 +213,8 @@
 ###rightAD
 ###rightCouple
 ###rightCouple + #leftFloat
+###rightCouple1
+###rightCouple1 + #leftFloat1
 ###rightCouplet
 ###rightCouplet + #leftFloat
 ###right_ad
@@ -839,7 +844,7 @@ $script,third-party,domain=m.1kkk.com|m.dm5.com
 $script,third-party,domain=rijutv.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
-$script,third-party,xmlhttprequest,domain=btsow.website
+$script,third-party,xmlhttprequest,domain=btsow.online
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
 $websocket,domain=5nj.com|cechi8.com
@@ -3212,6 +3217,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||bitauto.com/bglogpostlog.js
 @@||blackmod.net^$generichide
 @@||blog.ztjal.info^$generichide
+@@||bootcss.com^$script,domain=jx.la
 @@||bootcss.com^$script,domain=kan-tv.com|wnacg.com
 @@||briian.com/advert.
 @@||btsax.info^$generichide
@@ -4485,6 +4491,7 @@ businessweekly.com.tw##.mainR_content:nth-child(5)
 buy.ccb.com#@##top_ad
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
 bxwx666.org###addiv3
+bxwx666.org###bdstatic
 byxx.com##.byzwPC-banner-ADscroll
 byxx.com##.cataAD
 bzfl1.cc##.widget_cy_ad
@@ -7345,7 +7352,7 @@ ofweek.com###flybox-db
 ohmanhua.com#@#.gg1000
 oilchem.net##.LzAdv
 olevod.com##.ad-corner
-oneinstack.com###sidebar > .widget:last-child
+oneinstack.com##.sidebar > .widget:last-child
 onemanhua.com##.mn-thumb:nth-child(n+2)
 onemanhua.com##[id*="ScriptRoot"]
 onlinedown.net##.downgs
@@ -10790,6 +10797,7 @@ zznews.cn##.ad:not([style])
 ||91ysa.com^
 ||920share.com/layer/layer.js
 ||920share.com/wp-content/uploads/*/911
+||922tp.com/wp-content/uploads/*0x
 ||922x7c.cn^
 ||92dp.com/home/showga?
 ||92uq.com/Ads/
@@ -11172,6 +11180,7 @@ zznews.cn##.ad:not([style])
 ||adyun.com^$third-party
 ||aencx.net^
 ||aeoprw.cn^
+||af29.com/banner/
 ||afefw.com^
 ||affiliate.rakuten.co.jp^$third-party
 ||affiliate6.com^
@@ -19487,6 +19496,7 @@ zznews.cn##.ad:not([style])
 ||y3600.cc/20
 ||y3600.com/1
 ||y66xvgo5i.chuimg.com^
+||y7wr7.cn^
 ||ya*.dwstatic.com^
 ||yaba.org.cn^
 ||yahoo.com/embed/tv?site=buzzhand&
@@ -20127,6 +20137,7 @@ zznews.cn##.ad:not([style])
 ||zmyuer.com^
 ||zmzjstu.com/g3/ad-cp/
 ||zmzjstu.com/g3/tool
+||zn46.com/images/*0x
 ||zndsssp.dangbei.net^
 ||znjj.tv/uploadfiles/abi/ad201
 ||zol-img.com.cn/ad/

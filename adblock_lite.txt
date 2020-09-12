@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202009110104
+! Version: 202009120132
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18426
+! Lenth = 18432
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1344,6 +1344,7 @@
 @@||bitauto.com/bglogpostlog.js
 @@||blackmod.net^$generichide
 @@||blog.ztjal.info^$generichide
+@@||bootcss.com^$script,domain=jx.la
 @@||bootcss.com^$script,domain=kan-tv.com|wnacg.com
 @@||briian.com/advert.
 @@||btsax.info^$generichide
@@ -2618,6 +2619,7 @@ businessweekly.com.tw##.mainR_content:nth-child(5)
 buy.ccb.com#@##top_ad
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
 bxwx666.org###addiv3
+bxwx666.org###bdstatic
 byxx.com##.byzwPC-banner-ADscroll
 byxx.com##.cataAD
 bzfl1.cc##.widget_cy_ad
@@ -5478,7 +5480,7 @@ ofweek.com###flybox-db
 ohmanhua.com#@#.gg1000
 oilchem.net##.LzAdv
 olevod.com##.ad-corner
-oneinstack.com###sidebar > .widget:last-child
+oneinstack.com##.sidebar > .widget:last-child
 onemanhua.com##.mn-thumb:nth-child(n+2)
 onemanhua.com##[id*="ScriptRoot"]
 onlinedown.net##.downgs
@@ -8923,6 +8925,7 @@ zznews.cn##.ad:not([style])
 ||91ysa.com^
 ||920share.com/layer/layer.js
 ||920share.com/wp-content/uploads/*/911
+||922tp.com/wp-content/uploads/*0x
 ||922x7c.cn^
 ||92dp.com/home/showga?
 ||92uq.com/Ads/
@@ -9305,6 +9308,7 @@ zznews.cn##.ad:not([style])
 ||adyun.com^$third-party
 ||aencx.net^
 ||aeoprw.cn^
+||af29.com/banner/
 ||afefw.com^
 ||affiliate.rakuten.co.jp^$third-party
 ||affiliate6.com^
@@ -17620,6 +17624,7 @@ zznews.cn##.ad:not([style])
 ||y3600.cc/20
 ||y3600.com/1
 ||y66xvgo5i.chuimg.com^
+||y7wr7.cn^
 ||ya*.dwstatic.com^
 ||yaba.org.cn^
 ||yahoo.com/embed/tv?site=buzzhand&
@@ -18260,6 +18265,7 @@ zznews.cn##.ad:not([style])
 ||zmyuer.com^
 ||zmzjstu.com/g3/ad-cp/
 ||zmzjstu.com/g3/tool
+||zn46.com/images/*0x
 ||zndsssp.dangbei.net^
 ||znjj.tv/uploadfiles/abi/ad201
 ||zol-img.com.cn/ad/
