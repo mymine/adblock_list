@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202009120132
+! Version: 202009130119
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18432
+! Lenth = 18439
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -861,6 +861,7 @@
 6park.com##table[width="89%"][height="60"]
 6parknews.com##.other_list_ad
 703804.com##.hotad
+720yun.com##DIV[class^="Ads_ads_"]
 7255.com###J_search_bd > div:last-child
 7255.com###right > div:first-child
 7255.com##.act-search-tab
@@ -1120,6 +1121,7 @@
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
+@@/site/ad/*$domain=islide.cc
 @@/store_ad/*$domain=pcstore.com.tw
 @@/transparent.gif?ray=$image,~third-party
 @@/unadblock/adjs_$domain=bingfeng.tw
@@ -1345,7 +1347,7 @@
 @@||blackmod.net^$generichide
 @@||blog.ztjal.info^$generichide
 @@||bootcss.com^$script,domain=jx.la
-@@||bootcss.com^$script,domain=kan-tv.com|wnacg.com
+@@||bootcss.com^$script,domain=kan-tv.com
 @@||briian.com/advert.
 @@||btsax.info^$generichide
 @@||buyad.bi-xenon.cn^
@@ -1415,7 +1417,7 @@
 @@||countrygarden.com.cn/ad/
 @@||cpro.baidustatic.com/cpro/ui/$domain=www.pctowap.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
-@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=down.ali213.net
+@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=down.ali213.net|patch.ali213.net
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||create.jd.com/ad/
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
@@ -1436,8 +1438,6 @@
 @@||digiland.tw/advert.js
 @@||digit77.com^$generichide
 @@||dilidili.one^$generichide
-@@||disqus.com^$script,domain=wnacg.com
-@@||disquscdn.com^$script,domain=wnacg.com
 @@||ditiezu.com^*.php$subdocument
 @@||dizhi99.com^$generichide
 @@||dlkoo.cc/down/*/*.htm$popup
@@ -1726,6 +1726,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=alotof.software|doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software|battlecats-db.com|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|haoweichi.com|logi.im|monnsutogatya.com|numberempire.com|pc3mag.com|shenfendaquan.com|wenxuecity.com|yabook.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=patch.ali213.net
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||panjiachen.github.io^$generichide
@@ -2704,6 +2705,7 @@ chaomi.cc,cpnn.com.cn,cs.com.cn,dyhjw.com,kkj.cn,my0538.com,mydrivers.com,ofweek
 chapaofan.com##a[href^="http"]:not([href*=".chapaofan."]) > img[src*=".sinaimg."]
 chazidian.com###worldcup_float
 chazidian.com##.ggin
+chbeyond.cn#?#a:-abp-has(> .xcybk-adfg)
 chchzhan.com,xxizhan.com##a[style^="position:fixed;z-index:"]
 chcj.com###comiis_sfcs00
 chcj.com###comiis_sfcs08
@@ -4877,8 +4879,6 @@ kkpan.com,qqtn.com##.u-gs-btn
 kkw360.com##a[href^="https://sourl.cn/"]
 km.com##.downloadApp
 kmf.com##.g-kmf-906banner
-kmzy6.com##.add-gg
-kmzy6.com#?#a:-abp-has(> .xcybk-adfg)
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 kocpc.com.tw###scroll_div
 kocpc.com.tw##.sidebar:nth-child(2)
@@ -5009,6 +5009,7 @@ liba.com##.advert-l
 liba.com##.advert-r
 liba.com##.avdert1190
 liba.com##.bottom-pic
+libaclub.com##.merchant-link
 libaclub.com##.ui-adsame
 liepin.com##DIV[id^="nodetpl_g_"]
 liisex.com###apDiv22
@@ -5162,6 +5163,7 @@ map.baidu.com##.search-item[data-stat-code="poisearch.damoce.item"]
 masok.cn###bottomLayer
 masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
 materialtools.com#@#.ad-center
+mati.hk##.banner_middle
 matongwu.com.cn##div[style="height:90px;clear:both;"]
 maxthon.cn###festival-center-wrapper
 maxthon.cn###festival-fix-bottom
@@ -5885,6 +5887,7 @@ qzone.qq.com##.pop-app-list-c
 qzone.qq.com##.side_wrapper.side_wrapper_v3
 qzone.qq.com##.topic_item[data-url*=".gdt.qq.com/"]
 qzwb.com###Javascript\.RightDiv
+qzwb.com##.qzw_live_img
 qzwb.com##body > .area[style^="height:60px;"]
 r3sub.com##a[href*="bit.ly"]
 r3sub.com##div[class] > a[href^="show.php?id="]
@@ -6187,7 +6190,6 @@ soft.macx.cn,tunesp.com#@##googlead
 soft4fun.net###xad_mu
 soft5566.com###sharebtn
 soft7788.com##span[style="float:left;width:100%;height:30px;"]
-soft8899.com##.hzurl
 softblog.tw#@#.dshare
 sogou.com###adWindow
 sogou.com###appNewsBtn
@@ -6248,6 +6250,7 @@ sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
 sohu.com##.x-adv-linear-panel
 sohu.com##.x-adv-pause-nonlinear-panel
+sohu.com##A[href*="_Click_Flow_recommend_"]
 sohu.com#@#.label-ad
 sojson.com##.fly-hezuo
 sojson.com##a[href^="https://www.sojson.com/ad/"]
@@ -9505,6 +9508,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
 ||alicmayuns.com^
 ||alifixed.cn^
+||alightin.com^
 ||aligiao.info^
 ||alimama.alicdn.com^
 ||alimama.cn^$third-party,domain=~alimama.com|~foctop.com|~meidebi.com|~qinqintejia.com|~tanx.com|~taobao.com|~youhuiyouhui.com.cn
@@ -11378,6 +11382,7 @@ zznews.cn##.ad:not([style])
 ||dytt8.net/js1/
 ||dytt8.net/js2/
 ||dytt8.net/jsd/app.js
+||dyuadask.com^
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
 ||dzimg.cn^$domain=2fzdao.com
@@ -11511,6 +11516,7 @@ zznews.cn##.ad:not([style])
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||eleobj.com^
+||elevenmedia.cn^
 ||eloer.cn^
 ||elsbfby.com^$popup,third-party
 ||elvx.top^
@@ -12210,6 +12216,7 @@ zznews.cn##.ad:not([style])
 ||gze3.cn^
 ||gzjingm.cn^
 ||gzktpf.com^
+||gzleilin.com^
 ||gzm.xzbu.com^
 ||gzmsm.cn^
 ||gzmxybg.com^
@@ -15127,6 +15134,7 @@ zznews.cn##.ad:not([style])
 ||qianhua.*/data/attachment/portal/
 ||qianmeiby.com^
 ||qianrenge.cc/qian/
+||qianzhan.com/qiye/images/qcm_
 ||qianzhan123.com/jsgg/
 ||qiaopiguniang.com^
 ||qidian.com/Images/990x40_
@@ -15909,9 +15917,7 @@ zznews.cn##.ad:not([style])
 ||soft.mumayi.net/images/download.gif
 ||soft.mumayi.net/js/
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
-||soft5566.com/images/xldown
 ||soft6.com/index.php?m=poster&
-||soft8899.com/images/xldown
 ||softhy.net/hp/
 ||sogou-inc.com/AdvPreview.
 ||sogou.*/js7/forAppDown.js
@@ -17476,6 +17482,7 @@ zznews.cn##.ad:not([style])
 ||xn--2ssq0ktxigkq.com^
 ||xn--4gqqc629gbju.com^
 ||xn--4gqvdz18f.xyz^
+||xn--9kq745jwng.work^
 ||xn--cjr60y21klpd.com^
 ||xn--czrshy5v7kb.cc^
 ||xn--ddua45lfy1c.ink^

@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009120132
+! Version: 202009130119
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23629
+! Lenth = 23634
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5609,6 +5609,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@/comscore.min.js$script,domain=1007sandiego.com|10tv.com|11alive.com|12news.com|12newsnow.com|13wmaz.com|760kfmb.com|971thefan.com|9news.com|abc10.com|cbs19.tv|cbs8.com|firstcoastnews.com|fox15abilene.com|kagstv.com|kare11.com|kcentv.com|kens5.com|kgw.com|khou.com|kiiitv.com|king5.com|kold.com|krem.com|ksdk.com|ktvb.com|kvue.com|myatltv.com|myfoxzone.com|newscentermaine.com|newswest9.com|thv11.com|wbir.com|wcnc.com|wfaa.com|wfmynews2.com|wgrz.com|whas11.com|wkyc.com|wltx.com|wthr.com|wtol.com|wtsp.com|wusa9.com|wvec.com|wwltv.com|wzzm13.com
 @@/fingerprint2.min.js$domain=livacha.com
 @@/fingerprint2.min.js^$domain=justfreethemes.com|ukit.com
+@@/friendbuy.min.js$script,domain=butcherbox.com
 @@/frosmo.easy.js$domain=sklep.pl.canalplus.com
 @@/pdc_s_code.js$domain=adobe.com
 @@/s_code_acdc.js$domain=adobe.com
@@ -6246,6 +6247,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||freegeoip.net/json/|$domain=mudwars.io
 @@||freegeoip.net/json/|$domain=userstyles.org
 @@||freehostedscripts.net/online/$script,~third-party
+@@||friendbuy.com^$domain=butcherbox.com
 @@||frosmo.com^$xmlhttprequest,domain=kauppahalli24.fi
 @@||fussball.de/fbed/js/xtcore.js
 @@||gaanacdn.com/*_social_tracking.js$domain=gaana.com
@@ -9380,6 +9382,7 @@ znak.com##.relap
 ||api.vicomi.com/api/*/analytics/
 ||api.wipmania.com^
 ||api2.poperblocker.com^
+||api64.com^$third-party
 ||apicit.net^$third-party
 ||apiv2.moengage.com^
 ||apkonline.ru^$third-party
@@ -13052,6 +13055,7 @@ znak.com##.relap
 ||fabricww.com^$third-party
 ||facebook.com*/impression.php
 ||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
+||facebook.com/a/bz?
 ||facebook.com/ai.php?
 ||facebook.com/ajax/*/log.php
 ||facebook.com/ajax/*logging.
@@ -21611,6 +21615,7 @@ znak.com##.relap
 ||tracker.data-vp.com^
 ||tracker.departapp.com/api/collect?
 ||tracker.downdetector.com^
+||tracker.durasite.net^
 ||tracker.euroweb.net^
 ||tracker.financialcontent.com^
 ||tracker.giftd.ru^$third-party
