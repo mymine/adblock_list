@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202009130119
+! Version: 202009140137
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20313
+! Lenth = 20312
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -17230,7 +17230,6 @@ zznews.cn##.ad:not([style])
 ||raonie.com^$third-party
 ||rar8.net/htmljs/
 ||ratedxbiz.com/d/
-||rayfile.com/media/img/rili_
 ||rayli.com.cn^$third-party
 ||rbign.cn^
 ||rbmry.com^
@@ -17352,7 +17351,7 @@ zznews.cn##.ad:not([style])
 ||ruian.com/img/2016/a1-6-1.gif
 ||ruian.com/img/y13/
 ||ruishungp.com/assetscms2019/js/get_content.js
-||ruiwen.com/js/a/p.js
+||ruiwen.com/js/p.js
 ||runiman.com^
 ||runkao.net^
 ||runmang.vip/img/

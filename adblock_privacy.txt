@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009130119
+! Version: 202009140137
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23634
+! Lenth = 23647
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1072,6 +1072,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analytics-event-
 /analytics-event-adapter.
 /analytics-event.
+/analytics-events-
 /analytics-gcp.
 /analytics-helper.
 /analytics-ingestion/*
@@ -1775,6 +1776,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /cmp-event-ioltrack.
 /cmp-hello.
 /cmp/messaging.js
+/cmp3.js
 /cms-gg.js
 /cms.gif?
 /cms/stats/*
@@ -1969,7 +1971,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /crai_tracker.
 /create-lead.js
 /creative.png?slotId=
-/criteo.$domain=~criteo.investorroom.com
+/criteo.$domain=~criteo.blotout.io|~criteo.investorroom.com
 /criteoRTA.
 /criteo_
 /crmTracking.
@@ -5459,6 +5461,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /zxc.gif?
 /zz.gif?url=
 /~r/Slashdot/slashdot/*
+/~shared/do/~/count/?$image
 /~utm_gif?
 3dnews.ru##a[href^="http://metrika.yandex.ru/"]
 ://adclear.*/acc?
@@ -5887,6 +5890,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cache.nymag.com^*/clickability.js
 @@||cache2.delvenetworks.com/crossdomain.xml$domain=lapresse.ca
 @@||cache2.delvenetworks.com/ps/c/v1/$domain=lapresse.ca
+@@||caf.fr/*/smarttag.js
+@@||caf.fr^*/smarttag.js$script,~third-party
 @@||calpinesolutions.com/assets/gtm/gtm.js$script
 @@||canada.com/js/ooyala/comscore.js
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
@@ -6672,7 +6677,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=book.impress.co.jp|sankei.com
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
-@@||googletagmanager.com/gtm.js$script,domain=sciencesetavenir.fr
+@@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
 @@||googletagmanager.com/gtm.js?$domain=ebuyer.com|google.com
@@ -8901,6 +8906,7 @@ znak.com##.relap
 ||americanexpress.com/beacon
 ||americanexpress.com/monitoring/
 ||amikay.com^$third-party
+||amlg.io^$third-party
 ||amnet.tw^$third-party
 ||amoad.com^$third-party
 ||amp-error-reporting.appspot.com^
@@ -9799,7 +9805,7 @@ znak.com##.relap
 ||bandstores.co.uk/tracking/scripts/
 ||banggood.com/?p=
 ||banggood.com/statistics.html
-||bangkokpost.com/spac/spac.js
+||bangkokpost.com/hits/
 ||bango.net/exid/*.gif?
 ||bango.net/id/*.gif?
 ||bankinter.com/res/img/documento_cargado.gif?
@@ -11199,7 +11205,6 @@ znak.com##.relap
 ||collector.xhamster.com^
 ||collector1.afreecatv.com^
 ||collector1.xhamster.com^
-||collegehumor.com/track.php?
 ||collserve.com^$third-party
 ||colorfulafterthought.com^$third-party
 ||colossalchance.com^$third-party
@@ -13686,6 +13691,7 @@ znak.com##.relap
 ||geo.query.yahoo.com^$domain=~mail.yahoo.com
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
 ||geo.theawesomer.com^
+||geo.thehindu.com^
 ||geo.xcel.io^
 ||geo.xcel.io^$third-party
 ||geo.yahoo.com^
@@ -14160,6 +14166,7 @@ znak.com##.relap
 ||hagebau.de/tracking^
 ||halesowennews-gb.halesowennews.co.uk^
 ||halldata.com^$third-party
+||haloscan.com^$third-party
 ||halstats.com^$third-party
 ||halsteadgazette-gb.halsteadgazette.co.uk^
 ||haltingbadge.com^$third-party
@@ -14620,6 +14627,7 @@ znak.com##.relap
 ||ign.com/global/analytics/drones.js
 ||igrid.org^
 ||iha.com.tr/track.php^
+||iheart.com/events
 ||iheart.com/tracking/
 ||iid-network.jp^$third-party
 ||iivt.com^$third-party
@@ -16193,6 +16201,7 @@ znak.com##.relap
 ||medicalnewstoday.com/structure/javascript/cache/beacon.js
 ||mediego.com^$third-party
 ||medium.com/_/stat?event=pixel.load
+||medium.com^*/performance/
 ||medizinauskunft.de/logger/
 ||medscape.com/pi/1x1/pv/profreg-1x1.gif
 ||medusasailor.com^$third-party
@@ -17257,6 +17266,7 @@ znak.com##.relap
 ||oneid.mmstat.com^
 ||oneimpress.io^$third-party
 ||onelink-translations.com^$third-party
+||onelink.me^$third-party
 ||onescreen.net/os/static/pixels/
 ||onesignal.com/webPushAnalytics
 ||onesignal.com^$third-party
@@ -20034,6 +20044,7 @@ znak.com##.relap
 ||stack-sonar.com^$third-party
 ||stackoverflow.com/gps/event
 ||stackpathdns.com/assets/javascript/cr.js
+||stacksocialcontent.com/event/
 ||stadig.ifeng.com^
 ||stadsvc.com^$third-party
 ||stadtbibliothek-rostock.de/weblication/grid5/gui/scripts/wClickLogger.js
@@ -20933,6 +20944,7 @@ znak.com##.relap
 ||tapstat.ru^$third-party
 ||tapstream.com^$third-party
 ||target.com/ci/$script
+||target.microsoft.com^$xmlhttprequest
 ||target.mirtesen.ru^
 ||target.mixi.media^
 ||target.mixi.media^$third-party
@@ -22550,6 +22562,7 @@ znak.com##.relap
 ||videoevents.outbrain.com^
 ||videogame.it/a/logview/
 ||videoly.co^*/event/
+||videomatictv.com/imps/
 ||videoplayer2.xyz^
 ||videoplayerhub.com^$third-party
 ||videoplaza.com/proxy/tracker?
