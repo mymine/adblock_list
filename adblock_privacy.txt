@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009140137
+! Version: 202009150123
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23647
+! Lenth = 23650
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -527,6 +527,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /Crypto-Loot/*$script
 /CustomTrackingScript.
 /DNATracking.
+/DNSCheck.js
+/DNSChecker.js
 /DavplusAnalytics.
 /DecideDNATrackingCode-
 /DemdexBehavioralTracking.
@@ -2509,6 +2511,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /generate_204$image,other,ping,script
 /generictracking.
 /geo-ip-detect?
+/geo-location/v1
 /geo.php?
 /geoAnalysis.js
 /geocc.$domain=~geocc.ru
@@ -4909,7 +4912,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /trackingFooter.
 /trackingGA.js
 /trackingImpression/*
-/trackingOnload-
 /trackingPixel.
 /trackingPixelForIframe.
 /trackingScript1.
@@ -5627,7 +5629,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||112.2o7.net/b/ss/$image,domain=espn.com.br|mtv.co.uk|nissan-global.com
 @@||122.2o7.net/b/ss/$image,domain=billetnet.dk|billettservice.no|citibank.co.in|goal.com|lippupalvelu.fi|nbcsports.com|pcworld.com|riverisland.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se
 @@||122.2o7.net/b/ss/$image,domain=billetnet.dk|billettservice.no|goal.com|lippupalvelu.fi|pcworld.com|riverisland.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se
-@@||127.0.0.1^$websocket,domain=sicredi.com.br
+@@||127.0.0.1^$websocket,domain=bancoamazonia.com.br|bancobrasil.com.br|banese.com.br|banestes.b.br|brb.com.br|caixa.gov.br|credicoamo.com.br|gastecnologia.com.br|safra.com.br|sicredi.com.br|tribancoonline.com.br|unicred.com.br
 @@||195.82.146.52/logo/logo.gif
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
 @@||2gis.ru/assets/apitracker-*.$domain=2gis.ru
@@ -12878,6 +12880,7 @@ znak.com##.relap
 ||event-api.contactatonce.co.uk^
 ||event-api.contactatonce.com.au^
 ||event-api.contactatonce.com^
+||event-api.reverb.com^
 ||event-collector.udsrv.com^
 ||event-listener.air.tv^
 ||event-reporting-dot-webylytics.appspot.com^
@@ -15623,7 +15626,6 @@ znak.com##.relap
 ||livefyre.com/tracking/
 ||livefyre.com^*/tracker.js
 ||livefyre.com^*/tracking/
-||livehelpnow.net/lhn/handler/$image
 ||livehelpnow.net/lhn/jsutil/getinvitationmessage.aspx?
 ||livehit.net^$third-party
 ||livejournal.com/ljcounter/?
@@ -23514,6 +23516,7 @@ znak.com##.relap
 ||youtube.com/ptracking?
 ||youtube.com/s?
 ||youtube.com/set_awesome?
+||youtube.com^*/heartbeat?
 ||ypcdn.com/*/webyp?
 ||ypcdn.com/webyp/javascripts/client_side_analytics_
 ||yrdrtzmsmt.com^$third-party

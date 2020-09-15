@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202009140137
+! Version: 202009150123
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18438
+! Lenth = 18445
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -513,6 +513,9 @@
 23pili.com,kt51.com##.bottom_fixed
 24en.com##.article_part_top
 24en.com##A[href*="/ClickAd?"]
+24k99.com##.jy_24k99_suspended_ad
+24k99.com,fx168.com##.ny2018_txtLink
+24k99.com,fx168.com##.yy_guangao
 25xz.com##.p_ads
 25xz.com##div[style*="1002px;"]
 25xz.com##div[style*="724px;"]
@@ -1117,7 +1120,7 @@
 @@/pic/ad/*$domain=ybjk.com
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
-@@/sensorsdata.$domain=36kr.com|modian.com|shanbay.com
+@@/sensorsdata.$domain=36kr.com|imooc.com|modian.com|shanbay.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
@@ -1725,8 +1728,7 @@
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=alotof.software|doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software|battlecats-db.com|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|haoweichi.com|logi.im|monnsutogatya.com|numberempire.com|pc3mag.com|shenfendaquan.com|wenxuecity.com|yabook.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=patch.ali213.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software|battlecats-db.com|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|haoweichi.com|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|wenxuecity.com|yabook.org
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||panjiachen.github.io^$generichide
@@ -3699,8 +3701,6 @@ fx168.com###oilTopAd
 fx168.com##.ad_teshu
 fx168.com##.jy_fx168_gjs_content_Right_advise
 fx168.com##.jy_ny2018_content_LeftAd
-fx168.com##.ny2018_txtLink
-fx168.com##.yy_guangao
 fx168.com##.zixun_ad
 fx678.com##.aside-store
 fx678.com##.box_video
@@ -5165,6 +5165,7 @@ masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
 materialtools.com#@#.ad-center
 mati.hk##.banner_middle
 matongwu.com.cn##div[style="height:90px;clear:both;"]
+maxthon.cn###festival-bottom-wrapper
 maxthon.cn###festival-center-wrapper
 maxthon.cn###festival-fix-bottom
 maxthon.cn###festival-rain-wrapper
@@ -6250,7 +6251,7 @@ sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
 sohu.com##.x-adv-linear-panel
 sohu.com##.x-adv-pause-nonlinear-panel
-sohu.com##A[href*="_Click_Flow_recommend_"]
+sohu.com##a[href*="_Click_Flow_recommend_"]
 sohu.com#@#.label-ad
 sojson.com##.fly-hezuo
 sojson.com##a[href^="https://www.sojson.com/ad/"]
@@ -9900,6 +9901,7 @@ zznews.cn##.ad:not([style])
 ||bbs.xiashanet.com/js/adsview.js
 ||bbsbaba.com/js/1.js
 ||bbsbaba.com/js/2.js
+||bbtys.net^
 ||bbuni.com^$third-party
 ||bbvdd.com^
 ||bc.qunar.com^
@@ -11764,6 +11766,7 @@ zznews.cn##.ad:not([style])
 ||fpb.sohu.com^
 ||fpb1.apple886.com^
 ||fpb1.chinacar.
+||fpbsnc.com/Runtime/js/psData.js
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
 ||fqsgj.com^
@@ -12531,10 +12534,12 @@ zznews.cn##.ad:not([style])
 ||honglingjin.co.uk/wp-content/uploads/*-Homepage-Takeover-BG-
 ||hongshikai.com^
 ||hongtefm.com^
+||hongwenge.com^
 ||hongyangbg.com^
 ||hongyingbbs.com/img/top.js
 ||hongyingbbs.com/jj/
 ||hoopchina.com.cn/common/lazyLoadAd.js
+||hoopchina.com.cn/gamecenter/side-stg.js
 ||hoopchina.com.cn/static/www/*340-230.
 ||hoopchina.com.cn/static/www/*340x230.
 ||hoopchina.com.cn/topn
@@ -14184,6 +14189,7 @@ zznews.cn##.ad:not([style])
 ||medprofile.cn^
 ||medsci.cn/aimgs/$script
 ||medsci.cn/images/wyg.jpg
+||mei181.com^
 ||meicubao.cn^
 ||meihaoxiangwang.com^
 ||meiju22.com/new/Public/gg.js
@@ -14855,6 +14861,7 @@ zznews.cn##.ad:not([style])
 ||pconline.com.cn/jrzcz/*/intf
 ||pconline.com.cn/js/ad_
 ||pconline.com.cn/js/ivy.js
+||pcouis.cn^
 ||pcpop.com/pv/pv.js
 ||pcstore.com.tw/adm/psearch_payad_
 ||pcstore.com.tw/css/myacc_init.js
@@ -14892,8 +14899,6 @@ zznews.cn##.ad:not([style])
 ||photo.*.html?tk=$script,third-party
 ||photo.*/native?tk=$third-party
 ||php1.cn/uploads/huayun.jpg
-||php100.com//wp-content/themes/xiu/1200-120.jpg
-||php100.com/wp-content/uploads/2019/05/apkbus.jpg
 ||phpad.cqnews.net^
 ||phpape.com^
 ||phpernote.com/ali
@@ -16742,6 +16747,7 @@ zznews.cn##.ad:not([style])
 ||usxpic.com/btimg/upload/image/20181018/101806323369.png
 ||usxpic.com/u/20200629/12340838.gif
 ||uuaoz.com^
+||uuboos.com^
 ||uugtv.com/x/app/videoSpread?
 ||uulucky.com/show-
 ||uumtu.com/js/lqbz.js
@@ -17951,6 +17957,7 @@ zznews.cn##.ad:not([style])
 ||yujianai520.com^
 ||yujiangchu.com^
 ||yule8.net^
+||yun-pdm2000.cn^
 ||yunanfuwuqi.com^
 ||yundaquan.com/data/attachment/portal/
 ||yundianb.com/hao/
