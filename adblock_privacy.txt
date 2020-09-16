@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009150123
+! Version: 202009160124
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23650
+! Lenth = 23651
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5629,7 +5629,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||112.2o7.net/b/ss/$image,domain=espn.com.br|mtv.co.uk|nissan-global.com
 @@||122.2o7.net/b/ss/$image,domain=billetnet.dk|billettservice.no|citibank.co.in|goal.com|lippupalvelu.fi|nbcsports.com|pcworld.com|riverisland.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se
 @@||122.2o7.net/b/ss/$image,domain=billetnet.dk|billettservice.no|goal.com|lippupalvelu.fi|pcworld.com|riverisland.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se
-@@||127.0.0.1^$websocket,domain=bancoamazonia.com.br|bancobrasil.com.br|banese.com.br|banestes.b.br|brb.com.br|caixa.gov.br|credicoamo.com.br|gastecnologia.com.br|safra.com.br|sicredi.com.br|tribancoonline.com.br|unicred.com.br
 @@||195.82.146.52/logo/logo.gif
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
 @@||2gis.ru/assets/apitracker-*.$domain=2gis.ru
@@ -8073,7 +8072,7 @@ znak.com##.relap
 ||123compteur.com^$third-party
 ||123count.com^$third-party
 ||123rf.com/tk/
-||127.0.0.1^$third-party,websocket,domain=~127.0.0.1|~localhost
+||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com
 ||12fou.com^$third-party
 ||12mnkys.com^$third-party
 ||1337x.to/ip3.php
@@ -11859,6 +11858,7 @@ znak.com##.relap
 ||d3cxv97fi8q177.cloudfront.net^
 ||d3eyd961wi10bl.cloudfront.net^
 ||d3ezl4ajpp2zy8.cloudfront.net^
+||d3f5l8ze0o4j2m.cloudfront.net^$script,domain=trademe.co.nz
 ||d3h1v5cflrhzi4.cloudfront.net^
 ||d3hb14vkzrxvla.cloudfront.net/health-check
 ||d3hr5gm0wlxm5h.cloudfront.net^
@@ -22627,6 +22627,7 @@ znak.com##.relap
 ||virgul.com^$third-party
 ||virool.com^$third-party
 ||virtualearth.net/mapcontrol/*/veapiAnalytics.js
+||virtualearth.net/webservices/v*/LoggingService/LoggingService.svc/Log?entry=
 ||virtualnet.co.uk^$third-party
 ||virtueworldwide.com/ga-test/
 ||visa.com/logging/logEvent$third-party
