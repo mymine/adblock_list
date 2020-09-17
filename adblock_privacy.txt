@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009160124
+! Version: 202009170152
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23651
+! Lenth = 23653
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5508,7 +5508,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://tracking.*/beacon/
 ://tracking.*/tr.js
 ://tru.am^$third-party
-://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utoronto.ca
+://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.pansa.pl|~utoronto.ca
 ;1x1inv=
 ;manifest-analytics.js
 ;sz=1x1;ord=
@@ -6646,6 +6646,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=sloggi.com
 @@||googletagmanager.com/gtm.js$domain=society6.com
 @@||googletagmanager.com/gtm.js$domain=spareroom.co.uk
+@@||googletagmanager.com/gtm.js$domain=sport1.de
 @@||googletagmanager.com/gtm.js$domain=square-enix-games.com
 @@||googletagmanager.com/gtm.js$domain=superesportes.com.br
 @@||googletagmanager.com/gtm.js$domain=t-online.de
@@ -10076,8 +10077,8 @@ znak.com##.relap
 ||bing.com/fd/ls/
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
-||bing.com^*/GLinkPingPost.aspx
-||bing.com^*/glinkping.aspx
+||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
+||bing.com^*/glinkping.aspx$ping,xmlhttprequest
 ||biomedcentral.com/track/
 ||bionicclick.com^$third-party
 ||biosphoto.com^*/stats/
@@ -11176,6 +11177,7 @@ znak.com##.relap
 ||collector-medium.lightstep.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.apester.com^$third-party
+||collector.appconsent.io^
 ||collector.automote.co.nz^
 ||collector.brandify.com^
 ||collector.bunchbox.co^$third-party

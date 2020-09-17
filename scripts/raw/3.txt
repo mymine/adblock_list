@@ -1,8 +1,8 @@
-! Checksum: mycaneeX06KpoF50ctu+hA
+! Checksum: 9EIf1r2K48mITroI83aAIA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.16.97
-! TimeUpdated: 2020-09-15T16:03:18+03:00
+! Version: 2.0.16.99
+! TimeUpdated: 2020-09-16T17:31:35+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -198,6 +198,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||collector.appconsent.io^
 ||tracker.durasite.net^
 ||growthrx.in^$third-party
 ||clickcease.com^$third-party
@@ -8730,6 +8731,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/63828#issuecomment-693360254
+@@||googletagmanager.com/gtm.js$domain=sport1.de
 ! https://github.com/uBlockOrigin/uAssets/issues/7899
 @@||caf.fr/*/smarttag.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63499

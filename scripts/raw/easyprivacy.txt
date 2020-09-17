@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VlpvI9hI+5GFlqrqsJKsyw
-! Version: 202009160101
+! Checksum: sN5/K0mNOOEiDZ2JgAXlOw
+! Version: 202009170101
 ! Title: EasyPrivacy
-! Last modified: 16 Sep 2020 01:01 UTC
+! Last modified: 17 Sep 2020 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5123,7 +5123,7 @@
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/tr.js
-://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utoronto.ca
+://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.pansa.pl|~utoronto.ca
 ;1x1inv=
 ;manifest-analytics.js
 ;sz=1x1;ord=
@@ -15430,8 +15430,8 @@ _mongo_stats/
 ! Bing
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
-||bing.com^*/glinkping.aspx
-||bing.com^*/GLinkPingPost.aspx
+||bing.com^*/glinkping.aspx$ping,xmlhttprequest
+||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
 ! Aliexpress
 ||aliyuncs.com/r.png
 ||gj.mmstat.com^
