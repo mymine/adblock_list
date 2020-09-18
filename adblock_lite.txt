@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202009170152
+! Version: 202009180112
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18468
+! Lenth = 18466
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1559,7 +1559,6 @@
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
 @@||hdslb.com/bfs/seed/log/report/log-reporter.js$domain=message.bilibili.com
-@@||heikexs.com/wp-content/themes/Duoxs*/js/user.js
 @@||hh010.com^$generichide
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||histock.tw/JScript/AD/
@@ -2493,7 +2492,6 @@ bilibili.com##.ad-f
 bilibili.com##.banner-card
 bilibili.com##.gg-floor-module
 bilibili.com##.index-promote
-bilibili.com##.item > a[href*="cm.bilibili.com"]
 bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
@@ -9505,7 +9503,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/tfscom/*.sina.
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
-||alicdn.com^$domain=1024gu.com|11papapa.com|1avlang.com|1yingdoutv.com|2334n.com|51dll.com|52kpop.com|55cc.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|btdp.online|camelliadali.com|ccxx99.com|dytt.com|f6hx.site|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|lookpian.com|magnet2048.com|ppx116.com|qingmanyong.com|qqtenglong.com|qyl00.com|qyl222.com|runoob.com|sodu.cc|spqi.xyz|supfree.net|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xingzhiyin44.com|yeyemo6.com|yuese46.com|yy6080.cn|yzz12.com|zhuankezhijia.com
+||alicdn.com^$domain=1024gu.com|11papapa.com|1avlang.com|1yingdoutv.com|2334n.com|51dll.com|52kpop.com|55cc.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|btdp.online|camelliadali.com|ccxx99.com|dytt.com|f6hx.site|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|lookpian.com|magnet2048.com|ppx116.com|qingmanyong.com|qqtenglong.com|qyl00.com|qyl222.com|sodu.cc|spqi.xyz|supfree.net|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xingzhiyin44.com|yeyemo6.com|yuese46.com|yy6080.cn|yzz12.com|zhuankezhijia.com
 ||alicdn.com^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
 ||alicdn.com^$domain=99a25.com|xin99r3.com|xin99r4.com
 ||alicdn.com^$domain=aikanshu8.com|lawen44.net
@@ -11484,7 +11482,6 @@ zznews.cn##.ad:not([style])
 ||ecpoc.com/style/ad
 ||ecuc123.net^
 ||ecuwa.cn^
-||edayday.com/img/ad
 ||ediun.com^
 ||edo5.com^
 ||edu.jiukang.org^
@@ -12406,7 +12403,6 @@ zznews.cn##.ad:not([style])
 ||heibaizhibo.com/_nuxt/87a5efd04908651591f7.js
 ||heiguang.com/_r/2015/js/hrBottomBar.
 ||heiguang.com/f/uad/
-||heikexs.com/wp-content/themes/Duoxs*/js/
 ||heima8.com^$third-party
 ||heipa666.xyz/hp/
 ||heirui.cn/static/hb_
@@ -12576,6 +12572,7 @@ zznews.cn##.ad:not([style])
 ||howbuy.com/subject/js/jquery.blockUI.js
 ||howbuy.com/subject/js/layer/layer.js
 ||hp-china.biz^
+||hpsszw.cn^
 ||hqcx.net/bbs/data/attachment/forum/201711/08/200952ipkhkmpjo5t0p5pv.jpg
 ||hqcx.net/images/baidu.jpg
 ||hqcx.net/index.php?m=poster&
@@ -14642,6 +14639,7 @@ zznews.cn##.ad:not([style])
 ||noahos.cn^
 ||noberlmall.com^
 ||nongsalei.com^
+||nongzhifu.cn^
 ||nord-raum.com^$third-party
 ||notice.uchome.manyou.com^
 ||notoboo.net^
@@ -15154,7 +15152,6 @@ zznews.cn##.ad:not([style])
 ||qianmeiby.com^
 ||qianrenge.cc/qian/
 ||qianzhan.com/qiye/images/qcm_
-||qianzhan123.com/jsgg/
 ||qiaopiguniang.com^
 ||qidian.com/Images/990x40_
 ||qiditrade.com^
@@ -15244,6 +15241,7 @@ zznews.cn##.ad:not([style])
 ||qpb.sohu.com^
 ||qpgyy.com/add01.html
 ||qpic.cn/qq_public/$domain=xgan.cn
+||qpic.cn/wwpic/430735_8tgKLW57Tye8Ssf_1600089780/0
 ||qpic.ws/images/pk*.gif
 ||qpmue.xyz^
 ||qpokok.com^
@@ -15517,7 +15515,6 @@ zznews.cn##.ad:not([style])
 ||rwjfs.com^
 ||rx616.cn^
 ||rxconkz.cn^
-||rxdsj.com/Runtime/js/vod960.js
 ||rxxdq.cn^
 ||rznews.cn/viscms/r/cms/rzw/rzxw/images/*.swf
 ||rzxlszy.vip^
@@ -16775,6 +16772,7 @@ zznews.cn##.ad:not([style])
 ||uuu9.com/photolog.html
 ||uuu9.com/yoyo_
 ||uuu9.tieba.com^$subdocument
+||uuwhg.com^
 ||uux79.com^$third-party
 ||uvclick.com^
 ||uvmqpum.cn^

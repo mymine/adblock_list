@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009170152
+! Version: 202009180112
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23653
+! Lenth = 23655
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5670,7 +5670,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||adobedtm.com^*/mbox-contents-$script,domain=dhl.de
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.cat|fcbarcelona.es
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.fr
-@@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp
+@@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp|sony.jp
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
 @@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|aeroplan.com|ally.com|americanexpress.com|argos.co.uk|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|newyorker.com|nfl.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sonycrackle.com|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
@@ -5682,7 +5682,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||adobedtm.com^*/satelliteLib-$script,domain=elgiganten.se
 @@||adobedtm.com^*/satelliteLib-$script,domain=elkjop.no
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.fr|icimusique.ca|laredoute.be|laredoute.ch|laredoute.fr|lci.fr|nrj.fr|tou.tv
-@@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.jp|radiko.jp
+@@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.jp|radiko.jp|sony.jp
 @@||adobedtm.com^*/satelliteLib-$script,domain=gigantti.fi
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.pl
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.ru
@@ -6228,7 +6228,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=samharris.org
 @@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=waz.de
 @@||ezodn.com/detroitchicago/dayton.js$script
-@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 @@||fandango.com/b/ss/$image
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
 @@||fccbrea.org^*/swfaddress.js
@@ -6995,7 +6994,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||medicare.gov/SharedResources/widgets/foresee/foresee-trigger.js
 @@||megafon.ru/static/?files=*/tealeaf.js
 @@||mercedes-benz-mobile.com/js/tracking/tracker.min.js?
-@@||messenger.com/common/referer_frame.php$subdocument,domain=messenger.com
 @@||metric.gstatic.com^$domain=ipv6test.google.com
 @@||metrics.ancestry.com/b/ss/$image
 @@||metrics.bitdefender.com/b/ss/*$domain=bitdefender.com
@@ -7309,6 +7307,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||rtl.nl/system/s4m/xldata/get_comscore.js?
 @@||rtoaster.jp^$domain=3ple.jp
 @@||rtoaster.jp^$domain=attenir.co.jp
+@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|lexus.jp|peachjohn.co.jp|rtoaster.com|rurubu.jp|shop.hikaritv.net
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||rv.treehousei.com/prm/js/*/public.min.js$domain=partnerportal.fortinet.com
@@ -7375,6 +7374,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||seewhy.com^$domain=nixon.com
 @@||segment-data.zqtk.net^$domain=wsj.com
 @@||segment.com/analytics.js/*/analytics.min.js$script
+@@||segment.com/v1/projects/$xmlhttprequest,domain=benchling.com
 @@||segment.io/analytics.js/*/analytics.min.js$script
 @@||segment.io/v1/$xmlhttprequest,domain=greentoe.com
 @@||segmentify.com//*/events/v1.json?apiKey=$domain=flo.com.tr
@@ -7699,7 +7699,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||wix.com/_api/*count?type$~third-party
 @@||wordpress.org/extend/plugins/wp-slimstat/screenshot-$image,~third-party
 @@||wordpress.org/wp-slimstat/assets/banner-$image,~third-party
-@@||workplace.com/common/referer_frame.php$subdocument,domain=workplace.com
 @@||wp.com/_static/*/gaAddons.js
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
@@ -11274,6 +11273,7 @@ znak.com##.relap
 ||conf.international.baidu.com^
 ||confiant-integrations.global.ssl.fastly.net^
 ||confiant.msn.com^
+||config-vvs.glomex.com^
 ||config.parsely.com^$third-party
 ||config.safedk.com^
 ||config.uca.cloud.unity3d.com^
@@ -13069,7 +13069,6 @@ znak.com##.relap
 ||facebook.com/ai.php?
 ||facebook.com/ajax/*/log.php
 ||facebook.com/ajax/*logging.
-||facebook.com/ajax/bz
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/common/scribe_endpoint.php$domain=transfermarkt.de
@@ -15008,6 +15007,7 @@ znak.com##.relap
 ||iplist.cc^$third-party
 ||iplocationtools.com^$third-party
 ||iplsc.com/inpl.log/
+||ippen.space^$third-party
 ||ipqualityscore.com^$third-party
 ||ipro.com^$third-party
 ||iproanalytics.com^$third-party
@@ -16336,6 +16336,7 @@ znak.com##.relap
 ||metrika-informer.com^$third-party
 ||metrika.yandex.ru/stat/?id=$third-party
 ||metriweb.be^$third-party
+||metrix.emagister.com^
 ||metrixlablw.customers.luna.net^
 ||metro-trending-*.amazonaws.com^$third-party
 ||metro.co.uk/js/ga-
@@ -22304,6 +22305,7 @@ znak.com##.relap
 ||uniconsent.com^$third-party
 ||unicornapp.com^*/Metrics/
 ||unid.go.com^$third-party
+||unid.go.com^*/hit?
 ||unifyaddition.com^$third-party
 ||uninterestedquarter.com^$third-party
 ||union.360.cn/1899.js

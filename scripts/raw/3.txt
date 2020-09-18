@@ -1,8 +1,8 @@
-! Checksum: 9EIf1r2K48mITroI83aAIA
+! Checksum: HdSzTZ1FQ7RUPmk7VrdIog
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.16.99
-! TimeUpdated: 2020-09-16T17:31:35+03:00
+! Version: 2.0.17.0
+! TimeUpdated: 2020-09-17T17:31:27+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -8731,6 +8731,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/63801
+@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|lexus.jp|peachjohn.co.jp|rtoaster.com|rurubu.jp|shop.hikaritv.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63828#issuecomment-693360254
 @@||googletagmanager.com/gtm.js$domain=sport1.de
 ! https://github.com/uBlockOrigin/uAssets/issues/7899
