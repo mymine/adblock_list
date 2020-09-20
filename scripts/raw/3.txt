@@ -1,8 +1,8 @@
-! Checksum: rbtUXWazYzd6YSb47wSn3Q
+! Checksum: VNYL9fQGWXzyJizi5T15Vg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.1
-! TimeUpdated: 2020-09-18T15:31:40+03:00
+! Version: 2.0.17.2
+! TimeUpdated: 2020-09-19T19:31:31+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6445,6 +6445,8 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||hm.baidu.com/hm.gif
+||m.baidu.com/tc?tcreq4log=
 ||virtualearth.net/webservices/v*/LoggingService/LoggingService.svc/Log?entry=
 ||sohu.com/stat/
 ||js.sohu.com/track/

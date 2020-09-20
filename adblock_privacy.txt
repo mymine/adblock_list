@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009190159
+! Version: 202009200126
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23649
+! Lenth = 23652
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -4276,6 +4276,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /springmetrics.
 /sptlog.
 /spylog_
+/spymonitor.js
 /sr.gif?
 /sra_analytics.
 /sranalytics.
@@ -7315,6 +7316,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||rv.treehousei.com/prm/js/*/public.min.js$domain=partnerportal.fortinet.com
+@@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||s-sfr.fr/stats/header.js$script,domain=sfr.fr
 @@||s.imgur.com/min/px.js$domain=imgur.com
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com
@@ -8069,7 +8071,6 @@ znak.com##.relap
 ||105app.com/report/?
 ||105app.com^$third-party
 ||109.169.66.161^$third-party,domain=~adult-site.ip
-||115.84.165.13/wlo/$domain=~seul-go.ip
 ||11nux.com^$third-party
 ||120.132.57.41/pjk/pag/ys.php
 ||123-counter.de^$third-party
@@ -8086,8 +8087,6 @@ znak.com##.relap
 ||168logger.com/*/log/event?$third-party
 ||168logger.com^$third-party
 ||17173.com/ping.js
-||179.43.173.134^$third-party
-||180.70.93.115/ndmclick/$domain=~daum.ip
 ||180.76.2.18^$third-party
 ||180.76.2.18^$third-party,domain=~baidu.ip
 ||185.165.169.108^$third-party
@@ -8175,8 +8174,6 @@ znak.com##.relap
 ||40nuggets.com^$third-party
 ||44-trk-srv.com^$third-party
 ||45.32.105.134^$third-party
-||46.101.168.189^$third-party,domain=lematin.ch
-||46.101.246.10^$third-party,domain=lematin.ch
 ||4gtv.tv/js/ga_
 ||4hds.com/js/camstats.js
 ||4info.com/alert/listeners/
@@ -8218,7 +8215,6 @@ znak.com##.relap
 ||77tracking.com^$third-party
 ||78.46.19.203^$third-party,domain=~sprueche-zitate.net.ip
 ||79.125.117.123^$third-party
-||79.125.117.123^$third-party,domain=~amazon.cdn.ip.seen.on.cheapflight
 ||7bpeople.com^$third-party
 ||7days.ru/ajax/route/browser
 ||7days.ru/statistics/*/hit?id=
@@ -8231,13 +8227,11 @@ znak.com##.relap
 ||7x5.fr^$third-party
 ||8020solutions.net^$third-party
 ||81.176.238.128/Counter.aspx
-||82.196.13.38^$third-party,domain=~dv-is.ip
 ||82o9v830.com^$third-party
 ||83.locksmaker.com.cn^$third-party
 ||85.237.86.50/stat/$domain=bluray-disc.de
 ||88688.ru/api/geoip/
 ||88infra-strat.com^$third-party
-||91.196.216.64^
 ||913nd.dieti-natura.es^
 ||99bitcoins.com/_load/
 ||99click.com^$third-party
@@ -8423,6 +8417,7 @@ znak.com##.relap
 ||ad.atdmt.com/i/img/
 ||ad.atdmt.com/m/
 ||ad.atdmt.com/s/
+||ad.daum.net^
 ||ad.gt^$third-party
 ||ad.kinozal.website^
 ||ad2links.com/lpajax.php?
@@ -14357,6 +14352,7 @@ znak.com##.relap
 ||hitwebcounter.com^$third-party
 ||hivps.xyz^$third-party
 ||hlserve.com^$third-party
+||hm.baidu.com/hm.gif
 ||hm.baidu.com^$third-party
 ||hm.com/global/session-tracking
 ||hmma.baidu.com/app.gif
@@ -15580,11 +15576,13 @@ znak.com##.relap
 ||linkedin.com/sensorCollect/?action=
 ||linkedin.com^*/collect
 ||linkedin.com^*/tracking
+||linkifier.com^$third-party
 ||linkpuls.idg.no^
 ||linkpulse.com^$third-party
 ||links.boom.ge^
 ||links.services.disqus.com/api/ping
 ||links.voyeurweb.com^
+||linksnappy.com^$third-party
 ||linksynergy.com^$third-party
 ||linktausch.li^$third-party
 ||linkwi.se^$third-party
@@ -15927,6 +15925,7 @@ znak.com##.relap
 ||m-t.io^$third-party
 ||m.addthisedge.com^$third-party
 ||m.adtiming.com^
+||m.baidu.com/tc?tcreq4log=
 ||m.czbiw.com^$third-party
 ||m.data.mob.com^
 ||m.dubcm.com^$third-party
@@ -17627,6 +17626,7 @@ znak.com##.relap
 ||perezhilton.com^*/stat/
 ||perf.dugout.com^
 ||perfdrive.com^$third-party
+||perfect-privacy.com^$third-party
 ||perfectaudience.com^$third-party
 ||perfectmarket.com/pm/track?
 ||perfiliate.com^$third-party
@@ -18221,6 +18221,7 @@ znak.com##.relap
 ||purevpn.com/api/setCookies
 ||puritan.com/images/pixels/
 ||push-ad.com^$third-party
+||push-free.com^$third-party
 ||push-house.net^$third-party
 ||push2check.com^$third-party
 ||push4site.com^$third-party
@@ -18682,6 +18683,7 @@ znak.com##.relap
 ||reporting.handll.net^
 ||reporting.singlefeed.com^
 ||reporting.theonion.com^
+||reports-api.sqreen.io^
 ||reports.pagesuite-professional.co.uk^
 ||reprocautious.com^$third-party
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
@@ -18961,7 +18963,7 @@ znak.com##.relap
 ||rvkcpqz.com^
 ||rvv.emol.com^
 ||rztrkr.com^$third-party
-||s-microsoft.com/mscc/
+||s-microsoft.com/mscc/$~stylesheet
 ||s-msn.com/br/gbl/js/2/report.js
 ||s-msn.com/primedns.gif?$domain=msn.com
 ||s-msn.com/s/js/loader/activity/trackloader.min.js
@@ -23118,6 +23120,7 @@ znak.com##.relap
 ||winfuture.de/?*/videos-json.php&f=track_event
 ||winfuture.de/ajax/count
 ||winfuture.de/ajax/pixel^
+||winfuture.mobi/ajax/count
 ||winitout.com^$third-party
 ||winsfordguardian-gb.winsfordguardian.co.uk^
 ||wintorrents.ru/templates/WinTorentsNew/images/gp.jpg
