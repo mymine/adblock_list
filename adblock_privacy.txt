@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009210107
+! Version: 202009220141
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23649
+! Lenth = 23661
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -786,9 +786,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /ZagUser.js
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xmlhttprequest,~third-party
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
+/^https?:\/\/.*\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\?/$script,xmlhttprequest
 /^https?:\/\/.*\/(public|resources|static|assets)\/([a-f0-9]){28,30}$/$script,~third-party,xmlhttprequest,domain=~cand.li
-/^https?:\/\/.*www\.bhphotovideo\.com\/[a-z0-9]{19,}\.js/$script,xmlhttprequest
-/^https?:\/\/.*www\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\.js/$script,xmlhttprequest
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js
 /^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
 /^https?:\/\/js\.[-.0-9a-z]+\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{7}\.js$/$script,third-party
@@ -1564,7 +1563,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /caixinlog.js
 /calameo-beacon.
 /call-tracking.js
-/callback/*$domain=gdanstum.net|fiaharam.net|underhentai.net|gatustox.net|scuseami.net|gusimp.net|cowner.net|xterca.net|gloyah.net|uclaut.net|atabencot.net|thouth.net|cinebo.net|baymaleti.net|briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
+/callback/*$domain=atharori.net|meriabub.net|gdanstum.net|fiaharam.net|underhentai.net|gatustox.net|scuseami.net|gusimp.net|cowner.net|xterca.net|gloyah.net|uclaut.net|atabencot.net|thouth.net|cinebo.net|baymaleti.net|briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
 /callbacks/stats?
 /campaign_tracker.
 /campaign_trax.
@@ -2790,6 +2789,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /imp_cnt.gif?
 /imp_img.php?
 /imppix/*
+/impr.gif?
 /impr.xlg?
 /impresion/zona/*
 /impress.php?
@@ -2831,7 +2831,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /increment_page_counter.
 /index.php?_m=livesupport*&referrer=
 /index.track?
-/index/ping^$domain=gdanstum.net|fiaharam.net|underhentai.net|gatustox.net|scuseami.net|gusimp.net|cowner.net|xterca.net|gloyah.net|uclaut.net|atabencot.net|thouth.net|cinebo.net|baymaleti.net|briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
+/index/ping^$domain=atharori.net|meriabub.net|gdanstum.net|fiaharam.net|underhentai.net|gatustox.net|scuseami.net|gusimp.net|cowner.net|xterca.net|gloyah.net|uclaut.net|atabencot.net|thouth.net|cinebo.net|baymaleti.net|briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
 /indextools.js
 /indraeventsapi.
 /inetlog.ru/*
@@ -3720,6 +3720,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pixel/img/*
 /pixel/impression/*
 /pixel/js/*$third-party
+/pixel/sbs?
 /pixel/stream/*
 /pixel/visit?
 /pixel1/impression.
@@ -5447,6 +5448,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /yozons-lib/*$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 /ystat.do
 /ystat.js
+/yt-track-streamer
 /z.inc.php?
 /zag.gif?
 /zagcookie.
@@ -6727,7 +6729,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||graphracer.com/js/libs/heatmap.js
 @@||gruposantander.es^*/scripts/log.js
 @@||gstatic.com^*/analytics.js$domain=google.com
-@@||gstatic.com^*/firebase-analytics.js$script,domain=audiomack.com|games.com
+@@||gstatic.com^*/firebase-analytics.js$script,domain=999.md|audiomack.com|games.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||guidestar.org/ga.$~third-party,xmlhttprequest
 @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
@@ -9691,6 +9693,7 @@ znak.com##.relap
 ||awasete.com^$third-party
 ||awe.sm/conversions/
 ||aweber.com/form/displays.htm?$image
+||awesome.section.io^
 ||awesomelytics.com^$third-party
 ||awin1.com^$third-party
 ||awmcounter.de^$third-party
@@ -10016,6 +10019,7 @@ znak.com##.relap
 ||bgpng.me^$third-party
 ||bhcumsc.com^$third-party
 ||bhg.com^*/tracking-data?
+||bhphotovideo.com/YAEMJLYP/
 ||bhphotovideo.com/imp/
 ||bhs4.com^$third-party
 ||bhu9.bankia.es^
@@ -10422,6 +10426,7 @@ znak.com##.relap
 ||c.imrk.net^$third-party
 ||c.index.ru^
 ||c.ipaddress.com^
+||c.lazada.co.id/t/v.gif?__t=
 ||c.live.com^
 ||c.mgid.com^
 ||c.microsoft.com^
@@ -14791,6 +14796,7 @@ znak.com##.relap
 ||infusionsoft.com^*/getTrackingCode?
 ||ingenioustech.biz^$third-party
 ||ingest.crittercism.com^
+||ingratitudedaintyblockade.com^
 ||inimbus.com.au^$third-party
 ||ininmacerad.pro^$third-party
 ||inistrack.net^$third-party
@@ -15776,6 +15782,7 @@ znak.com##.relap
 ||logg.kiwi.com^
 ||logger-*.dailymotion.com^
 ||logger-*.vty.dailymotion.com/dm/
+||logger.applovefrom.com^
 ||logger.cloudmobi.net^
 ||logger.co.kr^$third-party
 ||logger.dailymotion.com^
@@ -18222,6 +18229,7 @@ znak.com##.relap
 ||purevideo.com^*/pvshim.gif?
 ||purevpn.com/api/setCookies
 ||puritan.com/images/pixels/
+||purr.nytimes.com^
 ||push-ad.com^$third-party
 ||push-free.com^$third-party
 ||push-house.net^$third-party
@@ -19628,6 +19636,7 @@ znak.com##.relap
 ||smassets.net/assets/anonweb/anonweb-click-$script
 ||smct.co^$third-party
 ||smetrics.att.com^
+||smetrics.centurylink.com^
 ||smetrics.delta.com^
 ||smetrics.marriott.com^
 ||smetrics.nfl.com^
@@ -23501,6 +23510,7 @@ znak.com##.relap
 ||youronlinechoices.com/activity/
 ||yourtv.com.au/share/com/js/fb_google_intercept.js
 ||youtube-nocookie.com/api/stats/atr
+||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/playback?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/gen_204?
@@ -23508,6 +23518,7 @@ znak.com##.relap
 ||youtube-nocookie.com/robots.txt?
 ||youtube.com/api/stats/ads?
 ||youtube.com/api/stats/atr
+||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/qoe?
 ||youtube.com/csi_204?
 ||youtube.com/gen_204
@@ -23531,6 +23542,7 @@ znak.com##.relap
 ||yvesrocher.com.tr/images/js/tracking^
 ||ywywjrlbsuv.com^$third-party
 ||yxdown.com/count.js
+||yyjvimo.com^$third-party
 ||yyv.co/track/
 ||z.cdn.turner.com/analytics/cnnvan/jsmd.min.js
 ||z.opmnstr.com^
