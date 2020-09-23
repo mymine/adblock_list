@@ -1,5 +1,5 @@
 [uniartisan's Adblock List Lite]
-! Version: 202009220141
+! Version: 202009230122
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
@@ -1781,13 +1781,12 @@
 @@||quanzhi.cn/v3/images/index_ad/
 @@||r3sub.com^$generichide
 @@||readmoo.com/images/social/
-@@||ref.so/templates/ref/short_show/adview_
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||right.com.cn/forum/*300*250$image
 @@||rmdown.com/ads.js
 @@||runative-syndicate.com/sdk/v1/n.js$domain=onemanhua.com
 @@||runative-syndicate.com^$script,domain=onemanhua.com
-@@||ruten.com.tw/ahd/fetch_ad.php?
+@@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
 @@||s.yimg.com/ja/ap/*/jquery.$domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
@@ -2058,7 +2057,7 @@ aguitar.cn##.news_b
 aguitar.cn##img[width="470"][height="60"]
 aguitar.cn,guitarchina.com##.headerbanner
 ahah3.com###couplet
-ahgame.com,china.com.cn,dandanzan.com,netbardh.com,twoeggz.com###pop
+ahgame.com,china.com.cn,dandanzan.com,netbardh.com,pangzitv.com,twoeggz.com###pop
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 ahtv.cn,bzfl1.cc,sexbarss.net##.l1
 ahtv.cn,bzfl1.cc,sexbarss.net##.r1
@@ -3736,7 +3735,7 @@ gamefy.cn,sitv.com.cn##.col-vlist-l > span
 gamefy.cn,sitv.com.cn##.con > a:last-child
 gamefy.cn,sitv.com.cn##.tit > span[style="float:right; width:285px;"]
 gamefy.cn,sitv.com.cn##div[style="float:left; width:220px; padding-top:15px;"]
-gameinns.com##A[url^="/api/ads?"]
+gameinns.com##a[url^="/api/ads?"]
 gamemei.com###ft_right_bottom
 gamer.com.tw###BH-bigbanner
 gamer.com.tw###flyRightBox
@@ -3907,6 +3906,7 @@ hacpai.com##.index__ad
 hahamx.cn###float-left-ad
 hahamx.cn##.article.mt-20
 hahamx.cn##.joke-list-anecdote
+hahamx.cn##.mobiles-banner-des
 hahamx.cn#@#.ad-1
 haianw.com###comiis_haianw01
 haianw.com###comiis_haianw13
@@ -4855,6 +4855,7 @@ kdhome.net,yxdm.me##.adv2
 kdnet.net##.c_spread
 kdnet.net##.download-bar
 kdnet.net##a[href*=".tmall.com/?spm="] > img
+kdslife.com###ad_swip
 kdslife.com###tao
 kdslife.com###youhui
 kdslife.com,pchome.net##.weixin
@@ -5917,9 +5918,6 @@ recruit.com.hk##div[id^="banner"]
 redocn.com###yc_adv_1_2
 redocn.com##.big_vip_gg
 redocn.com##.small_vip_gg
-ref.so###div_midleft
-ref.so###tg2_main
-ref.so##div[style="overflow:hidden; height:auto; width:1002px; margin:0 auto;  "]
 renren.com###videoAd12
 renren.com##.toplive
 rfidworld.com.cn###IOTVote2017Ad
@@ -7665,6 +7663,7 @@ zznews.cn##.ad:not([style])
 ||0824xfh.xyz^
 ||0851ok.com^
 ||0885.net^$third-party
+||0921vch.xyz^
 ||0923csfsteibv12.xyz^
 ||0937js.com^$popup
 ||0937jyg.com^
@@ -8272,6 +8271,7 @@ zznews.cn##.ad:not([style])
 ||3520.cc/js/3520/
 ||35336.net/35336.jpg
 ||35kds.com^
+||360.cn/apis/qss/soweb/ad_proxy/
 ||360.cn/festival_zone.html
 ||360.cn/index/showjokes?callback=
 ||360.cn/int/getadurls?
@@ -10262,7 +10262,6 @@ zznews.cn##.ad:not([style])
 ||bp.blogspot.com^$domain=avmimi.com
 ||bp.blogspot.com^*/s1600/dealer
 ||bpdffh.cn^
-||bpimg.com^$domain=ref.so
 ||bqhnj.cn^
 ||bqiapp.com/api/config/ad?
 ||bqqsdv73724.cn^
@@ -10304,7 +10303,7 @@ zznews.cn##.ad:not([style])
 ||bu1.duba.com^
 ||bu1.vvvdj.com^
 ||bugcreator.cn^
-||buimg.com^$domain=kisssub.org|ref.so
+||buimg.com^$domain=kisssub.org
 ||bulkeach.com^
 ||bumimi.com/money/
 ||business.92wy.com^
@@ -11789,7 +11788,6 @@ zznews.cn##.ad:not([style])
 ||findx2.info^
 ||firefoxchina.cn/2014/*_foxphone.png
 ||firefoxchina.cn/img/201912/7_5de5c6289dd340.png
-||firefoxchina.cn/res/js/fchina_video-min.js
 ||firefoxchina.cn/v2/json/floatBanner.json
 ||firefoxchina.cn^*49560.
 ||firefoxchina.cn^*_couplet
@@ -12338,6 +12336,7 @@ zznews.cn##.ad:not([style])
 ||hahamx.cn/images/banner/
 ||hahamx.cn/images/float-ad/
 ||hahamx.cn/images/market/
+||hahamx.cn/img/x.jpg
 ||hahamx.cn/upload/data/detail_
 ||hahamx.cn/upload/data/list_sidebar_
 ||haidaocn.com^
@@ -14892,6 +14891,7 @@ zznews.cn##.ad:not([style])
 ||onsnv.com^
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
+||oo5548q.top^
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
 ||oopw.top/img/jdy
 ||ooqiu.com/ad_js/
@@ -15081,7 +15081,7 @@ zznews.cn##.ad:not([style])
 ||picyq.com/index.php/Home/run/get_ad/
 ||pieaa.com^
 ||piimg.com/508806/d53a8d13a40f814d.gif
-||piimg.com^$domain=acgura.us|kisssub.org|lsjsoso.me|ref.so
+||piimg.com^$domain=acgura.us|kisssub.org|lsjsoso.me
 ||pincai.com^$third-party
 ||pincidao.cn^
 ||pingeds.cn^
@@ -16448,7 +16448,7 @@ zznews.cn##.ad:not([style])
 ||taotianran.cn^
 ||taoyizhu.com/images/guanggao2/
 ||taoyuay.top^
-||taoziba.com/a*.js
+||taoziba.me/a*.js
 ||taporn.com/d/
 ||tatahn.com^
 ||tb58.net/plugin.php?id=tb58_
@@ -17079,7 +17079,7 @@ zznews.cn##.ad:not([style])
 ||w18.9939.com^
 ||w3989.com^
 ||w3cschool.cn/attachments/image/20170919/1505817817281252.jpg
-||w3school.com.cn/time/20200407/
+||w3school.com.cn/time/202
 ||w51t.com^$subdocument
 ||w5wm7.cn^
 ||w65p.com^

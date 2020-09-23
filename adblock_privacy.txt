@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009220141
+! Version: 202009230122
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23661
+! Lenth = 23667
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2050,6 +2050,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /dctk.js
 /deepMiner.js
 /deepMiner.min.js
+/default/pAnalytics
 /delivery/lg.
 /delivery/pixel.php?
 /delstats/*
@@ -9924,6 +9925,7 @@ znak.com##.relap
 ||beaconstreetservices.com^$third-party
 ||beadbears.com^$third-party
 ||beagle.prod.tda.link^
+||beak.bd.313.nl^
 ||beam.remp.impresa.pt^
 ||beam.remp.nv.ua^
 ||beamincrease.com^$third-party
@@ -13231,6 +13233,7 @@ znak.com##.relap
 ||fixwap.net^$third-party
 ||fiylo.de/typo3conf/ext/of_design/Resources/Public/JavaScript/Libs/smarttag_LIVE.js
 ||fkondate.com^$third-party
+||fkrkkmxsqeb5bj9r.s3.amazonaws.com^
 ||fl.a.ki^$image
 ||flagcounter.com^$third-party
 ||flaghit.com^$third-party
@@ -13532,6 +13535,7 @@ znak.com##.relap
 ||fwix.com/ref.js
 ||fwix.com^*/trackclicks_
 ||fwmrm.net^*/AnalyticsExtension.
+||fwpixel.com^$third-party
 ||fyre.co^*/tracking/
 ||fyreball.com^$third-party
 ||fyrsbckgi-c.global.ssl.fastly.net^
@@ -19018,7 +19022,7 @@ znak.com##.relap
 ||s3.amazonaws.com/hcluster5^
 ||s3.amazonaws.com/ki.js/*.js$domain=holidaycheck.de
 ||s3.amazonaws.com/maropost/
-||s3.amazonaws.com^$script,domain=decider.com|nypost.com|pagesix.com
+||s3.amazonaws.com^$script,domain=americanthinker.com|decider.com|nypost.com|pagesix.com
 ||s3.glbimg.com/cdn/libs/element-tracker/*/element-tracker.min.js$domain=globo.com
 ||s3s-main.net^$third-party
 ||s3wfg.com/js/vortexloader.js
@@ -21283,6 +21287,7 @@ znak.com##.relap
 ||tns.simba.taobao.com^
 ||tnsinternet.be^$third-party
 ||toast.com/log
+||toast.com/sendid?
 ||toc.io^$third-party
 ||todomercadoweb.es/pixel
 ||toecircle.com^$third-party
@@ -23078,6 +23083,7 @@ znak.com##.relap
 ||whoaremyfriends.net^$third-party
 ||whoisonline.net^$third-party
 ||whoisvisiting.com^$third-party
+||whooshkaa.com/listen/track
 ||whos.amung.us^$third-party
 ||whosclickingwho.com^$third-party
 ||whoseesyou.com^$third-party

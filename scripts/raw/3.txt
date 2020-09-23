@@ -1,8 +1,8 @@
-! Checksum: IP1fyPFGKGXRlKT82tSJuw
+! Checksum: S87xItrcl09ZImxEA5PhMg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.4
-! TimeUpdated: 2020-09-21T17:31:37+03:00
+! Version: 2.0.17.6
+! TimeUpdated: 2020-09-22T17:31:56+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -198,6 +198,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||beak.bd.313.nl^
 ||collector.appconsent.io^
 ||tracker.durasite.net^
 ||growthrx.in^$third-party
@@ -6446,6 +6447,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||pendo.io/data/ptm.gif
 ||c.lazada.co.id/t/v.gif?__t=
 ||hm.baidu.com/hm.gif
 ||m.baidu.com/tc?tcreq4log=
