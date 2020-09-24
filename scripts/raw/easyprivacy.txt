@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /IXr3h3N37pOxpeSonRcXQ
-! Version: 202009230111
+! Checksum: wOj6lZJDJyetIjLe3X86UA
+! Version: 202009240111
 ! Title: EasyPrivacy
-! Last modified: 23 Sep 2020 01:11 UTC
+! Last modified: 24 Sep 2020 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8737,6 +8737,7 @@ _mongo_stats/
 ||forecasttiger.com^$third-party
 ||frailoffer.com^$third-party
 ||futuristicfifth.com^$third-party
+||fuzzybasketball.com^$third-party
 ||gammamaximum.com^$third-party
 ||giddycoat.com^$third-party
 ||giraffepiano.com^$third-party
@@ -9761,6 +9762,7 @@ _mongo_stats/
 ||toptracker.ru^$third-party
 ||tpm.pw^$third-party
 ||uarating.com^$third-party
+||ulclick.ru^$third-party
 ||upravel.com^$third-party
 ||uptolike.com^$third-party
 ||uzrating.com^$third-party
@@ -10503,6 +10505,7 @@ _mongo_stats/
 ||d2xgf76oeu9pbh.cloudfront.net^
 ||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
 ||d31bfnnwekbny6.cloudfront.net/customers/
+||d33t3vvu2t2yu5.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
 ||d36lvucg9kzous.cloudfront.net^

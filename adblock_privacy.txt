@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009230122
+! Version: 202009240149
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23667
+! Lenth = 23673
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -9157,6 +9157,8 @@ znak.com##.relap
 ||analytics.slashdotmedia.com^
 ||analytics.sleeknote.com^
 ||analytics.smallpdf.com^
+||analytics.snappea.com^
+||analytics.snaptube.app^
 ||analytics.snidigital.com^
 ||analytics.socialblade.com^
 ||analytics.solidbau.at^
@@ -11842,6 +11844,7 @@ znak.com##.relap
 ||d31qbv1cthcecs.cloudfront.net^
 ||d32hwlnfiv2gyn.cloudfront.net^
 ||d33im0067v833a.cloudfront.net^
+||d33t3vvu2t2yu5.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
 ||d36lvucg9kzous.cloudfront.net^
@@ -13197,6 +13200,7 @@ znak.com##.relap
 ||fernomius.com^$third-party
 ||festyy.com/bundles/smeweb/img/tracking
 ||fetchback.com^$third-party
+||fhits.xyz^$third-party
 ||fightforthefuture.org/wf/open?
 ||fiksu.com^$third-party
 ||filament-stats.herokuapp.com^
@@ -19316,6 +19320,7 @@ znak.com##.relap
 ||sendtraffic.com^$third-party
 ||sensic.net^$third-party
 ||sensor.org.ua^$third-party
+||sensors.snappea.com^
 ||sentifi.com^$third-party
 ||sentry01.zerg.rambler.ru^$third-party
 ||seo-master.net^$third-party
@@ -20276,6 +20281,7 @@ znak.com##.relap
 ||statpipe.ru^$third-party
 ||statravel.co.uk/static/uk_division_web_live/Javascript/wt_gets.js
 ||statravel.com^*/Javascript/wt_gets.js
+||stats*.videonow.ru^
 ||stats-*.p2pnow.ru^
 ||stats-a.maxthon.com^
 ||stats-analytics.info^$third-party
