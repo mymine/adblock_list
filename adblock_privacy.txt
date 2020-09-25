@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009240149
+! Version: 202009250156
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23673
+! Lenth = 23683
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -820,6 +820,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /_bm/bd-
 /_bm/cbd-
 /_dts.gif?
+/_hcms/perf
 /_lib/ga.js
 /_owa.gif?
 /_sess/script.js
@@ -5504,6 +5505,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://piwik.$third-party
 ://r.i.ua^
 ://reporting.*/blank.gif?
+://rum.*/events
+://rum.*/rum/
 ://sett.*/log.js
 ://sp.*/xyz?$image
 ://stats.*/stats.aspx
@@ -5670,6 +5673,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
+@@||adobedtm.com^*-libraryCode_source.min.js$script,domain=disneyplus.disney.co.jp
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/mbox-contents-$script,domain=ceair.com|fcbarcelona.cn
@@ -6141,6 +6145,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||digitalgov.gov/Universal-Federated-Analytics-Min.js?$script,domain=travel.state.gov
 @@||directline.com/touchclarity/$script
 @@||disney-plus.net^*/analytics_script_bundle.js
+@@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||dispatcher.oewabox.at^$domain=krone.at
 @@||disqus.com/api/3.0/embed/threadDetails.json
 @@||disqus.com/api/3.0/posts/$document
@@ -6730,7 +6735,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||graphracer.com/js/libs/heatmap.js
 @@||gruposantander.es^*/scripts/log.js
 @@||gstatic.com^*/analytics.js$domain=google.com
-@@||gstatic.com^*/firebase-analytics.js$script,domain=999.md|audiomack.com|games.com
+@@||gstatic.com^*/firebase-analytics.js$script,domain=999.md|audiomack.com|games.com|google.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||guidestar.org/ga.$~third-party,xmlhttprequest
 @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
@@ -6830,7 +6835,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ipcheck.tmgrup.com.tr/ipcheck/get$domain=atv.com.tr
 @@||ipcheck.tmgrup.com.tr/ipcheck/get$domain=sabah.com.tr
 @@||ipcheck.tmgrup.com.tr/ipcheck/getcountry?json=$xmlhttprequest,domain=ahaber.com.tr
-@@||ipinfo.io/?token=$xmlhttprequest,domain=webtv.ert.gr
+@@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 @@||isgprivacy.cbsi.com/dist/optanon$script
 @@||itv.1tv.ru/stat.php?
 @@||itworld.com/elqnow/elq*.js
@@ -7511,6 +7516,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||support.thesslstore.com/visitor/index.php
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||svtrd.com^$domain=moneyou.de|ns.nl
+@@||sw88.disney.co.jp^$image
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||switch.atdmt.com/iaction/$subdocument,domain=bestbuy.com
 @@||swr3.de/static/swrplayer/web/plugins/ivw/ivw.js
@@ -9081,6 +9087,7 @@ znak.com##.relap
 ||analytics.kidoz.net^
 ||analytics.ladmedia.fr^
 ||analytics.liftoff.io^
+||analytics.linktr.ee^
 ||analytics.live.com^
 ||analytics.liveact.cri-mw.jp^
 ||analytics.livestream.com^
@@ -15831,7 +15838,7 @@ znak.com##.relap
 ||logs-qos.tf1.fr^
 ||logs.51cto.com^
 ||logs.dashlane.com^
-||logs.datadoghq.com^
+||logs.datadoghq.com^$domain=~app.datadoghq.com
 ||logs.datadoghq.com^$third-party
 ||logs.datadoghq.eu^
 ||logs.datadoghq.eu^$third-party
@@ -16955,6 +16962,7 @@ znak.com##.relap
 ||news.de/empty.txt
 ||news.de/track.php^
 ||news.google.com/_/v
+||news.google.com/swg/$third-party
 ||news9.com/beacon/
 ||newsanalytics.com.au^$third-party
 ||newsarama.com/common/track.php
@@ -18067,6 +18075,7 @@ znak.com##.relap
 ||prchecker.info^$third-party
 ||prd-collector-anon-video.playbuzz.com^$third-party
 ||prd-collector-anon.ex.co^
+||prd-collector-anon.ex.co^$third-party
 ||prd-collector-anon.playbuzz.com^
 ||preciouseffect.com^$third-party
 ||preciousyoke.com^$third-party
@@ -18282,6 +18291,7 @@ znak.com##.relap
 ||px-cdn.net/*main.min.js
 ||px-cdn.net/api/v2/collector|
 ||px-cdn.net/b/s
+||px-cloud.net^
 ||px-cloud.net^$third-party
 ||px.dynamicyield.com^$third-party
 ||px.excitedigitalmedia.com^

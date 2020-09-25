@@ -1,8 +1,8 @@
-! Checksum: mwzcX9MRKu5WtEQxQF3+cw
+! Checksum: wLclixSzWeFVVW8OJ/a7Rw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.9
-! TimeUpdated: 2020-09-23T23:31:27+03:00
+! Version: 2.0.17.12
+! TimeUpdated: 2020-09-24T21:31:29+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -199,6 +199,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/slardar/sdk.js
 !
 ||fhits.xyz^$third-party
+||prd-collector-anon.ex.co^$third-party
 ||stats*.videonow.ru^
 ||beak.bd.313.nl^
 ||collector.appconsent.io^
@@ -324,7 +325,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||squirrelhands.com^$third-party
 ||agreeabletouch.com^$third-party
 ||popt.in^$third-party
-||px-cloud.net^$third-party
+||px-cloud.net^
 ||massivemark.com^$third-party
 ||absorbingprison.com^$third-party
 ||tr.infopanel.jp^
@@ -6149,6 +6150,7 @@ charlestownwyllie.oaklawnnonantum.com^
 /submission/pageview
 /collect-*/pageview|
 !
+/comscore-min.js
 /pv?u=$image
 /js/trackjs.js
 /diffuser.js
