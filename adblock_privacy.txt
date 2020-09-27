@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009260102
+! Version: 202009270127
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23714
+! Lenth = 23715
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -4160,6 +4160,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /setAdStatEV?
 /setTDUID.do?
 /set_cookie.php?
+/set_optimizely_cookie.js
 /set_tracking.js
 /setbucket?signature=
 /setcooki.
@@ -6834,7 +6835,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||iocdn.coremetrics.com^*.js?V=$script,domain=adidas.de
 @@||iocdn.coremetrics.com^*/io_config.js?ts=$domain=24ace.co.uk
 @@||iocdn.coremetrics.com^*/io_config.js?ts=$domain=adidas.de
-@@||iolam.it/js/iam2.0.js?$script,domain=3bmeteo.com|dilei.it|siviaggia.it|virgilio.it
 @@||ipapi.co/json/$xmlhttprequest,domain=athleticbrewing.com|audius.co
 @@||ipcheck.tmgrup.com.tr/ipcheck/get$domain=atv.com.tr
 @@||ipcheck.tmgrup.com.tr/ipcheck/get$domain=sabah.com.tr
@@ -14086,6 +14086,7 @@ znak.com##.relap
 ||gpr.hu/pr.pr?
 ||gpr.hu^$third-party
 ||gq-magazine.co.uk^*/LogPageView
+||gql.reddit.com^
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
 ||gracefulsock.com^$third-party
@@ -14991,7 +14992,6 @@ znak.com##.relap
 ||iogous.com^$third-party
 ||iol.io^$third-party
 ||iol.it^*/clickserver.js
-||iolam.it^$third-party
 ||iono.fm/tracking?
 ||ios.bugly.qq.com^
 ||iotechnologies.com^$third-party
@@ -17348,6 +17348,7 @@ znak.com##.relap
 ||onthe.io^$third-party
 ||oodle.co.uk/event/track-first-view/
 ||oodle.com/js/suntracking.js
+||oops.redditmedia.com^
 ||ooyala.com/3rdparty/comscore_
 ||ooyala.com/authorized?analytics
 ||ooyala.com/sas/analytics?
