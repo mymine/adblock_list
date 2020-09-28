@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009270127
+! Version: 202009280146
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23715
+! Lenth = 23730
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -33,6 +33,7 @@ $subdocument,third-party,domain=estream.to
 $third-party,xmlhttprequest,domain=alltube.pl|alltube.tv
 $websocket,domain=123moviesgo.nl|123movieshub.asia|123movieshub.cx|123telugu.com|7tors.com|ajplugins.com|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bitvid.sx|bmovie123.me|bmoviego.me|bmovies123.me|btstors.com|bypassed.ws|byter.tv|catrumahminimalis.me|centrum-dramy.pl|cinemafacil.com|clipwatching.com|cmovieshd.nl|coinfaucet.eu|coinhub.win|coinminingonline.com|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|dragonballzpolo.blogspot.com|drama-cool.me|estream.to|estream.xyz|extratorrent.cd|fbmovies.org|fileone.tv|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|fmoviesgo.me|gomovie123.me|gomovies123.me|hdvid.tv|hdyayinmac1.com|hentai-online.pl|hqq.tv|hqq.watch|ianimes.co|idope.tv|ifrp.xyz|jkanime.net|kinohabr.net|kinokongo.cc|kinokrad.co|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|leon08.tk|leon12.tk|leon16.tk|lewd.ninja|logovo.net|love-drama.pl|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mp3free.pw|myeffect.net|netiap.com|netu.tv|nowvideo.sx|onlinevideoconverter.com|onvid.club|onvid.fun|onvid.online|onvid.pw|onvid.xyz|pebx.pl|potomy.ru|povw1deo.com|powvideo.cc|powvideo.net|protect-iframe.com|proxyportal.eu|reactor.cc|replaytvstreaming.com|seventorrents.cc|severita-service.ru|sherlockonline.ru|shortbitsfree.net|shrink-service.it|skyback.ru|skytorrents.co|skytorrents.me|sleeptimer.org|sorteosrd.com|stream247.me|streambeam.io|streamplay.me|streamplay.to|szukajka.tv|tainies.online|theappguruz.com|thepiratebay.org|tomadivx.tv|unblockall.org|unblocked.gdn|vidoza.net|vidtodo.com|vidtodo.me|vidtodo.pro|vidup.io|vidup.tv|vidzi.tv|void.cat|wallpoper.com|watchfreemovies.tv|wearesaudis.net|wwtors.com|xmovies8.nl|ya3ale.com|yazilir.com|zenexplayer.com|zona.plus
 $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|flashx.cc|freecontent.stream|leon08.tk|leon12.tk|leon16.tk|myeffect.net|nowvideo.sx|onlinevideoconverter.com|povw1deo.com|powvideo.cc|powvideo.net|sleeptimer.org|sorteosrd.com|streambeam.io|szukajka.tv|tainies.online
+&EventType=Impression&
 &action=js_stats&
 &action=js_stats_
 &callback=hitStats_
@@ -793,6 +794,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/js\.[-.0-9a-z]+\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{7}\.js$/$script,third-party
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
+/^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
 /^https?:\/\/www\.mouser\.com\/[a-z]{25,}.js/$script,xmlhttprequest,domain=mouser.com
 /^https?:\/\/www\.mouser\.com\/static\/[a-z0-9]{30,}/$script,domain=mouser.com
@@ -3050,6 +3052,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /load_analytics.
 /loadcounter.
 /loader-counter.
+/loader/counter.js
 /localga.js
 /locotrack.js
 /log-ads.
@@ -8396,6 +8399,7 @@ znak.com##.relap
 ||acronymfinder.com/~/st/af.js
 ||acs86.com/t.js
 ||acs86.com^$third-party
+||acsbap.com^$third-party
 ||act.acotedemoi.com^
 ||action.dstillery.com/orbserv^
 ||actionallocator.com^$third-party
@@ -9631,6 +9635,7 @@ znak.com##.relap
 ||audienceinsights.net^$third-party
 ||audienceiq.com^$third-party
 ||audiencemanager.de^$third-party
+||audiencepixel.com^$third-party
 ||audiencerate.com^$third-party
 ||audiencesquare.com^$third-party
 ||audiencia.r7.com^
@@ -10221,6 +10226,7 @@ znak.com##.relap
 ||bn.adultempire.com^
 ||bnc.lt^$third-party
 ||bnpparibas.fr/JavascriptInsert.js
+||bnqt.com^$third-party
 ||bnr.alza.cz^
 ||bntech.io^$third-party
 ||boards.ie/timing.php?
@@ -12258,6 +12264,7 @@ znak.com##.relap
 ||distinctday.com^$third-party
 ||distralytics.com^$third-party
 ||distribeo.com^$third-party
+||distributiontomatoes.com^$third-party
 ||distributor.streamroot.io/klara/traffic/usage
 ||districtm.io^$third-party
 ||divehope.com^$third-party
@@ -14086,7 +14093,7 @@ znak.com##.relap
 ||gpr.hu/pr.pr?
 ||gpr.hu^$third-party
 ||gq-magazine.co.uk^*/LogPageView
-||gql.reddit.com^
+||gql.reddit.com^$domain=old.reddit.com
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
 ||gracefulsock.com^$third-party
@@ -16533,6 +16540,7 @@ znak.com##.relap
 ||mno.link^$third-party
 ||mo.moonpig.com^
 ||mobalyzer.net^$third-party
+||mobee.xyz^$third-party
 ||mobilcom-debitel.de/track/
 ||mobile-collector.newrelic.com^
 ||mobile-global.baidu.com/mbrowser/stat/
@@ -18284,6 +18292,7 @@ znak.com##.relap
 ||pushbullet.com^$third-party
 ||pushdom.co^$third-party
 ||pushengage.com^$third-party
+||pusher.com^$third-party
 ||pushex.io^$third-party
 ||pushible.com^$third-party
 ||pushify.com^$third-party
@@ -20133,6 +20142,7 @@ znak.com##.relap
 ||startpage.*/elp?
 ||startpage.*/pelp?
 ||startrekk.flaconi.de^
+||startsmajesty.com^
 ||startstat.ru^$third-party
 ||stas.outbrain.com^
 ||stascorp.com/stat/
@@ -21224,6 +21234,7 @@ znak.com##.relap
 ||thinkablefloor.com^$third-party
 ||thinkablerice.com^$third-party
 ||thinkabletrick.com^$third-party
+||thinkcomputers.org/dist/thinkcomputers.min.js
 ||thinkgeek.com/js/rts.js
 ||thinktot.com^$third-party
 ||thirdrespect.com^$third-party
@@ -21676,6 +21687,7 @@ znak.com##.relap
 ||tracker.affirm.com^
 ||tracker.ampush.io^$third-party
 ||tracker.anandtech.com^
+||tracker.arc.io^
 ||tracker.azet.sk^
 ||tracker.beezup.com^
 ||tracker.bestshopping.com^
@@ -21685,6 +21697,7 @@ znak.com##.relap
 ||tracker.calameo.com^
 ||tracker.cartprotector.com^$third-party
 ||tracker.cauly.co.kr^
+||tracker.cdnbye.com^
 ||tracker.cds-tracking.com^
 ||tracker.convead.io^$third-party
 ||tracker.cpapath.com^
@@ -22436,6 +22449,7 @@ znak.com##.relap
 ||usa.cc^$third-party
 ||usabilitytools.com^$third-party
 ||usabilla.com^$third-party
+||usablenet.com^$third-party
 ||usage.seibert-media.io^$third-party
 ||usage.zattoo.com/?adblock=
 ||usedexample.com^$third-party
@@ -23113,6 +23127,7 @@ znak.com##.relap
 ||westerntelegraph-gb.westerntelegraph.co.uk^
 ||wetpaint.com^*/track?
 ||wf.taboola.com^
+||wgsas.com^$third-party
 ||whackedmedia.com^$third-party
 ||wharfedaleobserver-gb.wharfedaleobserver.co.uk^
 ||whatcar.com/Client/Stats/
