@@ -1,8 +1,8 @@
-! Checksum: XWr9LZQRZ02eR9YAMy9u1A
+! Checksum: 2r2+ZseMp1Wz+POaodsIdA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.16
-! TimeUpdated: 2020-09-25T19:10:55+03:00
+! Version: 2.0.17.20
+! TimeUpdated: 2020-09-28T18:31:32+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -184,6 +184,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! ||crashlyticsreports-pa.googleapis.com^
 ! ||e.crashlytics.com^
 ! ||settings.crashlytics.com^
+! ||sessions.bugsnag.com^
+! ||notify.bugsnag.com^
+! ||crashlytics2.l.google.com^
+! ||crashlyticsreports-pa.googleapis.com^
 !
 !
 ! ||ensighten.com^$third-party - not a tracker
@@ -6324,6 +6328,7 @@ _analytics.js?
 /images/top100.gif
 /js/iMAWebCookie.js?
 /LogAnalysisTracker/*
+/m.gif?
 /metrics/log-
 /mistats/*
 /mms/get_site_js?*abp=
@@ -6459,6 +6464,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||supleks.jp/action/log/
 ||pendo.io/data/ptm.gif
 ||vk.com/rtrg$third-party
 ||clickability.com/s?
@@ -6690,7 +6696,6 @@ ctvnews.ca##img[alt="comscorebeacon"]
 ||static-skin.ru/assets/js/tracking-frame.min.js
 ||static.spankbang.com/static_desktop/gen/*-ai-with-privacy.js
 ||rezka.ag/setinfo/
-||experience.tinypass.com/xbuilder/experience/execute?aid=
 ||piano.io/tracker/
 ||strm.yandex.ru/log?
 ||pitomec.ru/top.gif
@@ -8766,6 +8771,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://forum.adguard.com/index.php?threads/piano-io-tinypass-com.39875/
+@@||googletagmanager.com/gtm.js$domain=thecompanion.app
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63801
 @@||rtoaster.jp^$script,domain=animate-onlineshop.jp|lexus.jp|peachjohn.co.jp|rtoaster.com|rurubu.jp|shop.hikaritv.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63828#issuecomment-693360254
@@ -8946,10 +8953,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||collect.igodigital.com/collect.js$domain=berkley-fishing.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56061
 @@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=pdfexpert.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/56136
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=billboard.com
-! newsweek.pl - incorrect blocking
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=newsweek.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55630
 @@||googletagmanager.com/gtm.js$domain=gillette.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55621
@@ -9010,8 +9013,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53442
 @@||mc.yandex.ru/metrika/tag.js$domain=coddyschool.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53129
-! https://github.com/AdguardTeam/AdguardFilters/issues/52986
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=waz.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52918
 @@||google-analytics.com/analytics.js$domain=waipu.tv
 @@||google-analytics.com/gtm/js^$domain=waipu.tv
@@ -9048,8 +9049,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51958
 @@||identity.mparticle.com/v*/identify$domain=nbc.com
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=nbc.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/52173
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=samharris.org
 ! square-enix-games.com - fixing issue with purchasing a product
 @@||googletagmanager.com/gtm.js$domain=square-enix-games.com
 @@||google-analytics.com/analytics.js$domain=square-enix-games.com
@@ -9236,8 +9235,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||luluhypermarket.com/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44948
 @@||embeddedanalytics.com/updateeakpi.html$domain=brocardi.it
-! https://github.com/AdguardTeam/AdguardFilters/issues/44837
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=diepresse.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44701
 ||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com,redirect=googletagservices-gpt,important
 @@||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com

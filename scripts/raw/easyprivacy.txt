@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: z2xWPGWFk46spkDWXnrzBQ
-! Version: 202009280111
+! Checksum: gVb9hO6fJHDknB6LXHA2+Q
+! Version: 202009290111
 ! Title: EasyPrivacy
-! Last modified: 28 Sep 2020 01:11 UTC
+! Last modified: 29 Sep 2020 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6797,7 +6797,6 @@ _mongo_stats/
 ||iplist.cc^$third-party
 ||iplocationtools.com^$third-party
 ||ippen.space^$third-party
-||ipqualityscore.com^$third-party
 ||ipro.com^$third-party
 ||iproanalytics.com^$third-party
 ||iprotrk.com^$third-party
@@ -8300,7 +8299,7 @@ _mongo_stats/
 ||pushbird.com^$third-party
 ||pushbullet.com^$third-party
 ||pushengage.com^$third-party
-||pusher.com^$third-party
+||pusher.com^*/pusher.min.js$third-party
 ||pushex.io^$third-party
 ||pushible.com^$third-party
 ||pushify.com^$third-party
@@ -10717,6 +10716,7 @@ _mongo_stats/
 ||flixster.com^*/analytics.
 ||flocktory.com^*/tracks/
 ||flux.com/geo.html?
+||fmnetwork.nl/tracking/
 ||fog.pixual.co^
 ||followistic.com/widget/stat/
 ||footballmedia.com/tracking/
@@ -11556,6 +11556,7 @@ _mongo_stats/
 ||stats.ozwebsites.biz^
 ||stats.phoenix-widget.com^
 ||stats.polldaddy.com^
+||stats.pusher.com^
 ||stats.sa-as.com^
 ||stats.sawlive.tv^
 ||stats.screenresolution.org/get.php$image,third-party
@@ -12034,6 +12035,7 @@ _mongo_stats/
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
 ||fyrsbckgi-c.global.ssl.fastly.net^
 ||he7ll.com/api/js/ec-
+||ipqualityscore.com/api/$third-party
 ||mhxk.com^*/main/entry.common.$script
 ||nofraud.com/js/device.js
 ||nofraud.com^*/customer_code.js
@@ -13753,7 +13755,6 @@ _mongo_stats/
 ||goseek.com/track-
 ||gov.in/js/ga.js
 ||gq-magazine.co.uk^*/LogPageView
-||gql.reddit.com^$domain=old.reddit.com
 ||grammarly.io/log
 ||groupon.*/tracky$xmlhttprequest
 ||groupon.com/analytic/
@@ -17198,6 +17199,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.edgesuite.net/config/beacon-*.xml$domain=foxnews.com
 @@||analytics.edgesuite.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com|threenow.co.nz
+@@||analytics.itunes.apple.com^$~third-party
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
 @@||analytics.snidigital.com^$script,domain=hgtv.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
@@ -17231,7 +17233,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||bookmate.com^*/impressions?$xmlhttprequest
 @@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
 @@||boxberry.ru/local/templates/site-boxberry/js/tracking_service.js$xmlhttprequest
-@@||browser.sentry-cdn.com^$domain=imperial.ac.uk|washingtonpost.com
+@@||browser.sentry-cdn.com^$domain=imperial.ac.uk|loveotv.com|washingtonpost.com
 @@||bugzilla.mozilla.org^*/extensions/TrackingFlags/$script
 @@||c.paypal.com/da/r/fb.js$script
 @@||c212.net^$image,domain=prnewswire.com
@@ -17451,7 +17453,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||play.mylifetime.com/vendor/AppMeasurement.js$script,~third-party
 @@||play.mylifetime.com/vendor/FacebookPixel.min.js$script,~third-party
 @@||playcanvas.com.*/keen.min.js
-@@||player.ooyala.com^*/analytics-plugin/$script,domain=nintendo.com
+@@||player.ooyala.com^*/analytics-plugin/$script,domain=formula1.com|nintendo.com
 @@||player.siriusxm.com/assets/app-dynamics/jsagent/adrum-ext.$script
 @@||player.siriusxm.com/assets/AppMeasurement/AppMeasurement.js
 @@||player.siriusxm.com/assets/AppMeasurement/VisitorAPI.js
@@ -17461,6 +17463,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|sheee.co.il|walla.co.il
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||puch-ersatzteile.at^*/google-analytics.min.js
+@@||pusher.com^*/pusher.min.js$script,domain=bringatrailer.com
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
@@ -17630,6 +17633,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||royalmail.com/b/ss/$image
 @@||scorecardresearch.com/r2?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
 @@||scorecardresearch.com/r?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|macworld.com|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
+@@||securemetrics.apple.com/b/ss/$image
 @@||simyo.de/b/ss/$image
 @@||smetrics.aem.playstation.com/b/ss/$image
 @@||smetrics.ally.com/b/ss/

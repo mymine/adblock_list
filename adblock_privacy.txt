@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009280146
+! Version: 202009290109
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23730
+! Lenth = 23729
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5762,6 +5762,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||analytics.edgesuite.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com|threenow.co.nz
 @@||analytics.edgesuite.net/js/csma.js$domain=mitele.es
 @@||analytics.global.sky.com/sky-tags
+@@||analytics.itunes.apple.com^$~third-party
 @@||analytics.ladmedia.fr/parismatch/xtcore_mod2.js$domain=parismatch.com
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
 @@||analytics.ooyala.com/static/analytics.js$script,domain=humo.be
@@ -5889,7 +5890,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||britishtelecom.112.2o7.net^$domain=bt.com
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
 @@||broadcastt.xyz/apps/$websocket
-@@||browser.sentry-cdn.com^$domain=imperial.ac.uk|washingtonpost.com
+@@||browser.sentry-cdn.com^$domain=imperial.ac.uk|loveotv.com|washingtonpost.com
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
 @@||btstatic.com/tag.js$domain=oralb.de
@@ -6240,11 +6241,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||expedia.com/minify/siteAnalytics-$script
 @@||expedia.com/static/default/default/scripts/TealeafSDK.js
 @@||expedia.com/static/default/default/scripts/siteAnalytics.js
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=billboard.com
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=diepresse.com
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=newsweek.pl
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=samharris.org
-@@||experience.tinypass.com/xbuilder/experience/execute?aid=$domain=waz.de
 @@||ezodn.com/detroitchicago/dayton.js$script
 @@||fandango.com/b/ss/$image
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
@@ -6678,6 +6674,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=tele2.ru
 @@||googletagmanager.com/gtm.js$domain=temp-mail.org
 @@||googletagmanager.com/gtm.js$domain=tgifridays.ru
+@@||googletagmanager.com/gtm.js$domain=thecompanion.app
 @@||googletagmanager.com/gtm.js$domain=tlctv.com.tr
 @@||googletagmanager.com/gtm.js$domain=tr.beinsports.com
 @@||googletagmanager.com/gtm.js$domain=trendyol.com
@@ -7231,7 +7228,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||player.bizportal.co.il/scripts/GoogleAnalytics.js$domain=bizportal.co.il
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.flix.co.il/scripts/GoogleAnalytics.js
-@@||player.ooyala.com^*/analytics-plugin/$script,domain=nintendo.com
+@@||player.ooyala.com^*/analytics-plugin/$script,domain=formula1.com|nintendo.com
 @@||player.siriusxm.com/assets/AppMeasurement/AppMeasurement.js
 @@||player.siriusxm.com/assets/AppMeasurement/VisitorAPI.js
 @@||player.siriusxm.com/assets/app-dynamics/jsagent/adrum-ext.$script
@@ -7259,6 +7256,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||puch-ersatzteile.at^*/google-analytics.min.js
 @@||push2check.com/stats.php
+@@||pusher.com^*/pusher.min.js$script,domain=bringatrailer.com
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
@@ -7394,6 +7392,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||secure.info.seek.com/b/ss/
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||secure.logmein.com/scripts/Tracking/Tracking.js$domain=logmein.com
+@@||securemetrics.apple.com/b/ss/$image
 @@||seewhy.com^$domain=nixon.com
 @@||segment-data.zqtk.net^$domain=wsj.com
 @@||segment.com/analytics.js/*/analytics.min.js$script
@@ -13047,7 +13046,6 @@ znak.com##.relap
 ||experiandirect.com/javascripts/tracking.js
 ||experianmarketingservices.digital^$third-party
 ||experience.contextly.com^
-||experience.tinypass.com/xbuilder/experience/execute?aid=
 ||experienceeggs.com^$third-party
 ||experts-exchange.com/pageloaded.jsp?
 ||explore-123.com^$third-party
@@ -13335,6 +13333,7 @@ znak.com##.relap
 ||flybmi.com/livetrack/
 ||flyingpt.com^$third-party
 ||flyjazz.ca/ow_ga.js
+||fmnetwork.nl/tracking/
 ||fmnetwork.nl^$third-party
 ||fn-pz.com^$third-party
 ||fncstatic.com/static/all/js/geo.js
@@ -14093,7 +14092,6 @@ znak.com##.relap
 ||gpr.hu/pr.pr?
 ||gpr.hu^$third-party
 ||gq-magazine.co.uk^*/LogPageView
-||gql.reddit.com^$domain=old.reddit.com
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
 ||gracefulsock.com^$third-party
@@ -15047,7 +15045,7 @@ znak.com##.relap
 ||iplocationtools.com^$third-party
 ||iplsc.com/inpl.log/
 ||ippen.space^$third-party
-||ipqualityscore.com^$third-party
+||ipqualityscore.com/api/$third-party
 ||ipro.com^$third-party
 ||iproanalytics.com^$third-party
 ||iprotrk.com^$third-party
@@ -18292,7 +18290,7 @@ znak.com##.relap
 ||pushbullet.com^$third-party
 ||pushdom.co^$third-party
 ||pushengage.com^$third-party
-||pusher.com^$third-party
+||pusher.com^*/pusher.min.js$third-party
 ||pushex.io^$third-party
 ||pushible.com^$third-party
 ||pushify.com^$third-party
@@ -20747,6 +20745,7 @@ znak.com##.relap
 ||superstats.com^$third-party
 ||supert.ag^$third-party
 ||supervisegoldfish.com^$third-party
+||supleks.jp/action/log/
 ||supplysummer.com^$third-party
 ||supportxmr.com^$third-party
 ||surace-jujitsu.fr/outils/compteur_php/
