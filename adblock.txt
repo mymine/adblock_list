@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202009290109
+! Version: 202009300119
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20589
+! Lenth = 20600
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -3478,6 +3478,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||iiszg.com/flw$domain=5tps.com
 @@||ikea.cn^*/img/ads/
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|xuite.net
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kktv.me
 @@||img.ads.tvb.com^
 @@||inoreader.com^$genericblock,generichide
 @@||inpad.com.tw/data/adv/
@@ -3942,6 +3943,7 @@ afzhan.com##.newsRightAdv
 afzhan.com##.topRightAdv
 afzhan.com,cngold.org,panjin.net,qq.com,tongxiang.net##.advs
 afzhan.com,iqiyi.com##.rightAdv
+agmov.com,huaban.com##.promotion
 aguitar.cn##.banner7
 aguitar.cn##.headerbanner2
 aguitar.cn##.news_b
@@ -6070,7 +6072,6 @@ html-js.com##a[style^="margin-top:20px;"]
 html-js.com##div[style="margin:10px auto;width:1000px;"]
 htmlsucai.com,sucai8.cn,ui.cn#@#.adv_img
 huaban.com###top_promotion
-huaban.com##.promotion
 huaban.com,start.firefoxchina.cn##.extra
 huaban.com,zcool.com.cn##.ad
 hualongxiang.com##.bbs_box_gg
@@ -8042,6 +8043,7 @@ sm.cn##.ad-dot-container
 sm.cn##.ad-wolong-container
 sm.cn##.ali_row[ad_aid]
 sm.cn##.article.ali_row + #sc ~ .article.ali_row
+sm.cn##.c-container > div[data-sc*="etao"]
 sm.cn##.crumb-link + .other
 sm.cn##.ec-goods-list
 sm.cn##.oab-ball-wrap
@@ -9560,6 +9562,7 @@ zznews.cn##.ad:not([style])
 ||0885.net^$third-party
 ||0921vch.xyz^
 ||0923csfsteibv12.xyz^
+||0928vld.xyz^
 ||0937js.com^$popup
 ||0937jyg.com^
 ||0bc.top^
@@ -11411,6 +11414,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/img/ibank/*_1623489831.
 ||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 ||alicdn.com/img/ibank/*_1794478205.
+||alicdn.com/img/ibank/*_1932275220.
 ||alicdn.com/img/ibank/*_1995781528.
 ||alicdn.com/img/ibank/*_2021817714.
 ||alicdn.com/img/ibank/*_2114606112.
@@ -11712,6 +11716,7 @@ zznews.cn##.ad:not([style])
 ||badmintoncn.com/cbo_include/js/cboaaa.js
 ||badskies.com^
 ||baful.net^
+||bahu.xyz^
 ||baiapk.com^
 ||baidu-jxf.co^$popup
 ||baidu-taobao-av.com/js/
@@ -12198,6 +12203,7 @@ zznews.cn##.ad:not([style])
 ||btnvlvt.cn^
 ||btpian.com/static/*960.js
 ||btpian.com/static/wenquan.js
+||bts05.site^
 ||btssy.net^
 ||bttyue.com^$subdocument
 ||bttzyw7.xyz/Runtime/js/psData.js
@@ -13252,6 +13258,7 @@ zznews.cn##.ad:not([style])
 ||douyucdn.cn/dyfelocal/act/*/ad.png
 ||douyucdn.cn/japi/sign/web/getinfo
 ||down.admin5.com/z/
+||downcdn.top^
 ||downhot.com/Res/js/arc.js
 ||downhot.com/Res/js/main.js
 ||downk.cc/item/5e966286c2a9a83be54d479a.gif
@@ -16967,6 +16974,7 @@ zznews.cn##.ad:not([style])
 ||phpad.cqnews.net^
 ||phpape.com^
 ||phpernote.com/ali
+||phpstudyimg.com/all/hrl.gif
 ||phpstudyimg.com/all/renrenxiaxuan980.gif
 ||phvmax.com^
 ||pi920.com^
@@ -18404,6 +18412,7 @@ zznews.cn##.ad:not([style])
 ||tenmax.io^$third-party
 ||tequanma.com^
 ||tesfw.com^
+||teslaamg.obs.cn-east-3.myhuaweicloud.com^
 ||tetimes.com/inc
 ||texnet.com.cn/images/cnbanner/
 ||tf.360.cn^
@@ -18914,6 +18923,7 @@ zznews.cn##.ad:not([style])
 ||ve6j.cn^
 ||vedeh.com^
 ||vegent.cn^
+||vegoid.cn^
 ||vercel.app/ads/
 ||vertivchina.cn^
 ||veryhuo.com/images/soft/js/download
@@ -19601,6 +19611,7 @@ zznews.cn##.ad:not([style])
 ||xn--2ssq0ktxigkq.com^
 ||xn--4gqqc629gbju.com^
 ||xn--4gqvdz18f.xyz^
+||xn--9kq745jwng.ink^
 ||xn--9kq745jwng.work^
 ||xn--cjr60y21klpd.com^
 ||xn--czrshy5v7kb.cc^

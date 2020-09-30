@@ -1,8 +1,8 @@
-! Checksum: 9bcb2bHlSjENVZfzWA9+4Q
+! Checksum: afkgrx42odxq5eNuPbjjAg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.9.56
-! TimeUpdated: 2020-09-29T04:02:41+03:00
+! Version: 2.0.9.64
+! TimeUpdated: 2020-09-30T04:02:46+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -260,6 +260,8 @@
 !
 ! These rules are against all kinds of ad blocking reinjection/circumvention scripts
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/64672
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kktv.me
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64326
 popbee.com##.adblocker
 ! Chinese generic exclusions AdBlock detection
@@ -2158,6 +2160,7 @@ ubmcmm.baidustatic.com
 ||bskeye.com^
 ||bsriedu.cn^
 ||btmp4.net^
+||bts05.site^
 ||btssy.net^
 ||bttyue.com^$subdocument
 ||btwan5.com^
@@ -3794,6 +3797,7 @@ ubmcmm.baidustatic.com
 ||xn--2quz8f01ak10c.shop^
 ||xn--2ssq0ktxigkq.com^
 ||xn--4gqqc629gbju.com^
+||xn--9kq745jwng.ink^
 ||xn--9kq745jwng.work^
 ||xn--czrshy5v7kb.cc^
 ||xn--fjqz50cv5q3so.ltd^
@@ -5149,6 +5153,7 @@ _yad_jsonp_
 ||alicdn.com/img/ibank/*_1623489831.
 ||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 ||alicdn.com/img/ibank/*_1794478205.
+||alicdn.com/img/ibank/*_1932275220.
 ||alicdn.com/img/ibank/*_1995781528.
 ||alicdn.com/img/ibank/*_2021817714.
 ||alicdn.com/img/ibank/*_2114606112.
@@ -7581,6 +7586,7 @@ _yad_jsonp_
 ||php1.cn/uploads/huayun.jpg
 ||phpad.cqnews.net^
 ||phpernote.com/ali
+||phpstudyimg.com/all/hrl.gif
 ||phpstudyimg.com/all/renrenxiaxuan980.gif
 ||pianba.tv/api/*.js
 ||pianjicdn.com^*.php
@@ -8192,6 +8198,7 @@ _yad_jsonp_
 ||tengfangyun.com/attachment/*/w_1200
 ||tengfun.com/attachment/*/w_1200
 ||tengtv.com/skin/xin/Picture/img
+||teslaamg.obs.cn-east-3.myhuaweicloud.com^
 ||tetimes.com/inc
 ||texnet.com.cn/images/cnbanner/
 ||tf.360.cn^
@@ -11170,6 +11177,7 @@ kuaihou.com##.bz
 52pk.com,fixdown.com##.bzClick
 downyi.com##.bzYouDao
 mgtv.com##.c-95060-top
+sm.cn##.c-container > div[data-sc*="etao"]
 baidu.com##.c-container.ec-container
 3987.com##.c-gg
 baidu.com##.c-result[data-tpl="adv_wenku_fc"]
@@ -12457,7 +12465,7 @@ pcstore.com.tw##.priority_ad
 duba.com,newduba.cn##.pro_r_t
 meltoday.com,sydneytoday.com##.promo
 brtn.cn,btime.com##.promo-item > a[href^="http"]:not([href*=".b"])
-huaban.com##.promotion
+agmov.com,huaban.com##.promotion
 site.baidu.com##.pstr.mt10
 anquan.org##.pub_side_ad
 doudoudm.site,ezdmw.com##.public_ad
@@ -16197,6 +16205,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||gtimg.com/libs/$domain=18xs.org
 @@||libs.baidu.com^$domain=138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30sy.com|33yq.com|365book.net|37zw.net|39shubao.com|3yt.com|52biquge.com|58xs.com|5ccc.tw|78zw.com|81zw.me|8jzw.com|99mk.com|99shumeng.net|aikantxt.la|balingtxt.com|baoshuu.com|bbiqugew.com|biduo.cc|biqiuge.com|biqubao.com|biqudu.tv|biquga.com|biquge.com.cn|biquge.info|biquge.lu|biquge.tv|biquge11.com|biquge6.com|biquge98.com|biqugecd.com|biqugego.com|biqugemm.com|biqugesc.com|biqukan.com|biquku.la|biqusan.com|biqutxt.com|bixia.org|biyuwu.cc|bodekang.net|boluoxs.com|bookbao.org|bookbao9.net|booksky.cc|booktxt.net|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|cits0871.com|clewx.com|damengzhu6.com|dashenxiaoshuo.com|day66.com|ddxs.cc|ddxsku.com|dushuge.net|farpop.com|fhxiaoshuo.org|gdbzkz.com|guaili.org|hatxt.com|hbfie.org|hehuamei.com|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hybiquge.com|imiaobige.com|iqishu.la|ishisetianxia.com|ixiatxt.com|ixs.la|ixuanquge.com|jianlaixiaoshuo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|lwtxt.net|lwxstxt.com|mhtwx.la|mubige.com|paoshu8.com|pfwx.com|piaotianxs.com|pingshuku.com|qbxs8.net|qianrenge.cc|qiqint.la|qq717.com|quledu.net|qushuba.com|rmxs8.com|shu008.com|shuhaige.net|shuhaiwu.com|shumil.co|shuquge.com|siluke.tv|soxs.cc|swshuge.com|tangsanshu.com|tpszw.com|ttzw.tv|txshuku.net|tycqxs.com|u33.cc|v63xs.com|vipxs.la|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xaixs.org|xbiquge.la|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbqge.net|xcmxsw.com|xdingdiann.com|xiangcunxiaoshuo.com|xiaoshuosk.com|xieyixs.com|xinxs.la|xqiushu.com|xs222.co|xs5200.com|xs98.com|xsqishu.com|xsw55.com|xszww.com|xuehong.cc|xuehongxs.com|yawenb.com|yikanxiaoshuo.com|yq-888.com|yruan.com|yssm.tv|yunxs.com|zbzw.la|zhuaji.org|zwdu.com|zzs5.com
 !#Novels
+||bahu.xyz^
 bxwx666.org###addiv3
 bxwx666.org###bdstatic
 ###downdiv > .downcode
@@ -16239,7 +16248,6 @@ duanwenxue.com##.qgzdwx
 @@||31xiaoshuo.org/style/pxne5d.js
 @@||dzz8.com/public/ptcms/*.js?g=$domain=m.daizhuzai.com
 @@||meiwenfen.com^$xmlhttprequest,domain=520tingshu.com
-xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 jx.la##[onclick*="apk"]
 52biquge.com##[onclick*="app"]
 dukankan.com,ibqg5200.com,snwx3.com##[style*="fixed"]
@@ -16248,6 +16256,7 @@ dukankan.com,ibqg5200.com,snwx3.com##[style*="fixed"]
 ##a[href="/ad2.html"]
 52biquge.com##a[href^="http://html.350.com/"]
 bixia.org##dd[style*="bottom:"]
+xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 biqubao.com##div[style="width:976px;"]
 piaotian5.com##script + div[style="padding:15px;"]
 ||01w47q.cn^
@@ -16282,6 +16291,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||0851ok.com^
 ||0921vch.xyz^
 ||0923csfsteibv12.xyz^
+||0928vld.xyz^
 ||0fwg.cn^
 ||104610.com^
 ||1115potmgabfvixqwi.top^
@@ -16789,6 +16799,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||dn189.com^
 ||dodomo.info^
 ||doryhome.com^
+||downcdn.top^
 ||dqgpb.com^
 ||dreamrecord.cn^
 ||drevozone.com.cn^
@@ -17892,6 +17903,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||vcuor.com^
 ||vdcfes.cn^
 ||ve6j.cn^
+||vegoid.cn^
 ||vf5yb4.cn^
 ||vhhhkpf.cn^
 ||vichc.com^

@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009290109
+! Version: 202009300119
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23729
+! Lenth = 23734
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1390,6 +1390,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /b/ss/ueglobaldev/*
 /b/ss/wdgdolad
 /b/ss/wdgdolad,
+/b/ss?AQB=
 /b/stats?
 /b2bsdc.js
 /bShowTrack.
@@ -2804,6 +2805,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /impression.php?
 /impression.pl?
 /impression.track?
+/impression/*&ClickID=
 /impression/stream/*
 /impression/widget?
 /impression?*.loadAds&
@@ -6959,6 +6961,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||mc.yandex.ru/metrika/tag.js$domain=coddyschool.com
 @@||mc.yandex.ru/metrika/tag.js$domain=kuchenland.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=levelkitchen.com
+@@||mc.yandex.ru/metrika/tag.js$domain=lk.gosuslugi.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=riamo.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=salonveronika.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=woman.ru
@@ -9582,6 +9585,7 @@ znak.com##.relap
 ||atax.ign.com^
 ||atax.teamxbox.com^
 ||atcdn.co.uk/frostbite/
+||atconnect.npo.nl/h?s=$image
 ||atconnect.npo.nl^
 ||atdmt.com/action/
 ||atdmt.com/iaction/
@@ -12004,6 +12008,7 @@ znak.com##.relap
 ||datadog-service.mvfglobal.com^
 ||datadoghq-browser-agent.com^$third-party
 ||datadome.co^$third-party
+||datadsk.com^$third-party
 ||datafeedfile.com^$third-party
 ||datafront.co^$third-party
 ||datam.com^$third-party
@@ -23371,6 +23376,7 @@ znak.com##.relap
 ||xcounter.ch^$third-party
 ||xda-cdn.com/analytics.js
 ||xda-developers.com/ping.php
+||xdisctracking.pw^$third-party
 ||xfast.host^$third-party
 ||xfinity.com/event/
 ||xfn6.monaco.edu^
@@ -23610,7 +23616,6 @@ znak.com##.relap
 ||yvesrocher.com.tr/images/js/tracking^
 ||ywywjrlbsuv.com^$third-party
 ||yxdown.com/count.js
-||yyjvimo.com^$third-party
 ||yyv.co/track/
 ||z.cdn.turner.com/analytics/cnnvan/jsmd.min.js
 ||z.opmnstr.com^
