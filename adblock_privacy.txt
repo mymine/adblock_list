@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202009300119
+! Version: 202010010114
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23734
+! Lenth = 23736
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -925,6 +925,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /admantx-
 /admantx.
 /admantx/*
+/admiral.js
 /admonitoring.
 /admp-
 /adobe-analytics.
@@ -5971,6 +5972,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.optimizely.com/js/$domain=zdnet.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|imageshack.com
 @@||cdn.optimizely.com/js/*.js$domain=ns.nl|compassion.com|creditsesame.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com|olx.ua|casper.com|dubizzle.com|pullandbear.com
+@@||cdn.optimizely.com/js/*.js$domain=ruggable.com
 @@||cdn.optimizely.com/js/3148790251.js$domain=shopsmarter.com
 @@||cdn.optimizely.com/js/8143030612.js$domain=bestbuy.com
 @@||cdn.petametrics.com/*.js$domain=lanacion.com.ar
@@ -18042,7 +18044,6 @@ znak.com##.relap
 ||poorlydig.com^$third-party
 ||popcap.com^*/interstitial_zones.js
 ||popfilmeshd.net/wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-analytics-events.js
-||popin.cc^$third-party
 ||popsample.com^$third-party
 ||popstats.com.br^$third-party
 ||popt.in^$third-party
@@ -23556,6 +23557,7 @@ znak.com##.relap
 ||youborafds01.com^$third-party
 ||youboranqs01.com/ping
 ||youboranqs01.com^$third-party
+||youboranqs02.com^$third-party
 ||youcanoptin.com^$third-party
 ||youcanoptin.org^$third-party
 ||youcanoptout.com^$third-party
