@@ -1,8 +1,8 @@
-! Checksum: UrEX0qReknBtAB2elAg1AA
+! Checksum: k3W/88nsGlBaKiXvHCdl8g
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.24
-! TimeUpdated: 2020-09-30T14:31:31+03:00
+! Version: 2.0.17.27
+! TimeUpdated: 2020-10-02T00:03:22+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -220,7 +220,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||logs.juspay.in
 ||logs.datadoghq.eu^$third-party
 ||logs.datadoghq.com^$third-party
-||suggestions.dadata.ru^$third-party
+||suggestions.dadata.ru/suggestions/api/*/rs/suggest/fio$third-party
+||suggestions.dadata.ru/suggestions/api/*/rs/suggest/email$third-party
 ||zprk.io^$third-party
 ||getstat.net^$third-party
 ||untidyrice.com^$third-party
@@ -6466,6 +6467,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||smutty.com/ajax/trcking/
 ||atconnect.npo.nl/h?s=$image
 ||supleks.jp/action/log/
 ||pendo.io/data/ptm.gif
@@ -6508,7 +6510,6 @@ _tracking.php?b=
 ||chronicle.com/_track
 ||construction21.org/ga.js
 ||marsflag.com/mf2file/site/ext/tr.js
-||api.twitter.com/*/jot/client_event.json
 ||retailrocket.ru/content/javascript/tracking.js
 ||api.idg.zone/intextlinks-tracking/
 ||prometeo-media-service.com/assets/pixel.gif
@@ -8808,7 +8809,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64508
 @@||google-analytics.com/analytics.js$domain=avselectro.ru
 @@||google-analytics.com/plugins/ua/ec.js$domain=avselectro.ru
-@@||suggestions.dadata.ru/suggestions/api/*/rs/suggest/address$domain=avselectro.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62277
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62085
 @@||googletagmanager.com/gtm.js$domain=pult.ru

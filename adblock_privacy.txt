@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202010010114
+! Version: 202010020121
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23736
+! Lenth = 23743
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5122,6 +5122,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /uxm_tracking.
 /v.gif?t=
 /v1/analytics.js
+/v1/page-hit
 /v1/pixel?
 /v1/r.gif?
 /v1/tracker.js
@@ -7521,7 +7522,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||storage.embluemail.com/pixeltracking^$domain=lavoz.com.ar
 @@||store.usps.com/media/js/metrics/metrics.js
 @@||stylished.de/js/vendors/emos2.js$domain=stylished.de
-@@||suggestions.dadata.ru/suggestions/api/*/rs/suggest/address$domain=avselectro.ru
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||sundaysky.com/sundaysky.js?$domain=lenovo.com
 @@||sundaysky.com^*/default/sundaysky.js$domain=lenovo.com
@@ -7618,7 +7618,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||trc.taboola.com/msn-msn/*$domain=msn.com
 @@||trc.taboola.com/samsung-browser-feed$domain=samsung.com|thestartmagazine.com
 @@||trc.taboolasyndication.com^$domain=bloomberg.com|breitbart.com|nme.com|slatev.com
-@@||treg.hearstnp.com/treg.js$script,domain=sfchronicle.com
+@@||treg.hearstnp.com/treg.js$script,domain=sfchronicle.com|sfgate.com
 @@||try.abtasty.com/403fb16c20596e4691fbe9ec5db9720e.js$domain=shop.euromaster.de
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
 @@||turkcelltvplus.com.tr^*/google_analytics/main.js?
@@ -7703,6 +7703,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||wargag.ru/public/js/counter.js?
 @@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
+@@||wcs.naver.com/m$image,domain=sooldamhwa.com
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 @@||websimages.com/JS/Tracker.js
@@ -9409,7 +9410,6 @@ znak.com##.relap
 ||api.taplytics.com^
 ||api.tinypic.com/api.php?action=track
 ||api.trwl1.com/ascripts/gcrt.js
-||api.twitter.com/*/jot/client_event.json
 ||api.uca.cloud.unity3d.com^
 ||api.userstyles.org/tic/stats
 ||api.vicomi.com/api/*/analytics/
@@ -12963,6 +12963,7 @@ znak.com##.relap
 ||events.kaloo.ga^$third-party
 ||events.launchdarkly.com^$third-party
 ||events.lbesecapi.com^
+||events.matterport.com^
 ||events.mediarithmics.com^
 ||events.medio.com^
 ||events.mobile.optimizely.com^
@@ -13594,19 +13595,21 @@ znak.com##.relap
 ||g.vev.io^$third-party
 ||g.yccdn.com^
 ||g1thub.com^
+||g2178927685.co^
 ||g2178927685.co^$third-party
-||g2377012020.co^$third-party
-||g2575096355.co^$third-party
-||g2773180690.co^$third-party
-||g2971265025.co^$third-party
+||g2377012020.co^
+||g2575096355.co^
+||g2773180690.co^
+||g2971265025.co^
 ||g2a-com.newsletter.com.pl^$image,third-party
 ||g2insights-cdn.azureedge.net/*/mng/g2insights.min.js
 ||g2insights-cdn.azureedge.net^
-||g3169349360.co^$third-party
-||g3367433695.co^$third-party
-||g3565518030.co^$third-party
-||g3763602365.co^$third-party
-||g3961686700.co^$third-party
+||g3169349360.co^
+||g3367433695.co^
+||g3565518030.co^
+||g3763602365.co^
+||g3961686700.co^
+||g4159771035.co^
 ||g4p.redtram.com^
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
@@ -14548,6 +14551,7 @@ znak.com##.relap
 ||hulu.com/beaconservice.swf
 ||hulu.com/google_conversion_video_view_tracking.html
 ||hulu.com/guid.swf
+||hulu.com/metricsconfig
 ||hulu.com/watch/*track.url-1.com
 ||hulu.com^*/external_beacon.swf
 ||hulu.com^*/plustracking/
@@ -19719,6 +19723,7 @@ znak.com##.relap
 ||smrtlnks.com^$third-party
 ||smrtrdrct.com^$third-party
 ||smsaffari.it/count_new.php?
+||smutty.com/ajax/trcking/
 ||snailsengine.com^$third-party
 ||snakemineral.com^$third-party
 ||snakesort.com^$third-party
@@ -20711,7 +20716,8 @@ znak.com##.relap
 ||sugarcurtain.com^$third-party
 ||sugarops.com/w?action=impression$third-party
 ||sugarvine.com/inc/tracking.asp
-||suggestions.dadata.ru^$third-party
+||suggestions.dadata.ru/suggestions/api/*/rs/suggest/email$third-party
+||suggestions.dadata.ru/suggestions/api/*/rs/suggest/fio$third-party
 ||sugodeku.com^$third-party
 ||sugs.m.sm.cn^
 ||suite101.com/tracking/
@@ -22814,6 +22820,7 @@ znak.com##.relap
 ||vortex.data.microsoft.com/collect
 ||vortex.data.microsoft.com^
 ||vortex.hulu.com/*/events|
+||vortex.hulu.com^
 ||votetoda.com^$third-party
 ||votigo.com/contests/t/
 ||votistics.com^$third-party
