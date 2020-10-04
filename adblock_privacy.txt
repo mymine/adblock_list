@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202010030158
+! Version: 202010040159
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23765
+! Lenth = 23774
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5497,8 +5497,10 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://adclear.*/acc?
 ://adclear.*/acv?
 ://analytics.*/collect
-://analytics.*/events
+://analytics.*/event
+://analytics.*/hits/
 ://analytics.*/page_entry
+://analytics.*/pageview/
 ://analytics.*/tracker.
 ://anx.*/anx.gif?
 ://apex.*/apexTarget?
@@ -10756,6 +10758,7 @@ znak.com##.relap
 ||chaturbate.com/api/adblocker/
 ||cheapflights.com/ic/*.gif?
 ||cheapsalesconsulting.com/adaptive.php?
+||check.ddos-guard.net^$third-party
 ||check24.de/js/tracker.php
 ||check24.de/misc/tracking_gif.php
 ||checkeffect.at^$third-party
@@ -10993,6 +10996,7 @@ znak.com##.relap
 ||cloudapp.net/l/
 ||cloudcdn.gdn^$third-party
 ||cloudcoins.co^$third-party
+||clouderrorreporting.googleapis.com^
 ||cloudflareinsights.com^$third-party
 ||cloudfront-labs.amazonaws.com^
 ||cloudfront.net*/keywee.min.js
@@ -11366,6 +11370,7 @@ znak.com##.relap
 ||contentexchange.me^$third-party
 ||contentinsights.com^$third-party
 ||contentpass.net/stats?$third-party
+||contents-tracking.beop.io^
 ||contentsfeed.com^$third-party
 ||contentspread.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||contentspread.net^$domain=prosieben.at|prosieben.ch|prosieben.de
@@ -14372,6 +14377,7 @@ znak.com##.relap
 ||hit-parade.com^$third-party
 ||hit-pool.upscore.io^
 ||hit.8digits.com^$third-party
+||hit.acstat.com^
 ||hit.copesa.cl^$third-party
 ||hit.darmoweliczniki.pl^$third-party
 ||hit.demirorenteknoloji.com^
@@ -16139,6 +16145,7 @@ znak.com##.relap
 ||marktplaats.net/cnt/
 ||marktplaats.nl/add_counter_image.
 ||marktplaats.nl/metrics/
+||marktplaats.nl/px/
 ||marmiton.org/logpix.php
 ||maropost.com^$third-party
 ||marriott.com^*/Bootstrap.js
@@ -19989,6 +19996,7 @@ znak.com##.relap
 ||spanids.dictionary.com^
 ||spanids.reference.com^
 ||spanids.thesaurus.com^
+||spankbang.com/fetch$xmlhttprequest
 ||spankbang.com^$ping
 ||sparechange.io^$third-party
 ||sparklesleet.com^$third-party
@@ -20870,6 +20878,7 @@ znak.com##.relap
 ||t.appsflyer.com^
 ||t.arianelab.com^
 ||t.av.st^
+||t.beop.io^
 ||t.beopinion.com^
 ||t.bimvid.com^
 ||t.birchlane.com^

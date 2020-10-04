@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010030158
+! Version: 202010040159
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20648
+! Lenth = 20649
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -19,6 +19,7 @@
 ###aaheadtop
 ###aatop.top_box
 ###aatop[class^="top_box"]
+###ad > .pre-img
 ###ad-SNSSplashAd
 ###ad-box
 ###ad08
@@ -436,6 +437,7 @@
 ##.bottomAd
 ##.bottomSponsor
 ##.bottom_mengcheng_ad_wrap
+##.bottomads + .leftd
 ##.box-ad
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
 ##.broadcastMe[style="width: 1200px;"]
@@ -550,6 +552,7 @@
 ##.layui-row[style="height:160px;border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
 ##.leftAd
 ##.leftadv
+##.leftd + .rightd
 ##.listok > a > img[src*=".alicdn.com"][width="980"][height="80"]
 ##.listok > a > img[style^="width:980px;height:"]
 ##.loc-home-top-adv-new
@@ -589,6 +592,7 @@
 ##.pagecon + .ad1
 ##.pcd_ad
 ##.pcgg
+##.photo-two > A[onclick^="_czc."]
 ##.player + .sponsor
 ##.player-bottom-gg
 ##.pop[style="right: 10px;"]
@@ -691,6 +695,7 @@
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
+##A[onclick^="_czc."] > .ads
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
@@ -4712,7 +4717,7 @@ chineseinla.com##.forum_banner_ads
 chineseinla.com##.text-ads-col
 chineseinla.com##div[style^="position:absolute;"][style$=":0px;top:30px;"]
 chiphell.com###diy2 + div
-chjtx.com,jqgcw.com,srzc.com,vuejs.org###ad
+chjtx.com,jqgcw.com,vuejs.org###ad
 chongbuluo.com###add
 chongbuluo.com###add + a
 chongbuluo.com###dzrid > .frame:nth-child(n+2)
@@ -5952,6 +5957,7 @@ hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
 hboav.com##.cc5278_banner_ad
+hboav.com##div[class="cc5278_banner_ad"]
 hboav.com#@#.close_box0
 hc360.com###endAccessories1
 hc360.com###endAdBanner
@@ -5986,10 +5992,10 @@ hepan.com##.fivead
 hepuwang.com##.n5_dbhfad > .wapper
 hepuwang.com##a[href^="http://ad."]
 hero3g.com##.pcbanner
-hexieshe.cn###custom_html-2
 hexieshe.cn###media_image-2
 hexieshe.cn###media_image-3
 hexieshe.cn##a[href^="http://zd.zhiketong.cn/"]
+hexieshe.cn,tlanyan.me###custom_html-2
 hexieshe.com,hexieshe.xyz,xxshe.info##.entry-header + p + p[style="text-align: center;"]
 hexieshe.com,hexieshe.xyz,xxshe.info##.entry-title > p
 hexieshe.com,hexieshe.xyz,xxshe.info##.mh-sidebar img
@@ -8100,10 +8106,12 @@ so.com###e_idea_wenda_detail_guess_new
 so.com###e_idea_wenda_leftBox
 so.com###js-mod-fixed-float
 so.com###mohe-360pic_ext--normal
+so.com###mohe-biu_dianshang
 so.com###mohe-etao_shangye
 so.com###mohe-gouwu > .g-shadow
 so.com###mohe-m-smzdm_haojia
 so.com###mohe-medicine_sy > .cont
+so.com###mohe-product_gouwu > .g-card
 so.com###mohe-right_windows_ads
 so.com###msocomBottomBanner
 so.com###qiyu-brand-container
@@ -8143,7 +8151,6 @@ sogou.com###detailRightAd
 sogou.com###hotel_vr_details
 sogou.com###kmap_business_title
 sogou.com###kmap_business_ul
-sogou.com###sogou_vr_10000901_0 > div[style="display:block;"]
 sogou.com###sogou_vr_21222401_wrap_0
 sogou.com###sogou_vr_21355601_wrap_0
 sogou.com###tab857
@@ -8172,7 +8179,6 @@ sogou.com##.tgad-title
 sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
-sogou.com##.vr-pop-ups > .pop-div
 sogou.com##A[data-log*="PicAd"]
 sogou.com##div[class^="rt-gameright"]
 sogou.com##ul[class^="atAd"]
@@ -8226,9 +8232,6 @@ sports.qq.com##a[href^="http://market.1hai.cn/"]
 sportsplanetmag.com##.adshow
 sportsv.net##.box.ad
 sporttery.cn###newDiv
-srzc.com###srzcad
-srzc.com##.tcck1
-srzc.com##.tcck2
 srzc.com##.topgg
 srzc.com##.topgg1
 srzc.com##.zt_tonglang1
@@ -8283,8 +8286,6 @@ szhk.com###h_banner
 szhk.com###h_textads
 szhk.com##.ny_ad1
 szhk.com##img[id^="adp"]
-sznews.com##.banner_new2
-sznews.com##.right_flash
 szonline.net##.ad_1000_90
 szonline.net##.layout_ad
 szxx.com.cn###A0
@@ -8331,7 +8332,6 @@ tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
 tbxt.com###headad2
-tcfzb.com##img[style="width:1180px;height:60px;margin-top:3px;border:1px solid #CDCDCD;"]
 tech.qq.com##.kjad2
 techbang.com###stickies
 techbang.com##.google-dfp
@@ -8458,7 +8458,7 @@ tom.com###popupDivgame
 tongzhuo100.com###gold_banner
 toocle.com##.detail_top_ad
 tools.2345.com##._hb-box + .mod
-tophub.today##.sponsors
+tophub.today##.sps
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 toutiao.com##.J_add
@@ -10842,6 +10842,7 @@ zznews.cn##.ad:not([style])
 ||88cpc.com^$third-party
 ||88eg.cn^
 ||88liu.com/data/attachment/portal/
+||88p2p.com^$popup
 ||88rpg.net^
 ||88shu.cn^$third-party
 ||88ys.cc/js/abcd.js
@@ -18070,7 +18071,6 @@ zznews.cn##.ad:not([style])
 ||sogoucdn.com/nstatic/js/showtime.js
 ||sogoucdn.com/nstatic/js/tmallskin_
 ||sogoucdn.com/translate/ssr/static/img/banner-
-||sogoucdn.com/wapsearch/static/js/videoAppro.
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||sohu.com/adgtr/
 ||sohu.com/api/labs/hotnews/c/load?
@@ -19313,6 +19313,7 @@ zznews.cn##.ad:not([style])
 ||wowoyy.cc^
 ||wowoyy.cc^$third-party
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
+||wp.com/tyenews.com/wp-content/uploads/*%E5%BB%A3%E5%91%8A
 ||wpa.b.qq.com/cgi/wpa.php?
 ||wpjam.com/wpjam/banner/qiniu.png
 ||wples.com/pc/common.js
