@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202010040159
+! Version: 202010050135
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23774
+! Lenth = 23781
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -791,13 +791,16 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/.*\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\?/$script,xmlhttprequest
 /^https?:\/\/.*\/(public|resources|static|assets)\/([a-f0-9]){28,30}$/$script,~third-party,xmlhttprequest,domain=~cand.li
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js
+/^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
 /^https?:\/\/js\.[-.0-9a-z]+\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{7}\.js$/$script,third-party
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
+/^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/www\.halifax-online\.co\.uk\/assets\/[0-9a-z]{25,}/$script,domain=halifax-online.co.uk
+/^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
 /^https?:\/\/www\.mouser\.com\/[a-z]{25,}.js/$script,xmlhttprequest,domain=mouser.com
 /^https?:\/\/www\.mouser\.com\/static\/[a-z0-9]{30,}/$script,domain=mouser.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
@@ -2532,6 +2535,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /geo-location/v1
 /geo.php?
 /geoAnalysis.js
+/geoLocationData/v1/*
 /geocc.$domain=~geocc.ru
 /geocoding.ash
 /geocompteur.
@@ -8117,7 +8121,7 @@ znak.com##.relap
 ||123compteur.com^$third-party
 ||123count.com^$third-party
 ||123rf.com/tk/
-||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com
+||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com
 ||12fou.com^$third-party
 ||12mnkys.com^$third-party
 ||1337x.to/ip3.php
@@ -11700,6 +11704,7 @@ znak.com##.relap
 ||csp.archant.co.uk^
 ||csr.onet.pl^
 ||cssrvsync.com^$third-party
+||cstats.sankakucomplex.com^
 ||cstream.wi-fi.ru/csc-event$domain=wi-fi.ru
 ||cszz.ru^$third-party
 ||ct.buzzfeed.com^
@@ -12626,6 +12631,7 @@ znak.com##.relap
 ||ebayobjects.com/*;dc_pixel_url=$image
 ||ebayrtm.com/rtm?RtmCmd&a=img&$image
 ||ebaystatic.com/js/v/in/roverlv.js
+||ebaystatic.com/pictures/aw/pics/s_1x2.gif
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/agof_survey_
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
@@ -18876,6 +18882,7 @@ znak.com##.relap
 ||riastats.com^$third-party
 ||rich-agent.s3.amazonaws.com^
 ||richard-group.com^$third-party
+||richaudience.com^$third-party
 ||richmetrics.com^$third-party
 ||richmondandtwickenhamtimes-gb.richmondandtwickenhamtimes.co.uk^
 ||richrelevance.com/rrserver/tracking?

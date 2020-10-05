@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202010040159
+! Version: 202010050135
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18749
+! Lenth = 18750
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -6424,6 +6424,7 @@ taoguba.com.cn###tbgzInstall
 taoguba.com.cn###tbgzInstallBG
 taoguba.com.cn###wrap_footer > div[style^="width: 957px;"]
 taoguba.com.cn##.NH_ad
+taoguba.com.cn##.NewH_top_left + .left
 taoguba.com.cn##.ct_app
 taoguba.com.cn##.wz_ad
 taohuayun.cn##img[width="150"][height="60"]
@@ -8001,7 +8002,6 @@ zznews.cn##.ad:not([style])
 ||17173cdn.com/a/www/index/2016v2/js/seed.js
 ||17173cdn.com/js/play/page/pThridPlayerAd.js
 ||17173cdn.com^*/js/task/src/task/live/greenhand/
-||172.15.2.28:3438/*.js
 ||172.81.246.180^
 ||1722t.com/js/jquery.js
 ||173.208.177.227^*.gif
@@ -8135,7 +8135,6 @@ zznews.cn##.ad:not([style])
 ||219.128.77.113/main.js?i=
 ||219.138.173.204:8080/jiekou/api/kqzl.ashx
 ||219.153.41.154/v1/
-||219.153.41.175/*.js
 ||219.234.83.60^
 ||219.238.159.181^*.html
 ||219.238.159.182^*.html
@@ -17473,6 +17472,7 @@ zznews.cn##.ad:not([style])
 ||www.dmhy.org^*?$image
 ||www.wifi588.net^*.gif
 ||www1.wi.to^*.gif
+||www1.wxnmh.com^
 ||wwwbaiducom.xyz/4/js4/
 ||wwwcdn.kimiss.net/btn/
 ||wx.sina.com.cn/iframe/pdps/
@@ -18620,6 +18620,7 @@ zznews.cn##.ad:not([style])
 ||zpxw.vip^
 ||zpyfsj.cn^
 ||zqsbnfh.top^
+||zqscript.com^
 ||zqsx.net/bbs/kehu/
 ||zqwlkj.cn^
 ||zqworks.com^
