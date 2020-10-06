@@ -1,8 +1,8 @@
-! Checksum: K+MqbF9SFQIT02+TxaP9ew
+! Checksum: lV8IxerJjgwvSpuDqs/Jjg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.30
-! TimeUpdated: 2020-10-03T17:31:28+03:00
+! Version: 2.0.17.32
+! TimeUpdated: 2020-10-05T18:31:36+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -223,8 +223,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||logs.juspay.in
 ||logs.datadoghq.eu^$third-party
 ||logs.datadoghq.com^$third-party
-||suggestions.dadata.ru/suggestions/api/*/rs/suggest/fio$third-party
-||suggestions.dadata.ru/suggestions/api/*/rs/suggest/email$third-party
 ||zprk.io^$third-party
 ||getstat.net^$third-party
 ||untidyrice.com^$third-party
@@ -8779,6 +8777,10 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/65018
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=straitstimes.com
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=straitstimes.com
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=straitstimes.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64772
 @@||cdn.optimizely.com/js/*.js$domain=ruggable.com
 ! lk.gosuslugi.ru - fixed a click on columns in the top

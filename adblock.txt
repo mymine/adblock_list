@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010050135
+! Version: 202010060158
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20652
+! Lenth = 20656
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -133,7 +133,7 @@
 ###haoetv1
 ###haoxinqing_me_img
 ###head_ad_area
-###header > A[target="_blank"] > IMG[style="width:100%;height:60px;margin-bottom:2px;"]
+###header > a[target="_blank"] > img[style="width:100%;height:60px;margin-bottom:2px;"]
 ###header_ad
 ###homead
 ###img-txt-wrapper > #title_desc_div
@@ -9904,6 +9904,7 @@ zznews.cn##.ad:not([style])
 ||17173cdn.com/a/www/index/2016v2/js/seed.js
 ||17173cdn.com/js/play/page/pThridPlayerAd.js
 ||17173cdn.com^*/js/task/src/task/live/greenhand/
+||172.120.35.94^
 ||172.81.246.180^
 ||1722t.com/js/jquery.js
 ||173.208.177.227^*.gif
@@ -12606,6 +12607,7 @@ zznews.cn##.ad:not([style])
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
 ||chongxiaota.top^
 ||choujue.net/one/down.js
+||choujue.net/script/
 ||chouti.com/js/tingyun-rum.js
 ||christinehris.com^
 ||chromc.com^
@@ -15921,6 +15923,8 @@ zznews.cn##.ad:not([style])
 ||lianaiyx.com/d/js/cst/
 ||lianfuhuang.cn^
 ||liangjan.com/js/show_
+||liangmeiyuan.com/Yin.js
+||liangmeiyuan.com/baidu2/
 ||liangpinge.com^$third-party
 ||liangyi360.com^$third-party
 ||liangziweixg.com^
@@ -18465,7 +18469,6 @@ zznews.cn##.ad:not([style])
 ||tgjkbx.cn^$third-party
 ||tglzqw.cn^
 ||th21333.com^
-||thcdy.co/baidu2/
 ||thefifthera.com^$third-party
 ||themaxmall.com^
 ||themecat.cn^
@@ -18675,7 +18678,6 @@ zznews.cn##.ad:not([style])
 ||ttbc33.com^
 ||ttfgames.cn^
 ||ttkyy.net/uploads/allimg/201710/1a13f1cdc0917406.jpg
-||ttmgy.com/jstmp/as.js
 ||ttrar.com/live/
 ||ttrar.com/statics/pos_js/
 ||ttx.cn/js/float.js
@@ -19126,6 +19128,7 @@ zznews.cn##.ad:not([style])
 ||wbiao.co/src2/js/expand/fudong/
 ||wbies.com^
 ||wbiev.com^
+||wbrong.cn^
 ||wbzol.com/swf/352X76.swf
 ||wcail.com^
 ||wcjup.com^
@@ -19653,6 +19656,7 @@ zznews.cn##.ad:not([style])
 ||xn--2qu96gouvko1a.com^
 ||xn--2qux23c9ziyrq.icu^
 ||xn--2qux23c9ziyrq.ink^
+||xn--2qux23c9ziyrq.video^
 ||xn--2qux23confgml.club^
 ||xn--2qux23confgml.club^$third-party
 ||xn--2quz8f01ak10c.shop^

@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202010050135
+! Version: 202010060158
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23781
+! Lenth = 23786
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -6765,6 +6765,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||gruposantander.es^*/scripts/log.js
 @@||gstatic.com^*/analytics.js$domain=google.com
 @@||gstatic.com^*/firebase-analytics.js$script,domain=999.md|audiomack.com|games.com|google.com
+@@||gstatic.com^*/firebase-analytics.js$script,domain=leememas.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||guidestar.org/ga.$~third-party,xmlhttprequest
 @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
@@ -14004,6 +14005,7 @@ znak.com##.relap
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=hypebeast.kr
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=passnavi.evidus.com,important
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=rzd.ru
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=straitstimes.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=vgtimes.ru,important
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=webdenal.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=biomedglobal.net
@@ -14076,6 +14078,7 @@ znak.com##.relap
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=beymen.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=chip.com.tr
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=pcmag.com,important
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=straitstimes.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=theverge.com,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=yargici.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important,domain=displate.com
@@ -14091,6 +14094,7 @@ znak.com##.relap
 ||googletagservices.com/tag/$third-party
 ||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com,redirect=googletagservices-gpt,important
 ||googletagservices.com/tag/js/gpt.js$domain=sinoptik.ua|gutefrage.net|qtv.ua|dt.ua|ngs.ru|unian.net|easybib.com|bohenon.com|linuxtopia.org|newsroom.kh.ua|hclips.com|noticierodigital.com|northumberlandgazette.co.uk|mywebtimes.com|watchuseek.com|telekritika.ua|gamepedia.com|fontanka.ru|vesti.ua|bhub.com.ua|guhoyas.com|rst.ua|hh.ru|buhgalter.com.ua|unocero.com|autonews.com|metropoles.com|okezone.com|m.yeniakit.com.tr|kanalukraina.tv|day.az|knuddels.de
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=straitstimes.com
 ||googletagservices.com^*/osd.js$third-party
 ||googletagservices.com^*/osd_listener.js$third-party
 ||googleusercontent.com/tracker/
@@ -15187,7 +15191,7 @@ znak.com##.relap
 ||javhd.com/click/
 ||javhd.com/t/
 ||javher.com/analytics.js
-||jcm.jd.com^
+||jcm.jd.com^$script,third-party
 ||jdoqocy.com^$third-party
 ||jeeng.com^$third-party
 ||jelly.mdhv.io^
@@ -18060,6 +18064,7 @@ znak.com##.relap
 ||po.ponant.com^
 ||pocitadlo.cz^$third-party
 ||pocitadlo.sk^$third-party
+||pocket-lint.com/media/pf304.js
 ||pocketsonic.com^$third-party
 ||podfdch.com^$third-party
 ||podiumpresto.com^$third-party
@@ -20753,8 +20758,6 @@ znak.com##.relap
 ||sugarcurtain.com^$third-party
 ||sugarops.com/w?action=impression$third-party
 ||sugarvine.com/inc/tracking.asp
-||suggestions.dadata.ru/suggestions/api/*/rs/suggest/email$third-party
-||suggestions.dadata.ru/suggestions/api/*/rs/suggest/fio$third-party
 ||sugodeku.com^$third-party
 ||sugs.m.sm.cn^
 ||suite101.com/tracking/
@@ -22191,6 +22194,7 @@ znak.com##.relap
 ||truehits1.gits.net.th^$third-party
 ||truehits3.gits.net.th^$third-party
 ||truemine.org^$third-party
+||truenat.bid^$third-party
 ||truepush.com^$third-party
 ||trugaze.io^$third-party
 ||trumba.com/et.aspx?$third-party
@@ -23284,6 +23288,7 @@ znak.com##.relap
 ||wmtools.it/wmtcounter.php?
 ||wn.com/count.js
 ||wnd.com/s.js
+||wnpbdan.bid^$third-party
 ||woaifl.com^$third-party
 ||wolfram.com/common/javascript/wal/
 ||womanear.com^$third-party

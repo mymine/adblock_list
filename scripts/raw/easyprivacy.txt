@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: CJ2+szxm9oVM9+5OchxN3A
-! Version: 202010050111
+! Checksum: F5+77e+2OPN0BNIq8vELOQ
+! Version: 202010060111
 ! Title: EasyPrivacy
-! Last modified: 05 Oct 2020 01:11 UTC
+! Last modified: 06 Oct 2020 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8333,10 +8333,12 @@ _mongo_stats/
 ||shroughtened.com^$third-party
 ||sm-epsilon.com^$third-party
 ||snd.tc^$third-party
+||truenat.bid^$third-party
 ||truepush.com^$third-party
 ||urbanairship.com^$third-party
 ||viapush.com^$third-party
 ||webpu.sh^$third-party
+||wnpbdan.bid^$third-party
 ||wonderpush.com^$third-party
 ||wwclickserv.club^$third-party
 ||wwclicktm.club^$third-party
@@ -14443,6 +14445,7 @@ _mongo_stats/
 ||playstation.net/event/
 ||plentyoffish.com/tracking.js
 ||pnet.co.za/js/ga.js
+||pocket-lint.com/media/pf304.js
 ||pokernews.com/track-views.php?
 ||poki.com/observer/
 ||policeone.com/stat/
@@ -16580,7 +16583,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||hisense.com/ta.js
 ||ifeng.com/i?p=
 ||imgstat.baidu.com^
-||jcm.jd.com^
+||jcm.jd.com^$script,third-party
 ||jiayuan.com^*/pv.js
 ||js.kuwo.cn/stat/
 ||js.sohu.com/track/
@@ -17740,6 +17743,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
 @@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr
+@@||gstatic.com^*/firebase-analytics.js$script,domain=leememas.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
