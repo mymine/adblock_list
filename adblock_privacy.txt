@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202010060158
+! Version: 202010070145
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23786
+! Lenth = 23793
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -793,7 +793,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
-/^https?:\/\/js\.[-.0-9a-z]+\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{7}\.js$/$script,third-party
+/^https?:\/\/js\.[-.0-9a-z]+\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{7,9}\.js$/$script,third-party
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
@@ -5804,6 +5804,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||api.chartbeat.com^script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
 @@||api.curalate.com^$domain=potterybarn.com
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
+@@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=pcgames.de
 @@||api.cxense.com/public/widget/data?json=$domain=wsj.com
@@ -5898,6 +5899,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||blocket.se^*/xtcore.js
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||bnc.lt/a/key_live$domain=pinterest.co.kr|pinterest.com|pinterest.de|pinterest.com.au|pinterest.com.mx|pinterest.es|pinterest.jp|pinterest.it|pinterest.ca|pinterest.co.uk|pinterest.ru|pinterest.ch|pinterest.fr|pinterest.cl|pinterest.at|pinterest.pt|pinterest.nz|pinterest.dk|pinterest.se|pinterest.ie|pinterest.ph|pinterest.info
+@@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bolha.com/clicktracker/
 @@||bookmate.com^*/impressions?$xmlhttprequest
 @@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
@@ -5969,6 +5971,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=sloggi.com
 @@||cdn.crowdtwist.com/img/$image,domain=myperks.catchow.com
 @@||cdn.cxense.com/cx*.js$domain=bangkokpost.com
+@@||cdn.cxense.com/cx*.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.js$domain=itmedia.co.jp
 @@||cdn.cxense.com/cx.js$domain=lavoz.com.ar
 @@||cdn.cxense.com/cx.js$domain=stomp.com.sg
@@ -6044,6 +6047,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||chartbeat.com/*/chartbeat/$~third-party
 @@||chartbeat.com/js/chartbeat.js$domain=salon.com
 @@||chatzy.com/?jsonp:$script
+@@||check.ddos-guard.net/check.js$script,domain=doxbin.org
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||chiptec.net/skin/*/GoogleAnalyticsPlus/$script
 @@||cio.com/js/demandbase.js?
@@ -6864,6 +6868,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ipcheck.tmgrup.com.tr/ipcheck/get$domain=atv.com.tr
 @@||ipcheck.tmgrup.com.tr/ipcheck/get$domain=sabah.com.tr
 @@||ipcheck.tmgrup.com.tr/ipcheck/getcountry?json=$xmlhttprequest,domain=ahaber.com.tr
+@@||ipcheck.tmgrup.com.tr/ipcheck/getcountry?json=$xmlhttprequest,domain=aspor.com.tr
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 @@||isgprivacy.cbsi.com/dist/optanon$script
 @@||itv.1tv.ru/stat.php?
@@ -7694,6 +7699,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||visualwebsiteoptimizer.com/deploy/js_visitor_settings.php$script,domain=gre.magoosh.com
 @@||visualwebsiteoptimizer.com^*/vis_opt-$script,domain=gre.magoosh.com
 @@||viu.com/ott/*/js/tracking/tracking.js$domain=viu.com
+@@||viu.com/ott/misc/tracking/tracking.js
 @@||vizio.com/resources/js/vizio-module-tracking-google-analytics.js
 @@||vod.midas-i.com^$media,domain=pandora.tv
 @@||vod.olympics2010.msn.com/beacon?
@@ -14334,6 +14340,7 @@ znak.com##.relap
 ||heraldscotland-gb.heraldscotland.com^
 ||heraldseries-gb.heraldseries.co.uk^
 ||heraldtimesonline.com/js/tk.js
+||herder.de^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 ||herefordtimes-gb.herefordtimes.com^
 ||hermes.theglobeandmail.com^
 ||heroesdom.com^$third-party
