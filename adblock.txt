@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010070145
+! Version: 202010080140
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20664
+! Lenth = 20653
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -696,7 +696,6 @@
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
-##CENTER > P > A[target="_blank"] > IMG[width="728px"][height="90px"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
@@ -801,6 +800,7 @@
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
+##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##div#ad_id
 ##div#xinxi
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -856,8 +856,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 $script,subdocument,third-party,xmlhttprequest,domain=alicili.me|alicili8.com|alicilibt.com|bittorrentsearchweb.com|btdiggba.me|btdiggba.ws|btdiggcn.xyz|btdiggs.co|btkitty.com|btkitty.pet|btkittyba.cc|btkittyba.me|btkittyba.net|btkittyba.pw|btkittyla.me|btkittyla.org|btkittyon.co|btkittyplus.cc|btlibrary.xyz|btlibrarys.cc|btlibrarys.net|btspread.cc|cilidaquan.co|cilidaquan.top|cilidaquancn.pw|cilidb.net|cilifanhao.ws|cilifanhaobt.xyz|cnbtdigg.pw|cnbtkitty.xyz|cncilidb.pw|cnzhongzicili.net|diggbts.cc|diggbts.xyz|feifeibt.pw|godiggbt.org|godiggbts.cc|kikibt.me|kikibts.org|mybtlibrary.cc|nanrenbt.cc|newbtkitty.me|newbtkitty.pw|newbtspread.ws|okbtkitty.me|renrencili.pw|renrencili.xyz|savebt.pw|sousoucili.com|storebt.net|storetorrents.com|torrentsearchweb.xyz|zhainanbt.me|zhongzicilibt.org|zhongzicilicn.com|zhongzicilicn.ws|zhongzicilicn.xyz|zhongzicilila.cc|zhongzicilila.co|zhongziciliso.net|zhongzifuli.cc|zhongzishenqi.ws
 $script,third-party,domain=512539700c.top|ahri-hentai.com
-$script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.manhuabei.com|m.supfree.net|ohmanhua.com|onemanhua.com|wltmv.com|xiepp.com
+$script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.manhuabei.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,domain=cilimao.co|cilimao.one
+$script,third-party,domain=cocomanhua.com
 $script,third-party,domain=dybee.tv
 $script,third-party,domain=m.1kkk.com|m.dm5.com
 $script,third-party,domain=rijutv.com
@@ -2955,7 +2956,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.adserver.$domain=litv.tv
 @@.com/ad.aspx|$domain=dingdiann.com|xdingdiann.com
 @@.com/adv/$domain=my.ctrip.com
-@@.com/js/a_d/$domain=ohmanhua.com
+@@.com/js/$domain=cocomanhua.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
 @@.jpg#$domain=huhupan.com
@@ -3029,8 +3030,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@/img_ad/*$domain=tkec.com.tw
 @@/iplookup.$domain=cankaoxiaoxi.com|dilidili.wang|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/jquery/*$domain=dm530.net|sobooks.cc
-@@/js/a_d/pic.png$domain=ohmanhua.com
-@@/js/ads/*$image,script,domain=onemanhua.com
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/needsharebutton.min.js$domain=leetcode-cn.com
 @@/pic/ad/*$domain=ybjk.com
@@ -3143,7 +3142,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||acg.tv/flash.swf?
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
-@@||acloudmerge.com/js/a_d/ad1.js
 @@||ad.10010.com^
 @@||ad.12306.cn^$elemhide,subdocument,domain=95306.cn
 @@||ad.3.cn/ads/mgets?$domain=jd.com
@@ -3326,7 +3324,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cntv.cn^*_ad.js
 @@||cnzz.com/c.php?id=30070167$domain=m.tieyou.com
 @@||cnzz.com/q_stat.php$domain=qd.alibaba.com
-@@||cnzz.com^$script,domain=onemanhua.com
 @@||colatour.com.tw/webDM/*/adbanner$~third-party
 @@||colatour.com.tw^$generichide
 @@||content.s8bbs.com/ad/bbs/*.jpg
@@ -3641,8 +3638,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||oiihk.com^$generichide
 @@||olgame.tw^$generichide
 @@||omtrdc.net/m2/hsbcbankhase/mbox/ajax?$domain=hangseng.com
-@@||onemanhua.com^$generichide
-@@||onemanhua.com^$xmlhttprequest
 @@||online.unionpay.com/ads/$script
 @@||openad.oss-cn-shanghai.aliyuncs.com^$domain=yicai.com
 @@||orientaldaily.on.cc/js/oncc-ad.js
@@ -3703,8 +3698,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||right.com.cn/forum/*300*250$image
 @@||rmdown.com/ads.js
-@@||runative-syndicate.com/sdk/v1/n.js$domain=onemanhua.com
-@@||runative-syndicate.com^$script,domain=onemanhua.com
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
@@ -4890,6 +4883,7 @@ cnzol.com#?#li:-abp-has(> a[href*="/un/"])
 cnzol.com#?#li:-abp-has(> a[href*="mmtp.net"])
 cnzol.com#?#li:-abp-has(> a[href*="tu."])
 co188.com##.suspen
+cocomanhua.com#@#.gg1000
 codeceo.com##div[style="width:970px;margin:0 auto"]
 codeceo.com,fuli8.net##.widget_text:first-child
 codeforge.cn##.webnotice-right
@@ -5966,7 +5960,7 @@ hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
 hboav.com##.cc5278_banner_ad
-hboav.com##div[class="cc5278_banner_ad"]
+hboav.com##script + div[class="cc5278_banner_ad"]
 hboav.com#@#.close_box0
 hc360.com###endAccessories1
 hc360.com###endAdBanner
@@ -7439,12 +7433,9 @@ offcn.com##.jlstc
 ofweek.com###\5f ad-2100
 ofweek.com###ad-2100
 ofweek.com###flybox-db
-ohmanhua.com#@#.gg1000
 oilchem.net##.LzAdv
 olevod.com##.ad-corner
 oneinstack.com##.sidebar > .widget:last-child
-onemanhua.com##.mn-thumb:nth-child(n+2)
-onemanhua.com##[id*="ScriptRoot"]
 onlinedown.net##.downgs
 onlinedown.net##.gaosu + #down_url
 onlinedown.net##a.qrcode_show
@@ -8417,7 +8408,6 @@ tigtag.com##.couplet_r
 tigtag.com##.custom-box02
 tigtag.com##div[id^="Home942x70_"]
 tigtag.com##div[id^="Show300x"]
-timedg.com###bigAdv
 timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 timedg.com##.middleCrossAdvertise
@@ -11532,6 +11522,7 @@ zznews.cn##.ad:not([style])
 ||aliyuncs.com/ad/jd-smoofit-ad.jpg
 ||aliyuncs.com/ghdb.gif
 ||aliyuncs.com/img/$domain=ddrk.me
+||aliyuncs.com/public/v1/js/ad-config.
 ||aliyuncs.com/vss/haotu.js
 ||aliyuncs.com/wjy99re/
 ||aliyuncs.com^$domain=5kym.com
@@ -11677,7 +11668,6 @@ zznews.cn##.ad:not([style])
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
 ||audit8.com^
-||aus5.com/public/v1/js/ad-config.
 ||auspiciousvp.com^
 ||auto-online.com.tw/vendor_data/
 ||auto.ifeng.com/uploadfile/201*.swf
@@ -15030,7 +15020,6 @@ zznews.cn##.ad:not([style])
 ||ioio.cc*/dm/*.swf
 ||ioio.cc/adtui/
 ||iomsew.com^
-||ionemanhua.com/js/ad/
 ||ios.426g.com^
 ||ip.cn^$csp=style-src 'self' https:
 ||ip.hivps.xyz^
@@ -16555,6 +16544,7 @@ zznews.cn##.ad:not([style])
 ||my0832.com/xyz/xx/
 ||my4700.com/js/*.js
 ||myad.toocle.com^
+||myams.cn^
 ||mybjx.net/theme/default/js/common/bjx_service_
 ||mybjx.net/theme/default/js/common/duilianchn.js
 ||mycctvmedia.com^$third-party
@@ -16872,7 +16862,6 @@ zznews.cn##.ad:not([style])
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
 ||oneinstack.com/images/oneinstack-
-||onemanhua.com/js/ad/$image
 ||onetad.com^$third-party
 ||onetvb.com/assets/javascripts/
 ||onewhee.com^$third-party

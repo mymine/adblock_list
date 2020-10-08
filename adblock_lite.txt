@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202010070145
+! Version: 202010080140
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18755
+! Lenth = 18743
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1045,7 +1045,7 @@
 @@.adserver.$domain=litv.tv
 @@.com/ad.aspx|$domain=dingdiann.com|xdingdiann.com
 @@.com/adv/$domain=my.ctrip.com
-@@.com/js/a_d/$domain=ohmanhua.com
+@@.com/js/$domain=cocomanhua.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
 @@.jpg#$domain=huhupan.com
@@ -1119,8 +1119,6 @@
 @@/img_ad/*$domain=tkec.com.tw
 @@/iplookup.$domain=cankaoxiaoxi.com|dilidili.wang|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/jquery/*$domain=dm530.net|sobooks.cc
-@@/js/a_d/pic.png$domain=ohmanhua.com
-@@/js/ads/*$image,script,domain=onemanhua.com
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/needsharebutton.min.js$domain=leetcode-cn.com
 @@/pic/ad/*$domain=ybjk.com
@@ -1233,7 +1231,6 @@
 @@||acg.tv/flash.swf?
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
-@@||acloudmerge.com/js/a_d/ad1.js
 @@||ad.10010.com^
 @@||ad.12306.cn^$elemhide,subdocument,domain=95306.cn
 @@||ad.3.cn/ads/mgets?$domain=jd.com
@@ -1416,7 +1413,6 @@
 @@||cntv.cn^*_ad.js
 @@||cnzz.com/c.php?id=30070167$domain=m.tieyou.com
 @@||cnzz.com/q_stat.php$domain=qd.alibaba.com
-@@||cnzz.com^$script,domain=onemanhua.com
 @@||colatour.com.tw/webDM/*/adbanner$~third-party
 @@||colatour.com.tw^$generichide
 @@||content.s8bbs.com/ad/bbs/*.jpg
@@ -1731,8 +1727,6 @@
 @@||oiihk.com^$generichide
 @@||olgame.tw^$generichide
 @@||omtrdc.net/m2/hsbcbankhase/mbox/ajax?$domain=hangseng.com
-@@||onemanhua.com^$generichide
-@@||onemanhua.com^$xmlhttprequest
 @@||online.unionpay.com/ads/$script
 @@||openad.oss-cn-shanghai.aliyuncs.com^$domain=yicai.com
 @@||orientaldaily.on.cc/js/oncc-ad.js
@@ -1793,8 +1787,6 @@
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||right.com.cn/forum/*300*250$image
 @@||rmdown.com/ads.js
-@@||runative-syndicate.com/sdk/v1/n.js$domain=onemanhua.com
-@@||runative-syndicate.com^$script,domain=onemanhua.com
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
@@ -2981,6 +2973,7 @@ cnzol.com#?#li:-abp-has(> a[href*="/un/"])
 cnzol.com#?#li:-abp-has(> a[href*="mmtp.net"])
 cnzol.com#?#li:-abp-has(> a[href*="tu."])
 co188.com##.suspen
+cocomanhua.com#@#.gg1000
 codeceo.com##div[style="width:970px;margin:0 auto"]
 codeceo.com,fuli8.net##.widget_text:first-child
 codeforge.cn##.webnotice-right
@@ -4057,7 +4050,7 @@ hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
 hboav.com##.cc5278_banner_ad
-hboav.com##div[class="cc5278_banner_ad"]
+hboav.com##script + div[class="cc5278_banner_ad"]
 hboav.com#@#.close_box0
 hc360.com###endAccessories1
 hc360.com###endAdBanner
@@ -5530,12 +5523,9 @@ offcn.com##.jlstc
 ofweek.com###\5f ad-2100
 ofweek.com###ad-2100
 ofweek.com###flybox-db
-ohmanhua.com#@#.gg1000
 oilchem.net##.LzAdv
 olevod.com##.ad-corner
 oneinstack.com##.sidebar > .widget:last-child
-onemanhua.com##.mn-thumb:nth-child(n+2)
-onemanhua.com##[id*="ScriptRoot"]
 onlinedown.net##.downgs
 onlinedown.net##.gaosu + #down_url
 onlinedown.net##a.qrcode_show
@@ -6508,7 +6498,6 @@ tigtag.com##.couplet_r
 tigtag.com##.custom-box02
 tigtag.com##div[id^="Home942x70_"]
 tigtag.com##div[id^="Show300x"]
-timedg.com###bigAdv
 timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 timedg.com##.middleCrossAdvertise
@@ -9623,6 +9612,7 @@ zznews.cn##.ad:not([style])
 ||aliyuncs.com/ad/jd-smoofit-ad.jpg
 ||aliyuncs.com/ghdb.gif
 ||aliyuncs.com/img/$domain=ddrk.me
+||aliyuncs.com/public/v1/js/ad-config.
 ||aliyuncs.com/vss/haotu.js
 ||aliyuncs.com/wjy99re/
 ||aliyuncs.com^$domain=5kym.com
@@ -9768,7 +9758,6 @@ zznews.cn##.ad:not([style])
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
 ||audit8.com^
-||aus5.com/public/v1/js/ad-config.
 ||auspiciousvp.com^
 ||auto-online.com.tw/vendor_data/
 ||auto.ifeng.com/uploadfile/201*.swf
@@ -13121,7 +13110,6 @@ zznews.cn##.ad:not([style])
 ||ioio.cc*/dm/*.swf
 ||ioio.cc/adtui/
 ||iomsew.com^
-||ionemanhua.com/js/ad/
 ||ios.426g.com^
 ||ip.cn^$csp=style-src 'self' https:
 ||ip.hivps.xyz^
@@ -14646,6 +14634,7 @@ zznews.cn##.ad:not([style])
 ||my0832.com/xyz/xx/
 ||my4700.com/js/*.js
 ||myad.toocle.com^
+||myams.cn^
 ||mybjx.net/theme/default/js/common/bjx_service_
 ||mybjx.net/theme/default/js/common/duilianchn.js
 ||mycctvmedia.com^$third-party
@@ -14963,7 +14952,6 @@ zznews.cn##.ad:not([style])
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
 ||oneinstack.com/images/oneinstack-
-||onemanhua.com/js/ad/$image
 ||onetad.com^$third-party
 ||onetvb.com/assets/javascripts/
 ||onewhee.com^$third-party
