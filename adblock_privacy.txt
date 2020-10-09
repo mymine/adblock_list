@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202010080140
+! Version: 202010090153
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23819
+! Lenth = 23824
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1859,7 +1859,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /collection.php?data=
 /collector.php?
 /collector/*/*?*&euidl=*&url=
-/collector/beacon^
+/collector/beacon
 /collector/event
 /collector/hit?
 /collector/pageview
@@ -3939,6 +3939,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /readcounter.aspx?
 /readomniturecookie.
 /readtracker-
+/realtimeapi/impression?
 /realtimetracking/*
 /realytics-
 /realytics.js
@@ -5544,7 +5545,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://tracking.*/beacon/
 ://tracking.*/tr.js
 ://tru.am^$third-party
-://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.pansa.pl|~utoronto.ca
+://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
 ;1x1inv=
 ;manifest-analytics.js
 ;sz=1x1;ord=
@@ -11233,6 +11234,7 @@ znak.com##.relap
 ||collector*.xhamster.
 ||collector-*.elb.amazonaws.com^$image,third-party
 ||collector-*.perimeterx.net^$third-party
+||collector-*.px-client.net^
 ||collector-*.tvsquared.com^
 ||collector-analytics.efigence.com^
 ||collector-api.99designs.com^
@@ -18275,6 +18277,7 @@ znak.com##.relap
 ||propeller-tracking.com^$third-party
 ||propelplus.com/track/$third-party
 ||properm.ru/top/counter_new.php?
+||propermessage.io^$third-party
 ||propertyfinder.ae/js/ga.js
 ||prophet.heise.de^
 ||props.id^$third-party
@@ -19393,7 +19396,7 @@ znak.com##.relap
 ||seedtag.com^$third-party
 ||seehits.com^$third-party
 ||seeip.org^$third-party
-||seekingalpha.com/xgCxM9By/
+||seekingalpha.com/mone_event
 ||seelive.me/wau.php
 ||seemlysociety.com^$third-party
 ||seesaa.jp/ot_square.pl?
@@ -20080,6 +20083,7 @@ znak.com##.relap
 ||spirebaboon.com^$third-party
 ||spklw.com^$third-party
 ||spkrth.scw.systems^
+||splitbee.io^$third-party
 ||splittag.com^$third-party
 ||splurgi.com^$third-party
 ||splurgy.com/bacon/*_ct.gif$image
@@ -20827,6 +20831,7 @@ znak.com##.relap
 ||supervisegoldfish.com^$third-party
 ||supleks.jp/action/log/
 ||supplysummer.com^$third-party
+||supportmetrics.apple.com/content/services/stats
 ||supportxmr.com^$third-party
 ||surace-jujitsu.fr/outils/compteur_php/
 ||surefire.link^$third-party
