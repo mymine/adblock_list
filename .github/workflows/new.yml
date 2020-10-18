@@ -1,18 +1,13 @@
 name: Automatic Commit
 
 on:
-  release:
-    types: [published]
-  push:
-    tags:
-      - "v*"
-  #  branches:
-  #    - master
+  # push推送时触发
+  # push:
+  # 定时任务触发
   schedule:
     - cron: 0 */3 * * *
   watch:
     types: [started]
-
 jobs:
   build:
 
