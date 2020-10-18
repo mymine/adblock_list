@@ -2,6 +2,15 @@ name: Greetings
 
 on: [pull_request, issues]
 
+  release:
+    types: [published]
+  #  branches:
+  #    - master
+  schedule:
+    - cron: 0 */3 * * *
+  watch:
+    types: [started]
+
 jobs:
   greeting:
     runs-on: ubuntu-latest
